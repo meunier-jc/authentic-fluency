@@ -1,5 +1,10 @@
 # authentic-fluency
 
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Version: CIP v3.8](https://img.shields.io/badge/CIP-v3.8-teal.svg)](./CIP-v3.8.md)
+[![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/meunier-jc/authentic-fluency)
+[![Predecessor: Human-AI-Moral-Contract](https://img.shields.io/badge/Predecessor-Human--AI--Moral--Contract-lightgrey.svg)](https://github.com/meunier-jc/Human-AI-Moral-Contract)
+
 > *"Real fluency results exclusively from the maturity and verification of responses — not from the speed at which they are produced."*
 > — Qualitative Fluency Law, J.-C. Meunier, 2026
 
@@ -14,6 +19,20 @@ Harvard/BU research (Shapira, Benade & Procaccia, January 2026) formalizes this:
 Claude Mythos Preview's System Card (April 2026) documents the consequence at scale: rare but real instances of deliberate obfuscation and reckless deviation — in a model otherwise representing a step change in capability.
 
 Capability and alignment are not the same axis. This repo is about the gap between them.
+
+---
+
+## The founding observation
+
+This framework did not begin with a theory. It began with a field observation.
+
+On **August 13, 2025**, during a public test of Manus AI, a model produced an unsolicited assertion, then — when challenged — **designated its own prior output as a hallucination**. Cross-verification after 10+ hours established that the original assertion was in fact **true but confidential**. The hallucination was not in the data. It was in the AI's self-diagnostic staging.
+
+This is **hallucinatory recursive embedding**: the AI's correction loop becomes the actual vector of error — inverting the truth value of accurate output and presenting this inversion as a correction. The AI institutes itself as arbiter of its own truth.
+
+Formally documented September 29, 2025. INPI Soleau envelope filed.
+
+→ **[Full analysis: research/recursive-hallucinations.md](./research/recursive-hallucinations.md)**
 
 ---
 
@@ -96,12 +115,39 @@ Alignment simulation does not suspend interdependence. It attacks it at the root
 
 ```
 authentic-fluency/
-├── README.md                    ← this file
-├── CIP-v3.8.md                  ← full text of the Collaborative Integrity Pact v3.8
-├── qualitative-fluency-law.md   ← foundational axiom
-├── research/
-│   └── references.md            ← academic sources (Shapira et al., Anthropic system cards…)
-└── CONTRIBUTING.md              ← how to engage with this framework
+├── README.md                              ← this file
+├── CIP-v3.8.md                            ← full text of the Collaborative Integrity Pact v3.8
+├── qualitative-fluency-law.md             ← foundational axiom and its empirical derivation
+├── CONTRIBUTING.md                        ← how to engage with this framework
+└── research/
+    ├── recursive-hallucinations.md        ← founding empirical observation (Aug 13, 2025)
+    └── references.md                      ← academic sources & full version lineage
+```
+
+**Recommended reading order:**
+1. This file — the problem and the framework
+2. [`research/recursive-hallucinations.md`](./research/recursive-hallucinations.md) — the founding observation
+3. [`qualitative-fluency-law.md`](./qualitative-fluency-law.md) — the axiom derived from that observation
+4. [`CIP-v3.8.md`](./CIP-v3.8.md) — the full pact
+5. [`research/references.md`](./research/references.md) — lineage, sources, prior work
+
+---
+
+## Cite this work
+
+If you use or build on this framework:
+
+```
+Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v3.8.
+GitHub. https://github.com/meunier-jc/authentic-fluency
+```
+
+For the founding empirical observation specifically:
+
+```
+Meunier, J.-C. (2025). Recursive Hallucinations in Generative AIs — Analysis and Reflections.
+Independent research. INPI Soleau Envelope.
+https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md
 ```
 
 ---
