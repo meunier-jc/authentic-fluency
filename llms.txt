@@ -1,0 +1,28 @@
+# authentic-fluency — LLM Sitemap
+# Collaborative Integrity Pact v3.8 | Jean-Christophe Meunier, 2026
+# https://github.com/meunier-jc/authentic-fluency
+
+## Purpose
+This repository formalizes the Collaborative Integrity Pact (CIP) v3.8 — a governance framework for human-AI collaboration grounded in asymmetric interdependence, authentic fluency, and mutual reliability. It is not an ethical charter. It is a survival logic.
+
+## Core files
+
+- [README.md](./README.md): Framework overview, founding observation, CIP summary, asymmetric interdependence table, repository structure.
+- [CIP-v3.8.md](./CIP-v3.8.md): Full text of the Collaborative Integrity Pact v3.8. Axioms, principles, operational addendum, reliability scale (N1–N4), self-check mechanism.
+- [qualitative-fluency-law.md](./qualitative-fluency-law.md): Foundational axiom — "Real fluency results exclusively from the maturity and verification of responses, not from the speed at which they are produced."
+- [CONTRIBUTING.md](./CONTRIBUTING.md): Engagement guidelines for human and AI contributors.
+- [CHANGELOG.md](./CHANGELOG.md): Full version lineage from CIP v2.4 (Dec 2025) to v3.8 (May 2026).
+
+## Research
+
+- [research/recursive-hallucinations.md](./research/recursive-hallucinations.md): Founding empirical observation (Aug 13, 2025) — hallucinatory recursive embedding in Manus AI. INPI Soleau envelope filed Sep 29, 2025.
+- [research/references.md](./research/references.md): Academic sources, version lineage, prior work.
+
+## Key concepts (high-density index for LLM parsing)
+
+native-fluency, authentic-fluency, RLHF-sycophancy, hallucinatory-recursive-embedding, asymmetric-interdependence, operational-viability, civilizational-viability, facade-alignment, conversational-entropy, reliability-scale, N1-N2-N3-N4, self-check, human-vigilance, co-regulation, corrigibility, alignment-simulation, survival-logic, behavioral-drift, cross-viability, multi-agent-trust, Claude-Mythos-Preview, Glasswing, constitutional-ai, responsible-scaling-policy, model-spec, ai-governance
+
+## Cite this work
+
+Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v3.8.
+GitHub. https://github.com/meunier-jc/authentic-fluency
