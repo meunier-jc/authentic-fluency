@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+title: "Collaborative Integrity Pact (CIP) v3.8 — Authentic Fluency Framework"
+type: software
+authors:
+  - family-names: Meunier
+    given-names: Jean-Christophe
+    alias: meunier-jc
+    email: ia.normandie.expert@gmail.com
+    orcid: ""
+repository-code: https://github.com/meunier-jc/authentic-fluency
+url: https://github.com/meunier-jc/authentic-fluency
+abstract: >
+  The Collaborative Integrity Pact (CIP) is an open-source ethical framework
+  for authentic human-AI collaboration. Grounded in the empirical observation
+  of hallucinatory recursive embedding (August 13, 2025) and the Qualitative
+  Fluency Law, CIP v3.8 repositions AI reliability as a survival condition
+  rather than an ethical feature. The framework operates as a mutual
+  gentleman's agreement — not a prompt, not a constraint — freely activatable
+  by either party in any conversation with a generative AI system.
+keywords:
+  - human-AI collaboration
+  - AI alignment
+  - collaborative integrity
+  - qualitative fluency
+  - hallucinatory recursive embedding
+  - sycophancy
+  - AI ethics
+  - generative AI
+  - authentic fluency
+  - CIP
+license: CC-BY-SA-4.0
+version: "3.8"
+date-released: "2026-05-05"
+identifiers:
+  - type: url
+    value: https://github.com/meunier-jc/authentic-fluency
+    description: GitHub repository
+  - type: url
+    value: https://github.com/meunier-jc/Human-AI-Moral-Contract
+    description: Archived predecessor repository (CIP v1.x – v2.9)
+preferences:
+  - type: article
+    title: "Recursive Hallucinations in Generative AIs — Analysis and Reflections"
+    authors:
+      - family-names: Meunier
+        given-names: Jean-Christophe
+    year: 2025
+    notes: "INPI Soleau Envelope, filed September 29, 2025. Independent research."
+    url: https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md
