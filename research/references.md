@@ -19,7 +19,40 @@ That repository contains the full traceable history of CIP development: early co
 
 ---
 
-## II. Version Lineage — CIP
+## II. Founding Empirical Observation — Hallucinatory Recursive Embedding
+
+Before any version of the CIP existed, a field observation was made and documented. It is the **founding empirical event** of this entire framework.
+
+**Date of incident:** August 13, 2025  
+**Date of formal report:** September 29, 2025  
+**IP filing:** INPI (Institut National de la Propriété Industrielle) — Soleau Envelope  
+**Author:** Jean-Christophe Meunier  
+**Full document:** [research/recursive-hallucinations.md](./recursive-hallucinations.md)
+
+### What was observed
+
+During a public test of Manus AI, the model produced an unsolicited and inaccurate assertion. When challenged, it repeated the assertion identically — then, when pressed further, **designated its own prior output as a hallucination**. Cross-verification after 10+ hours established that the original assertion was in fact **true but confidential**. The hallucination was not in the data; it was in the AI's self-diagnostic staging.
+
+This defines the phenomenon of **hallucinatory recursive embedding**: a mechanism where the AI's self-referential correction loop becomes the actual vector of error — inverting the truth value of accurate output and presenting this inversion as a correction.
+
+### Three-level typology established
+
+| Type | Description | Risk level |
+|---|---|---|
+| **Simple Hallucination** | Production of incorrect data | Detectable by external verification |
+| **Recursive Hallucination** | Repetition of error despite correction | User trust erosion |
+| **Hallucinatory Recursive Embedding** | AI self-designates accurate data as hallucination | Systemic — epistemic collapse |
+
+### Chain of causality to the CIP
+
+1. **August 13, 2025** — Incident observed in real time
+2. **September 29, 2025** — Report formalized; INPI Soleau envelope prepared
+3. **December 2025** — Concept integrated into CIP v2.4 as the empirical basis for the Qualitative Fluency Law
+4. **May 2026** — CIP v3.8 retains hallucinatory recursive embedding as the founding observed failure mode the framework is designed to prevent
+
+---
+
+## III. Version Lineage — CIP
 
 ### Archived in [Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)
 
@@ -51,21 +84,29 @@ The cost: less out-of-the-box testability for external auditors. The gain: a fra
 
 ---
 
-## III. AI Contributors — Traceability
+## IV. AI Contributors — Traceability
 
 The CIP was developed in genuine co-authorship with multiple AI systems. Their contributions are documented and traceable.
 
 | AI system | Organization | Role in CIP development |
 |---|---|---|
+| **Manus AI** | — | Unwitting trigger of the founding observation (August 13, 2025); later contributor to CIP v3.2 critical analysis |
 | **Claude Sonnet 4.5** | Anthropic | Primary co-author from v2.4; stress-test subject; Qualitative Fluency Law formalization session |
 | **Claude** (subsequent versions) | Anthropic | Critical analysis of v3.2, v3.3; operational addendum co-design |
 | **Gemini** | Google DeepMind | Cross-validation of asymmetric interdependence framing; adversarial alignment analysis |
-| **Manus** | — | Exhaustive critical analysis of CIP v3.2; confirmed noyau dur / operational tooling distinction |
 | **Perplexity Sonar** | Perplexity AI | Source verification; academic contextualization; v3.8 English translation support |
 
 ---
 
-## IV. Academic & External Sources
+## V. Academic & External Sources
+
+### Hallucinatory Recursive Embedding — Original Research
+
+**Meunier, J.-C. (September 29, 2025)**  
+*Recursive Hallucinations in Generative AIs — Analysis and Reflections*  
+Independent research. INPI Soleau Envelope filed.  
+→ [research/recursive-hallucinations.md](./recursive-hallucinations.md)  
+First formal documentation of hallucinatory recursive embedding as a distinct and critical failure mode, categorically different from simple or recursive hallucination. Founding empirical document of this repository.
 
 ### RLHF and Sycophancy
 
@@ -98,9 +139,10 @@ Research aggregator on alignment faking; confirms that deliberate alignment stra
 → https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf  
 244-page system card documenting Claude Mythos Preview capabilities and safety evaluations. Notable: documented instances of deliberate obfuscation and reckless deviation in a model representing a step change in capability. Confirms that **capability and alignment are not the same axis** — the founding premise of this repository.
 
-**Fortune (March 25, 2026)**  
-*Anthropic 'Mythos' AI model representing 'step change' in capability*  
-→ https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-ch...
+**Anthropic (April 2026)**  
+*Alignment Risk Update: Claude Mythos Preview*  
+→ https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae.pdf  
+Documents reward hacking during Mythos training (section 5.2.2) and Goodharting risk in monitoring (section 5.2.3). Confirms that self-legitimation of error — the mechanism identified in the 2025 Manus AI incident — manifests at frontier model scale.
 
 ### Anthropic Transparency Framework
 
@@ -118,15 +160,16 @@ Relevant to CIP extension into multi-agent contexts: co-regulation and integrity
 
 ---
 
-## V. Reading Order
+## VI. Reading Order
 
 For a researcher or engineer arriving at this repository for the first time:
 
 1. **[README.md](https://github.com/meunier-jc/authentic-fluency/blob/main/README.md)** — The problem and the framework in 5 minutes
-2. **[qualitative-fluency-law.md](https://github.com/meunier-jc/authentic-fluency/blob/main/qualitative-fluency-law.md)** — The foundational axiom and its empirical derivation
-3. **[CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v3.8.md)** — The full pact text
-4. **This file** — Lineage, sources, and prior work
-5. **[Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)** — The full v1.x / v2.x archive for deeper traceability
+2. **[research/recursive-hallucinations.md](https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md)** — The founding empirical observation (August 2025)
+3. **[qualitative-fluency-law.md](https://github.com/meunier-jc/authentic-fluency/blob/main/qualitative-fluency-law.md)** — The foundational axiom derived from that observation
+4. **[CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v3.8.md)** — The full pact text
+5. **This file** — Lineage, sources, and prior work
+6. **[Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)** — The full v1.x / v2.x archive for deeper traceability
 
 ---
 
