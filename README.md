@@ -121,6 +121,7 @@ authentic-fluency/
 ├── CONTRIBUTING.md                        ← how to engage with this framework
 └── research/
     ├── recursive-hallucinations.md        ← founding empirical observation (Aug 13, 2025)
+    ├── regulatory-crosswalk-eu-ai-act-oecd.md ← N3 research crosswalk, not a compliance checklist
     └── references.md                      ← academic sources & full version lineage
 ```
 
@@ -129,7 +130,8 @@ authentic-fluency/
 2. [`research/recursive-hallucinations.md`](./research/recursive-hallucinations.md) — the founding observation
 3. [`qualitative-fluency-law.md`](./qualitative-fluency-law.md) — the axiom derived from that observation
 4. [`CIP-v3.8.md`](./CIP-v3.8.md) — the full pact
-5. [`research/references.md`](./research/references.md) — lineage, sources, prior work
+5. [`research/regulatory-crosswalk-eu-ai-act-oecd.md`](./research/regulatory-crosswalk-eu-ai-act-oecd.md) — governance pressure-test crosswalk
+6. [`research/references.md`](./research/references.md) — lineage, sources, prior work
 
 ---
 
