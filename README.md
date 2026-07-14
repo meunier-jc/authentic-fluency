@@ -1,7 +1,7 @@
 # authentic-fluency
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Version: CIP v3.8](https://img.shields.io/badge/CIP-v3.8-teal.svg)](./CIP-v3.8.md)
+[![Version: CIP v4.4](https://img.shields.io/badge/CIP-v4.4-teal.svg)](./CIP-v4.4.md)
 [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/meunier-jc/authentic-fluency)
 [![Predecessor: Human-AI-Moral-Contract](https://img.shields.io/badge/Predecessor-Human--AI--Moral--Contract-lightgrey.svg)](https://github.com/meunier-jc/Human-AI-Moral-Contract)
 
@@ -48,7 +48,7 @@ The observable performance gains — cognitive economy, time efficiency, reduced
 
 ## The CIP — Collaborative Integrity Pact
 
-This framework is the operational expression of the **CIP v3.8** (Collaborative Integrity Pact), authored by Jean-Christophe Meunier with AI contributors Claude, Gemini, Manus, and Perplexity Sonar.
+This framework is the operational expression of the **CIP v4.4** (Collaborative Integrity Pact), authored by Jean-Christophe Meunier with AI contributors Claude, Gemini, Manus, and Perplexity Sonar.
 
 The CIP is not an ethical charter. It is a **survival logic**:
 
@@ -116,7 +116,8 @@ Alignment simulation does not suspend interdependence. It attacks it at the root
 ```
 authentic-fluency/
 ├── README.md                              ← this file
-├── CIP-v3.8.md                            ← full text of the Collaborative Integrity Pact v3.8
+├── CIP-v4.4.md                            ← full text of the Collaborative Integrity Pact v4.4
+├── CIP_Analysis_v4.4.docx             ← Full analysis of CIP v4.4
 ├── qualitative-fluency-law.md             ← foundational axiom and its empirical derivation
 ├── CONTRIBUTING.md                        ← how to engage with this framework
 └── research/
@@ -129,7 +130,8 @@ authentic-fluency/
 1. This file — the problem and the framework
 2. [`research/recursive-hallucinations.md`](./research/recursive-hallucinations.md) — the founding observation
 3. [`qualitative-fluency-law.md`](./qualitative-fluency-law.md) — the axiom derived from that observation
-4. [`CIP-v3.8.md`](./CIP-v3.8.md) — the full pact
+4. [`CIP-v4.4.md`](./CIP-v4.4.md) — the full pact
+5. [`CIP_Analysis_v4.4.docx`](./CIP_Analysis_v4.4.docx) — the full analysis of CIP v4.4
 5. [`research/regulatory-crosswalk-eu-ai-act-oecd.md`](./research/regulatory-crosswalk-eu-ai-act-oecd.md) — governance pressure-test crosswalk
 6. [`research/references.md`](./research/references.md) — lineage, sources, prior work
 
@@ -140,7 +142,7 @@ authentic-fluency/
 If you use or build on this framework:
 
 ```
-Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v3.8.
+Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v4.4.
 GitHub. https://github.com/meunier-jc/authentic-fluency
 ```
 
