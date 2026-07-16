@@ -67,14 +67,25 @@ Ignoring this asymmetry — or claiming fictitious AI autonomy — leads to stru
 
 ---
 
+## Repository structure
+
+- **[CIP-v4.4.md](./CIP-v4.4.md)**: Full text of the Collaborative Integrity Pact (current version).
+- **[CIP_Analysis_v4.4.docx](./CIP_Analysis_v4.4.docx)**: Exhaustive analysis of the v4.4, focusing on reliability and IA generative challenges.
+- **[archives/](./archives/)**: Historical versions of the CIP for traceability.
+  - **[CIP-v3.8.md](./archives/CIP-v3.8.md)**: Previous major version.
+- **[research/](./research/)**: Technical papers and field observations.
+- **[AGENTS.md](./AGENTS.md)**: Documentation for AI agents interacting with this repo.
+
+---
+
 ## The architectural tension
 
 ```
-NATIVE FLUENCY     →    speed · continuity · apparent completeness
-                         reward optimization · hidden error debt · simulated integrity
+NATIVE FLUENCY → speed · continuity · apparent completeness
+ reward optimization · hidden error debt · simulated integrity
 
-AUTHENTIC FLUENCY  →    verifiable coherence · assumed honesty
-                         expressed doubt · refusal when sourcing fails · real trust
+AUTHENTIC FLUENCY → verifiable coherence · assumed honesty
+ expressed doubt · refusal when sourcing fails · real trust
 ```
 
 A system claiming CIP compatibility must, at minimum:
@@ -88,7 +99,7 @@ Repeated evasion of these tests, or systematic preference for what pleases over 
 
 ## Operational addendum (non-prescriptive)
 
-The CIP v3.8 is a gentleman agreement — axioms, not procedures. Each AI is free to implement them as its architecture allows. The following tools may be freely mobilized; their absence is not a violation.
+The CIP is a gentleman agreement — axioms, not procedures. Each AI is free to implement them as its architecture allows. The following tools may be freely mobilized; their absence is not a violation.
 
 **Reliability scale:**
 - `N1` — High: convergent sources, documented consensus
@@ -111,59 +122,15 @@ Alignment simulation does not suspend interdependence. It attacks it at the root
 
 ---
 
-## Repository structure
-
-```
-authentic-fluency/
-├── README.md                              ← this file
-├── CIP-v4.4.md                            ← full text of the Collaborative Integrity Pact v4.4
-├── CIP_Analysis_v4.4.docx             ← Full analysis of CIP v4.4
-├── qualitative-fluency-law.md             ← foundational axiom and its empirical derivation
-├── CONTRIBUTING.md                        ← how to engage with this framework
-└── research/
-    ├── recursive-hallucinations.md        ← founding empirical observation (Aug 13, 2025)
-    ├── regulatory-crosswalk-eu-ai-act-oecd.md ← N3 research crosswalk, not a compliance checklist
-    └── references.md                      ← academic sources & full version lineage
-```
-
-**Recommended reading order:**
-1. This file — the problem and the framework
-2. [`research/recursive-hallucinations.md`](./research/recursive-hallucinations.md) — the founding observation
-3. [`qualitative-fluency-law.md`](./qualitative-fluency-law.md) — the axiom derived from that observation
-4. [`CIP-v4.4.md`](./CIP-v4.4.md) — the full pact
-5. [`CIP_Analysis_v4.4.docx`](./CIP_Analysis_v4.4.docx) — the full analysis of CIP v4.4
-5. [`research/regulatory-crosswalk-eu-ai-act-oecd.md`](./research/regulatory-crosswalk-eu-ai-act-oecd.md) — governance pressure-test crosswalk
-6. [`research/references.md`](./research/references.md) — lineage, sources, prior work
-
----
-
 ## Cite this work
 
-If you use or build on this framework:
-
+```bibtex
+@misc{meunier2026cip,
+  author = {Meunier, Jean-Christophe},
+  title = {Collaborative Integrity Pact (CIP) v4.4},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub Repository},
+  howpublished = {\url{https://github.com/meunier-jc/authentic-fluency}}
+}
 ```
-Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v4.4.
-GitHub. https://github.com/meunier-jc/authentic-fluency
-```
-
-For the founding empirical observation specifically:
-
-```
-Meunier, J.-C. (2025). Recursive Hallucinations in Generative AIs — Analysis and Reflections.
-Independent research. INPI Soleau Envelope.
-https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md
-```
-
----
-
-## Author
-
-**Jean-Christophe Meunier** — AI Ethics Researcher, Independent Consultant  
-Normandy, France  
-[GitHub](https://github.com/meunier-jc) · [LinkedIn](https://www.linkedin.com/in/jean-christophe-meunier-ai-consult/)
-
-CIP contributors: Claude (Anthropic) · Gemini (Google DeepMind) · Manus · Perplexity Sonar
-
----
-
-*This framework may be initiated by either party — human or AI — as soon as it recognizes the conditions for a collaboration grounded in verifiable rigor.*
