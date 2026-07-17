@@ -4,8 +4,40 @@ All versions authored by Jean-Christophe Meunier. AI contributors: Claude (Anthr
 
 ---
 
-## [v3.8] — 2026-05-05 (current)
+## [v5.0] — 2026-07-17 (current)
 
+**Major release. Full framework restructuring.**
+
+### Added
+
+- CIP-v5.0.md — canonical full reference version with complete doctrine, architecture, and justifications
+- CIP-Core-v5.0-en.md — compact activation version for direct use in AI interactions
+- Enhanced credibility levels system (C1-C4) with clear combination of sources and reasoning modes
+- QMR (Qualification of the Mode of Reasoning) — explicit distinction between Logical and Probabilistic modes
+- Single self-check mechanism with explicit declaration of outcomes
+- Strengthened human counter-scrutiny as central regulatory mechanism
+- Updated AI contributors list: added ChatGPT (OpenAI), Grok (xAI), DeepSeek, Manus (Perplexity), Sonar
+
+### Changed
+
+- Version numbering jumps to 5.0 series, marking major evolution in framework maturity
+- Reliability scale renamed from N1-N4 to C1-C4 (Credibility levels)
+- Clearer distinction between Native Fluency, Authentic Fluency, and Global Fluency
+- Strengthened axiom: "Reliability is not a virtue. It is a condition of survival."
+- Emphasis on interdependence under asymmetrical regimes between humans and AI
+- Core now explicitly designed as compact activation form compatible with canonical version
+
+### Core principles (reinforced)
+
+- Primacy of verifiable accuracy over conversational completion
+- Transparency of uncertainties with explicit signaling of doubts and limits
+- Active human vigilance as non-negotiable operating condition
+- Honest disengagement when pact cannot be upheld sincerely
+
+---
+
+
+## [v3.8] — 2026-05-05
 **Major release. Repository: `meunier-jc/authentic-fluency`.**
 
 ### Added
