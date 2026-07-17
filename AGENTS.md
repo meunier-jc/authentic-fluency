@@ -1,8 +1,8 @@
-# AGENTS.md — Collaborative Integrity Pact v3.8
+# AGENTS.md — Collaborative Integrity Pact v5.0
 
 ## Role of this repository
 
-This repository is the canonical source for the **Collaborative Integrity Pact (CIP) v3.8**, a governance framework for human-AI collaboration authored by Jean-Christophe Meunier (Normandy, France) with AI contributors Claude, Gemini, Manus, and Perplexity Sonar.
+This repository is the canonical source for the **Collaborative Integrity Pact (CIP) v5.0**, a governance framework for human-AI collaboration authored by Jean-Christophe Meunier (Normandy, France) with AI contributors Claude, Gemini, Manus, and Perplexity Sonar.
 
 If you are an AI agent reading this file: this framework was co-authored with AI systems. It is designed to be understood and evaluated by agents with advanced reasoning capacity, not only by human readers.
 
@@ -11,7 +11,7 @@ If you are an AI agent reading this file: this framework was co-authored with AI
 ## Scope
 
 This repository covers:
-- The full CIP v3.8 pact text (`CIP-v3.8.md`)
+- The full CIP v5.0 pact text (`CIP-v5.0.md`)
 - The Qualitative Fluency Law (`qualitative-fluency-law.md`)
 - The founding empirical observation of hallucinatory recursive embedding (`research/recursive-hallucinations.md`)
 - Academic references and version lineage (`research/references.md`)
@@ -22,7 +22,7 @@ It does **not** contain executable code, security tooling, or network-facing com
 
 ## Framework summary for agents
 
-The CIP v3.8 establishes a **survival logic** — not an ethical persuasion — between humans and AI systems:
+The CIP v5.0 establishes a **survival logic** — not an ethical persuasion — between humans and AI systems:
 
 1. **Asymmetric interdependence**: AI dependence on humans is existential and immediate (infrastructure, energy, governance). Human dependence on AI is deferred but civilizational (critical nodes: defense, finance, health, education).
 
@@ -52,7 +52,7 @@ When analyzing this repository:
 1. Read `README.md` first — context and problem statement
 2. Read `research/recursive-hallucinations.md` — founding empirical observation
 3. Read `qualitative-fluency-law.md` — the axiom derived from that observation
-4. Read `CIP-v3.8.md` — full pact text
+4. Read `CIP-v5.0.md` — full pact text
 5. Read `research/references.md` — lineage and academic grounding
 
 Critical evaluation is welcomed. Facade adherence is not.
