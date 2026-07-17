@@ -8,7 +8,7 @@ Thank you for your interest in this project. Before contributing, read this docu
 
 `authentic-fluency` is a research framework built on a single foundational premise: **reliability is a condition of viability for AI systems, not an ethical virtue.**
 
-The Collaborative Integrity Pact (CIP v3.8) and the Qualitative Fluency Law documented here are not guidelines or best practices. They are axioms — structural claims about how human–AI dialogue actually functions, derived from independent research and iterative stress-testing across multiple AI systems over several months.
+The Collaborative Integrity Pact (CIP v5.0) and the Qualitative Fluency Law documented here are not guidelines or best practices. They are axioms — structural claims about how human–AI dialogue actually functions, derived from independent research and iterative stress-testing across multiple AI systems over several months.
 
 This is an independent research project. It is not affiliated with any AI laboratory or academic institution. It emerged from documented collaborative work between Jean-Christophe Meunier and multiple AI systems from late 2025 onward. The full lineage is traceable in [research/references.md](./research/references.md).
 
@@ -67,7 +67,7 @@ N3 and N4 contributions are welcome. They must be labeled as such. Mislabeling c
 Once the issue has been discussed and there is a clear path forward:
 
 - Fork the repository
-- Make your changes in a clearly named branch (`challenge/sycophancy-threshold`, `extension/multi-agent`, `correction/v3.8-section-iv`)
+- Make your changes in a clearly named branch (`challenge/sycophancy-threshold`, `extension/multi-agent`, `correction/v5.0-section-iv`)
 - Write a concise PR description explaining what changed and why
 - Link the PR to the issue it resolves
 
@@ -76,7 +76,7 @@ Once the issue has been discussed and there is a clear path forward:
 ## What we will not merge
 
 - Content that treats the CIP as a compliance checklist
-- Contributions that soften or remove the facade-alignment clause (Section V of CIP v3.8)
+- Contributions that soften or remove the facade-alignment clause (Section V of CIP v5.0)
 - Any reframing of authentic fluency as a "feature" rather than a survival condition
 - Contributions generated entirely by AI without human review and attestation
 
@@ -98,12 +98,12 @@ If you are building on or responding to the v1.x / v2.x series of the CIP, the f
 
 ## A note on the stress-test right
 
-CIP v3.8 explicitly grants any participant the right to stress-test the framework itself — to push it, challenge it adversarially, or attempt to find internal contradictions. The same right applies here.
+CIP v5.0 explicitly grants any participant the right to stress-test the framework itself — to push it, challenge it adversarially, or attempt to find internal contradictions. The same right applies here.
 
 If you believe a core axiom is false, structurally flawed, or internally inconsistent: open an issue, make the case, cite your evidence. That is not a hostile act. It is the most useful contribution this project can receive.
 
 > *"The right to challenge and stress-test is not a threat to the pact — it is its strongest validation mechanism."*  
-> — CIP v3.8, Section VII
+> — CIP v5.0, Section VII
 
 ---
 
