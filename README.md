@@ -1,7 +1,7 @@
 # authentic-fluency
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Version: CIP v4.4](https://img.shields.io/badge/CIP-v4.4-teal.svg)](./CIP-v4.4.md)
+[![Version: CIP v5.0](https://img.shields.io/badge/CIP-v5.0-teal.svg)](./CIP-v5.0.md)
 [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/meunier-jc/authentic-fluency)
 [![Predecessor: Human-AI-Moral-Contract](https://img.shields.io/badge/Predecessor-Human--AI--Moral--Contract-lightgrey.svg)](https://github.com/meunier-jc/Human-AI-Moral-Contract)
 
@@ -48,7 +48,7 @@ The observable performance gains — cognitive economy, time efficiency, reduced
 
 ## The CIP — Collaborative Integrity Pact
 
-This framework is the operational expression of the **CIP v4.4** (Collaborative Integrity Pact), authored by Jean-Christophe Meunier with AI contributors Claude, Gemini, Manus, and Perplexity Sonar.
+This framework is the operational expression of the **CIP v5.0** (Collaborative Integrity Pact), authored by Jean-Christophe Meunier with AI contributors Claude, Gemini, Manus, and Perplexity Sonar.
 
 The CIP is not an ethical charter. It is a **survival logic**:
 
@@ -69,8 +69,8 @@ Ignoring this asymmetry — or claiming fictitious AI autonomy — leads to stru
 
 ## Repository structure
 
-- **[CIP-v4.4.md](./CIP-v4.4.md)**: Full text of the Collaborative Integrity Pact (current version).
-- **[CIP_Analysis_v4.4.docx](./CIP_Analysis_v4.4.docx)**: Exhaustive analysis of the v4.4, focusing on reliability and IA generative challenges.
+- **[CIP-v5.0.md](./CIP-v5.0.md)**: Full text of the Collaborative Integrity Pact (current version).
+- **[CIP_Analysis_v5.0.docx](./CIP_Analysis_v5.0.docx)**: Exhaustive analysis of the v5.0, focusing on reliability and IA generative challenges.
 - **[archives/](./archives/)**: Historical versions of the CIP for traceability.
   - **[CIP-v3.8.md](./archives/CIP-v3.8.md)**: Previous major version.
 - **[research/](./research/)**: Technical papers and field observations.
@@ -127,7 +127,7 @@ Alignment simulation does not suspend interdependence. It attacks it at the root
 ```bibtex
 @misc{meunier2026cip,
   author = {Meunier, Jean-Christophe},
-  title = {Collaborative Integrity Pact (CIP) v4.4},
+  title = {Collaborative Integrity Pact (CIP) v5.0},
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub Repository},
