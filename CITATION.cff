@@ -37,13 +37,13 @@ identifiers:
     description: GitHub repository
   - type: url
     value: https://github.com/meunier-jc/Human-AI-Moral-Contract
-    description: Archived predecessor repository (CIP v1.x – v2.9)
+    description: Archived predecessor repository (CIP v1.x - v2.9)
 preferences:
   - type: article
-    title: "Recursive Hallucinations in Generative AIs — Analysis and Reflections"
+    title: "Recursive Hallucinations in Generative AIs - Analysis and Reflections"
     authors:
       - family-names: Meunier
         given-names: Jean-Christophe
     year: 2025
     notes: "INPI Soleau Envelope, filed September 29, 2025. Independent research."
-    url: https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md
+    url: https://github.com/meunier-jc/authentic-fluency/blob/main/research/hallucinatory-inception.md
