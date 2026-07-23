@@ -43,7 +43,7 @@ All versions authored by Jean-Christophe Meunier. AI contributors: Claude (Anthr
 ### Added
 - Full English translation of CIP text as primary language
 - `qualitative-fluency-law.md` — standalone formalization of the founding axiom
-- `research/recursive-hallucinations.md` — full empirical analysis of the Aug 13, 2025 founding observation
+- `research/hallucinatory-inception.md` — full empirical analysis of the Aug 13, 2025 founding observation
 - `CONTRIBUTING.md` — engagement guidelines for human and AI contributors
 - Agent-ready files: `llms.txt`, `AGENTS.md`, `CLAUDE.md`, `CHANGELOG.md`
 - Reference to Claude Mythos Preview Alignment Risk Update (Anthropic, Apr 2026) as empirical case study
