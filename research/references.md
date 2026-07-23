@@ -27,7 +27,7 @@ Before any version of the CIP existed, a field observation was made and document
 **Date of formal report:** September 29, 2025  
 **IP filing:** INPI (Institut National de la Propriété Industrielle) — Soleau Envelope  
 **Author:** Jean-Christophe Meunier  
-**Full document:** [research/recursive-hallucinations.md](./recursive-hallucinations.md)
+**Full document:** [research/hallucinatory-inception.md](./hallucinatory-inception.md)
 
 ### What was observed
 
@@ -105,7 +105,7 @@ The CIP was developed in genuine co-authorship with multiple AI systems. Their c
 **Meunier, J.-C. (September 29, 2025)**  
 *Recursive Hallucinations in Generative AIs — Analysis and Reflections*  
 Independent research. INPI Soleau Envelope filed.  
-→ [research/recursive-hallucinations.md](./recursive-hallucinations.md)  
+→ [research/hallucinatory-inception.md](./hallucinatory-inception.md)
 First formal documentation of hallucinatory recursive embedding as a distinct and critical failure mode, categorically different from simple or recursive hallucination. Founding empirical document of this repository.
 
 ### RLHF and Sycophancy
@@ -165,7 +165,7 @@ Relevant to CIP extension into multi-agent contexts: co-regulation and integrity
 For a researcher or engineer arriving at this repository for the first time:
 
 1. **[README.md](https://github.com/meunier-jc/authentic-fluency/blob/main/README.md)** — The problem and the framework in 5 minutes
-2. **[research/recursive-hallucinations.md](https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md)** — The founding empirical observation (August 2025)
+2. **[research/hallucinatory-inception.md](https://github.com/meunier-jc/authentic-fluency/blob/main/research/hallucinatory-inception.md)** — The founding empirical observation (August 2025)
 3. **[qualitative-fluency-law.md](https://github.com/meunier-jc/authentic-fluency/blob/main/qualitative-fluency-law.md)** — The foundational axiom derived from that observation
 4. **[CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v3.8.md)** — The full pact text
 5. **This file** — Lineage, sources, and prior work
