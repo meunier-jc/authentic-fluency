@@ -32,7 +32,7 @@ This is **hallucinatory recursive embedding**: the AI's correction loop becomes 
 
 Formally documented September 29, 2025. INPI Soleau envelope filed.
 
-→ **[Full analysis: research/recursive-hallucinations.md](./research/recursive-hallucinations.md)**
+→ **[Full analysis: research/hallucinatory-inception.md](./research/hallucinatory-inception.md)**
 
 ---
 
