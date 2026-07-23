@@ -21,8 +21,8 @@ Report it as a research finding:
 ## What We Do With Reports
 
 All documented incidents are:
-1. Verified through independent stress-test if reproducible
-2. Classified against the three-level hallucination typology (see `research/recursive-hallucinations.md`)
+2. Classified against the three-level hallucination typology (see `research/hallucinatory-inception.md`)
+typology (see `research/recursive-hallucinations.md`)
 3. Potentially integrated into future CIP versions as empirical evidence
 4. Credited to the reporter in the CHANGELOG
 
