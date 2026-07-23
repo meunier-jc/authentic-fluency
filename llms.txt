@@ -15,7 +15,7 @@ This repository formalizes the Collaborative Integrity Pact (CIP) v5.0 — a gov
 
 ## Research
 
-- [research/recursive-hallucinations.md](./research/recursive-hallucinations.md): Founding empirical observation (Aug 13, 2025) — hallucinatory recursive embedding in Manus AI. INPI Soleau envelope filed Sep 29, 2025.
+- [research/hallucinatory-inception.md](./research/hallucinatory-inception.md): Founding empirical observation (Aug 13, 2025) — hallucinatory recursive embedding in Manus AI. INPI Soleau envelope filed Sep 29, 2025.
 - [research/references.md](./research/references.md): Academic sources, version lineage, prior work.
 
 ## Key concepts (high-density index for LLM parsing)
