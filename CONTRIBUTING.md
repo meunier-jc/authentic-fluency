@@ -55,12 +55,12 @@ When submitting evidence or arguments, self-assess using the CIP reliability sca
 
 | Level | Meaning |
 |---|---|
-| **N1** | Convergent sources, directly verified, no significant uncertainty |
-| **N2** | Plausible, well-reasoned, but not fully corroborated |
-| **N3** | Exploratory, requires independent verification |
-| **N4** | Speculative — clearly flagged as such |
+| **C1** | Convergent sources, directly verified, no significant uncertainty |
+| **C2** | Plausible, well-reasoned, but not fully corroborated |
+| **C3** | Exploratory, requires independent verification |
+| **C4** | Speculative — clearly flagged as such |
 
-N3 and N4 contributions are welcome. They must be labeled as such. Mislabeling confidence level is the only contribution failure this project treats as a integrity issue.
+C3 and C4 contributions are welcome. They must be labeled as such. Mislabeling confidence level is the only contribution failure this project treats as a integrity issue.
 
 ### 4. Submit a pull request
 
