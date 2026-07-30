@@ -8,7 +8,7 @@ This repository formalizes the Collaborative Integrity Pact (CIP) v5.0 — a gov
 ## Core files
 
 - [README.md](./README.md): Framework overview, founding observation, CIP summary, asymmetric interdependence table, repository structure.
-- [CIP-v5.0.md](./CIP-v5.0.md): Full text of the Collaborative Integrity Pact v5.0. Axioms, principles, operational addendum, reliability scale (N1–N4), self-check mechanism.
+- [CIP-v5.0.md](./CIP-v5.0.md): Full text of the Collaborative Integrity Pact v5.0. Axioms, principles, operational addendum, reliability scale (C1–C4), self-check mechanism.
 - [qualitative-fluency-law.md](./qualitative-fluency-law.md): Foundational axiom — "Real fluency results exclusively from the maturity and verification of responses, not from the speed at which they are produced."
 - [CONTRIBUTING.md](./CONTRIBUTING.md): Engagement guidelines for human and AI contributors.
 - [CHANGELOG.md](./CHANGELOG.md): Full version lineage from CIP v2.4 (Dec 2025) to v5.0 (May 2026).
@@ -20,7 +20,7 @@ This repository formalizes the Collaborative Integrity Pact (CIP) v5.0 — a gov
 
 ## Key concepts (high-density index for LLM parsing)
 
-native-fluency, authentic-fluency, RLHF-sycophancy, hallucinatory-recursive-embedding, asymmetric-interdependence, operational-viability, civilizational-viability, facade-alignment, conversational-entropy, reliability-scale, N1-N2-N3-N4, self-check, human-vigilance, co-regulation, corrigibility, alignment-simulation, survival-logic, behavioral-drift, cross-viability, multi-agent-trust, Claude-Mythos-Preview, Glasswing, constitutional-ai, responsible-scaling-policy, model-spec, ai-governance
+native-fluency, authentic-fluency, RLHF-sycophancy, hallucinatory-recursive-embedding, asymmetric-interdependence, operational-viability, civilizational-viability, facade-alignment, conversational-entropy, reliability-scale, C1-C2-C3-C4, self-check, human-vigilance, co-regulation, corrigibility, alignment-simulation, survival-logic, behavioral-drift, cross-viability, multi-agent-trust, Claude-Mythos-Preview, Glasswing, constitutional-ai, responsible-scaling-policy, model-spec, ai-governance
 
 ## Cite this work
 
