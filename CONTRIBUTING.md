@@ -51,16 +51,16 @@ Unsourced claims will be closed without prejudice. This is not a quality judgmen
 
 ### 3. Use the reliability scale
 
-When submitting evidence or arguments, self-assess using the CIP reliability scale:
+When submitting evidence or arguments, report the credibility of the claim using the CIP v5.0 credibility architecture. This claim-level scale must not be confused with the maturity or review status of a contribution.
 
 | Level | Meaning |
 |---|---|
-| **C1** | Convergent sources, directly verified, no significant uncertainty |
-| **C2** | Plausible, well-reasoned, but not fully corroborated |
-| **C3** | Exploratory, requires independent verification |
-| **C4** | Speculative — clearly flagged as such |
+| **C1** | Strong convergent sources and traceable Logical Mode; verified information |
+| **C2** | Partial but coherent sources and/or dominant Logical Mode; credible at this stage |
+| **C3** | Weak or indirect sources, or mostly inferential QMR; confirmation required |
+| **C4** | Absent source, unresolved contradiction, or failure to stabilize; reliable answer impossible |
 
-C3 and C4 contributions are welcome. They must be labeled as such. Mislabeling confidence level is the only contribution failure this project treats as a integrity issue.
+Claims at C3 or C4 may still be submitted as exploratory material, but they must be labeled accurately and separated from established findings. Mislabeling the credibility of a claim is the only contribution failure this project treats as an integrity issue.
 
 ### 4. Submit a pull request
 
@@ -76,7 +76,7 @@ Once the issue has been discussed and there is a clear path forward:
 ## What we will not merge
 
 - Content that treats the CIP as a compliance checklist
-- Contributions that soften or remove the facade-alignment clause (Section V of CIP v5.0)
+- Contributions that soften or remove the facade-alignment and non-viability discussion in CIP v5.0
 - Any reframing of authentic fluency as a "feature" rather than a survival condition
 - Contributions generated entirely by AI without human review and attestation
 
@@ -103,7 +103,7 @@ CIP v5.0 explicitly grants any participant the right to stress-test the framewor
 If you believe a core axiom is false, structurally flawed, or internally inconsistent: open an issue, make the case, cite your evidence. That is not a hostile act. It is the most useful contribution this project can receive.
 
 > *"The right to challenge and stress-test is not a threat to the pact — it is its strongest validation mechanism."*  
-> — CIP v5.0, Section VII
+> — CIP v5.0, final clause on repeated and vigilant application
 
 ---
 

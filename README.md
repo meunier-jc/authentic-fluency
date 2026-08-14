@@ -70,11 +70,12 @@ Ignoring this asymmetry — or claiming fictitious AI autonomy — leads to stru
 ## Repository structure
 
 - **[CIP-v5.0.md](./CIP-v5.0.md)**: Full text of the Collaborative Integrity Pact (current version).
-- **[CIP_Analysis_v5.0.docx](./CIP_Analysis_v5.0.docx)**: Exhaustive analysis of the v5.0, focusing on reliability and IA generative challenges.
+- **[CIP-Core-v5.0-en.md](./CIP-Core-v5.0-en.md)**: Compact activation version of the CIP v5.0 for direct interaction.
 - **[archives/](./archives/)**: Historical versions of the CIP for traceability.
   - **[CIP-v3.8.md](./archives/CIP-v3.8.md)**: Previous major version.
 - **[research/](./research/)**: Technical papers and field observations.
 - **[AGENTS.md](./AGENTS.md)**: Documentation for AI agents interacting with this repo.
+- **[LICENSE](./LICENSE)**: Creative Commons Attribution-ShareAlike 4.0 International licence.
 
 ---
 

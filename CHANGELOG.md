@@ -1,6 +1,6 @@
 # CHANGELOG — Collaborative Integrity Pact
 
-All versions authored by Jean-Christophe Meunier. AI contributors: Claude (Anthropic), Gemini (Google DeepMind), Manus, Perplexity Sonar.
+All versions authored by Jean-Christophe Meunier. AI contributors include Claude (Anthropic), Gemini (Google DeepMind), ChatGPT (OpenAI), Grok (xAI), DeepSeek, Manus, and Perplexity Sonar.
 
 ---
 
@@ -16,7 +16,7 @@ All versions authored by Jean-Christophe Meunier. AI contributors: Claude (Anthr
 - QMR (Qualification of the Mode of Reasoning) — explicit distinction between Logical and Probabilistic modes
 - Single self-check mechanism with explicit declaration of outcomes
 - Strengthened human counter-scrutiny as central regulatory mechanism
-- Updated AI contributors list: added ChatGPT (OpenAI), Grok (xAI), DeepSeek, Manus (Perplexity), Sonar
+- Updated AI contributors list: added ChatGPT (OpenAI), Grok (xAI), DeepSeek, Manus, and Perplexity Sonar
 
 ### Changed
 

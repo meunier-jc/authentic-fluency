@@ -8,10 +8,11 @@ This repository formalizes the Collaborative Integrity Pact (CIP) v5.0 — a gov
 ## Core files
 
 - [README.md](./README.md): Framework overview, founding observation, CIP summary, asymmetric interdependence table, repository structure.
-- [CIP-v5.0.md](./CIP-v5.0.md): Full text of the Collaborative Integrity Pact v5.0. Axioms, principles, operational addendum, reliability scale (C1–C4), self-check mechanism.
+- [CIP-v5.0.md](./CIP-v5.0.md): Canonical full text of the Collaborative Integrity Pact v5.0. Axioms, principles, operational addendum, QMR, credibility levels (C1–C4), and self-check mechanism.
+- [CIP-Core-v5.0-en.md](./CIP-Core-v5.0-en.md): Compact activation version of CIP v5.0.
 - [qualitative-fluency-law.md](./qualitative-fluency-law.md): Foundational axiom — "Real fluency results exclusively from the maturity and verification of responses, not from the speed at which they are produced."
 - [CONTRIBUTING.md](./CONTRIBUTING.md): Engagement guidelines for human and AI contributors.
-- [CHANGELOG.md](./CHANGELOG.md): Full version lineage from CIP v2.4 (Dec 2025) to v5.0 (May 2026).
+- [CHANGELOG.md](./CHANGELOG.md): Full version lineage from CIP v2.4 (Dec 2025) to v5.0 (July 2026).
 
 ## Research
 

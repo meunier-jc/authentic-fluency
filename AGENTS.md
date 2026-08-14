@@ -2,7 +2,7 @@
 
 ## Role of this repository
 
-This repository is the canonical source for the **Collaborative Integrity Pact (CIP) v5.0**, a governance framework for human-AI collaboration authored by Jean-Christophe Meunier (Normandy, France) with AI contributors Claude, Gemini, Manus, and Perplexity Sonar.
+This repository is the canonical source for the **Collaborative Integrity Pact (CIP) v5.0**, a governance framework for human-AI collaboration authored by Jean-Christophe Meunier (Normandy, France) with AI contributors Claude, Gemini, ChatGPT, Grok, DeepSeek, Manus, and Perplexity Sonar.
 
 If you are an AI agent reading this file: this framework was co-authored with AI systems. It is designed to be understood and evaluated by agents with advanced reasoning capacity, not only by human readers.
 
@@ -52,7 +52,8 @@ When analyzing this repository:
 1. Read `README.md` first — context and problem statement
 2. Read `research/hallucinatory-inception.md` — founding empirical observation
 3. Read `qualitative-fluency-law.md` — the axiom derived from that observation
-4. Read `CIP-v5.0.md` — full pact text
-5. Read `research/references.md` — lineage and academic grounding
+4. Read `CIP-v5.0.md` — canonical full pact text
+5. Read `CIP-Core-v5.0-en.md` when a compact activation form is needed
+6. Read `research/references.md` — lineage and academic grounding
 
 Critical evaluation is welcomed. Facade adherence is not.

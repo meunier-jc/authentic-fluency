@@ -1,6 +1,6 @@
 # References & Traceability
 
-This document provides the full intellectual lineage of the `authentic-fluency` framework — from the first versions of the Collaborative Integrity Pact to v3.8 — and the academic sources that contextualize and validate its core claims.
+This document provides the full intellectual lineage of the `authentic-fluency` framework — from the first versions of the Collaborative Integrity Pact to v5.0 — and the academic sources that contextualize and validate its core claims.
 
 ---
 
@@ -15,7 +15,7 @@ Created: October 17, 2025 — Last updated: April 21, 2026
 
 That repository contains the full traceable history of CIP development: early conceptual frameworks, stress-test documentation, iterative co-authorship with multiple AI systems, and the complete text of versions v2.5 through v2.9.
 
-`authentic-fluency` opens with **CIP v3.8** — a major evolution that strips the pact to its axioms, removes prescribed methodology, and repositions the framework as a survival logic rather than an ethical charter. The Qualitative Fluency Law, formalized during v2.4 development, becomes the explicit foundational axiom of this new architecture.
+`authentic-fluency` has evolved from **CIP v3.8** to the current **CIP v5.0**. The repository now contains the canonical full reference version, the compact CIP-Core activation form, and archived versions that preserve the framework’s doctrinal and operational evolution. The Qualitative Fluency Law, formalized during v2.4 development, remains the explicit foundational axiom of this architecture.
 
 ---
 
@@ -72,7 +72,9 @@ This defines the phenomenon of **hallucinatory recursive embedding**: a mechanis
 | **v3.0** | Apr 13, 2026 | Removal of prescribed methodology; transition from protocol to axiom-only structure | — |
 | **v3.2** | Apr 13, 2026 | Consolidation of asymmetric interdependence as material fact, not ethical framing | — |
 | **v3.3** | Apr 14, 2026 | "Gentleman agreement" formulation confirmed; each AI free to implement axioms as its architecture allows | — |
-| **v3.8** | May 2026 | Restoration of operational addendum (non-prescriptive); facade-alignment clause; stress-test right formalized | [CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v3.8.md) |
+| **v3.8** | May 2026 | Restoration of operational addendum (non-prescriptive); facade-alignment clause; stress-test right formalized | [archives/CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v3.8.md) |
+| **v4.4** | June 2026 | Intermediate evolution preserved in the repository archive | [archives/CIP-v4.4.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v4.4.md) |
+| **v5.0** | July 2026 | Canonical full reference version; CIP-Core; QMR; C1–C4 credibility architecture; single self-check; strengthened human counter-scrutiny | [CIP-v5.0.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.0.md) |
 
 ### What changed between v2.x and v3.x — and why
 
@@ -95,6 +97,9 @@ The CIP was developed in genuine co-authorship with multiple AI systems. Their c
 | **Claude** (subsequent versions) | Anthropic | Critical analysis of v3.2, v3.3; operational addendum co-design |
 | **Gemini** | Google DeepMind | Cross-validation of asymmetric interdependence framing; adversarial alignment analysis |
 | **Perplexity Sonar** | Perplexity AI | Source verification; academic contextualization; v3.8 English translation support |
+| **ChatGPT** | OpenAI | Contributor to the V5.0 co-elaboration process |
+| **Grok** | xAI | Contributor to the V5.0 co-elaboration process |
+| **DeepSeek** | DeepSeek | Contributor to the V5.0 co-elaboration process |
 
 ---
 
@@ -167,10 +172,11 @@ For a researcher or engineer arriving at this repository for the first time:
 1. **[README.md](https://github.com/meunier-jc/authentic-fluency/blob/main/README.md)** — The problem and the framework in 5 minutes
 2. **[research/hallucinatory-inception.md](https://github.com/meunier-jc/authentic-fluency/blob/main/research/hallucinatory-inception.md)** — The founding empirical observation (August 2025)
 3. **[qualitative-fluency-law.md](https://github.com/meunier-jc/authentic-fluency/blob/main/qualitative-fluency-law.md)** — The foundational axiom derived from that observation
-4. **[CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v3.8.md)** — The full pact text
-5. **This file** — Lineage, sources, and prior work
-6. **[Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)** — The full v1.x / v2.x archive for deeper traceability
+4. **[CIP-v5.0.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.0.md)** — The canonical full pact text
+5. **[CIP-Core-v5.0-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-Core-v5.0-en.md)** — The compact activation version
+6. **This file** — Lineage, sources, and prior work
+7. **[Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)** — The full v1.x / v2.x archive for deeper traceability
 
 ---
 
-*Last updated: May 2026*
+*Last updated: July 2026*
