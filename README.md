@@ -4,6 +4,13 @@
 [![Version: CIP v5.0](https://img.shields.io/badge/CIP-v5.0-teal.svg)](./CIP-v5.0.md)
 [![Status: Active](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://github.com/meunier-jc/authentic-fluency)
 [![Predecessor: Human-AI-Moral-Contract](https://img.shields.io/badge/Predecessor-Human--AI--Moral--Contract-lightgrey.svg)](https://github.com/meunier-jc/Human-AI-Moral-Contract)
+[![Repository principal](https://img.shields.io/badge/Repository-authentic--fluency-181717.svg?logo=github)](https://github.com/meunier-jc/authentic-fluency)
+[![Texte canonique](https://img.shields.io/badge/Texte%20canonique-CIP%20v5.0-0A7E8C.svg)](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.0.md)
+[![Version compacte](https://img.shields.io/badge/Activation-CIP--Core%20v5.0-4C6FFF.svg)](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-Core-v5.0-en.md)
+[![Documentation](https://img.shields.io/badge/Documentation-ouverte-7A5AF8.svg)](https://github.com/meunier-jc/authentic-fluency/tree/main/research)
+[![Contributions](https://img.shields.io/badge/Contributions-ouvertes-2EA44F.svg)](https://github.com/meunier-jc/authentic-fluency/blob/main/CONTRIBUTING.md)
+[![Discussions](https://img.shields.io/badge/Discussions-GitHub-0969DA.svg)](https://github.com/meunier-jc/authentic-fluency/discussions)
+[![Historique](https://img.shields.io/badge/Historique-CIP%20v1.x--v4.4-6E7781.svg)](https://github.com/meunier-jc/authentic-fluency/tree/main/archives)
 
 > *"Real fluency results exclusively from the maturity and verification of responses — not from the speed at which they are produced."*
 > — Qualitative Fluency Law, J.-C. Meunier, 2026
