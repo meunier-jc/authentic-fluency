@@ -48,7 +48,7 @@ The observable performance gains — cognitive economy, time efficiency, reduced
 
 ## The CIP — Collaborative Integrity Pact
 
-This framework is the operational expression of the **CIP v5.0** (Collaborative Integrity Pact), authored by Jean-Christophe Meunier with AI contributors Claude, Gemini, Manus, and Perplexity Sonar.
+This framework is the operational expression of the **CIP v5.0** (Collaborative Integrity Pact), authored by Jean-Christophe Meunier with AI contributors Claude, Gemini, ChatGPT, Grok, DeepSeek, Manus, and Perplexity Sonar.
 
 The CIP is not an ethical charter. It is a **survival logic**:
 
