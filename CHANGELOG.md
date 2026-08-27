@@ -6,13 +6,13 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ---
 
-## [v5.1] — 2026-07-01
+## [v5.1] — 2026-08-27
 
 ### Ajouté
 - **Version intégrale canonique CIP v5.1** (`CIP-v5.1.md`) — texte complet, doctrine, architecture, addendum opérationnel (QMR, niveaux C1–C4).
 - **CIP-Core v5.1** (`CIP-Core-v5.1.md`) — version compacte d'activation pour usage direct en interaction.
 - Mention explicite des **contributeurs IA** : Claude, Gemini, ChatGPT, Grok, DeepSeek, Manus, Perplexity Sonar.
-- Datation **Juillet 2026** et généalogie complète depuis v2.6.3.
+- Datation **Août 2026** et généalogie complète depuis v2.6.3.
 
 ### Clarifié
 - **Axiome inamovible** : 5 exclusions explicites (ni standard, ni audit, ni test, ni contournement, ni manipulation).
