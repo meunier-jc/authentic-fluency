@@ -6,7 +6,7 @@
 
 ## Bilingual documentation policy
 
-The public and technical layer is maintained in English. French source reports and audit records are preserved separately under [`docs/fr/`](./docs/fr/). Translations are stored as distinct files and never overwrite originals. See the [bilingual documentation structure](./docs/STRUCTURE.md) and the [English CI/CD integration guide](./docs/en/ci/documentary-audit.md).
+The public and technical layer is maintained in English. French source reports and audit records are preserved separately under [`docs/fr/`](../). Translations are stored as distinct files and never overwrite originals. See the [bilingual documentation structure](../../docs/STRUCTURE.md) and the [English CI/CD integration guide](../../en/ci/documentary-audit.md).
 
 ## 📋 Vue d'ensemble
 
