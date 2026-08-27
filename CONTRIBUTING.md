@@ -1,159 +1,186 @@
 # Contributing to Authentic Fluency and the CIP
 
-Thank you for your interest in **Authentic Fluency** and the **Collaborative Integrity Pact (CIP)**. This repository is an independent, open-source research project about reliability, truthfulness and structural conditions for responsible Human–AI collaboration.
+Thank you for your interest in **Authentic Fluency** and the **Collaborative Integrity Pact (CIP)**. This repository is an independent, open-source research project about reliability, truthfulness and the structural conditions for responsible Human–AI collaboration.
 
 You do not need to be an expert, agree with every claim, or already know the project vocabulary to participate. The most useful contributions are clear, respectful and traceable. A well-supported objection is as valuable as a proposal for improvement.
 
-## Before you begin
+## 1. Understand the project first
 
-Start by reading the current framework and the project overview:
+Start with the following resources:
 
 1. [README](./README.md)
-2. [Current framework](./Collaborative-Integrity-Pact-v5.0.md)
+2. [Current framework](./CIP-v5.1.md)
 3. [Research references](./research/references.md)
 4. [Open collaboration invitation](https://github.com/meunier-jc/authentic-fluency/issues/7)
+5. [Code of Conduct](./CODE_OF_CONDUCT.md)
 
-If you are building on an earlier version of the CIP, consult the historical material in the [Human-AI-Moral-Contract archive](https://github.com/meunier-jc/Human-AI-Moral-Contract) and identify the specific version or file you are using.
+If you are building on an earlier CIP version, consult the historical material in the [Human-AI-Moral-Contract archive](https://github.com/meunier-jc/Human-AI-Moral-Contract) and cite the exact version and file. Do not silently alter historical documents when version traceability matters.
 
-## Who can contribute
+This is a research framework, not a product-support forum, a generic AI commentary board or a compliance checklist. Contributions should connect to the framework, its evidence, its tests, its documentation or its practical application.
 
-The project welcomes people with different kinds of expertise and experience, including:
+## 2. Who can contribute
 
-- researchers in AI safety, alignment, reliability, human–AI interaction or HCI;
-- specialists in AI ethics, philosophy of technology, governance and public policy;
-- machine-learning, LLM, evaluation, MLOps and responsible-AI engineers;
-- red-teamers, auditors and practitioners who can design or document stress tests;
-- social scientists, psychologists and UX researchers studying trust, dependence or persuasion;
-- organisations and practitioners able to contribute implementation feedback or case studies;
-- technical writers, translators, educators and open-source maintainers.
+The project welcomes researchers in AI safety, alignment, reliability, HCI and human–AI interaction; specialists in AI ethics, philosophy of technology, governance and public policy; ML/LLM, evaluation and MLOps engineers; red-teamers and auditors; social scientists, psychologists and UX researchers; organisations with implementation experience; and technical writers, translators, educators and open-source maintainers.
 
-You can contribute by **supporting, challenging, extending, testing, documenting or applying** the framework. Contributions from outside the AI field are welcome when they clarify the human, institutional or social consequences of the project.
+You can contribute by **supporting, challenging, extending, testing, documenting or applying** the framework. No particular academic title or institutional affiliation is required. Good-faith criticism and well-supported alternatives are explicitly welcome.
 
-## What makes a useful contribution
+## 3. Choose the right contribution
 
-A useful contribution normally does at least one of the following:
+Useful contributions generally identify a precise ambiguity, contradiction, limitation or untested assumption; provide a documented observation, stress test, case study or reproducible example; connect a claim to published research or an authoritative source; propose a concrete revision, definition, metric or protocol; or improve documentation, accessibility, translation and discoverability.
 
-- identifies a precise ambiguity, contradiction, limitation or untested assumption;
-- supplies a documented observation, stress test, case study or reproducible example;
-- connects a claim to relevant published research or an authoritative source;
-- proposes a concrete revision, operational definition, metric, protocol or example;
-- improves the documentation, accessibility, translation or discoverability of the project.
+| Contribution | Recommended starting point |
+|---|---|
+| Question, early idea or general feedback | [GitHub Discussions](https://github.com/meunier-jc/authentic-fluency/discussions) |
+| Correction, research task or reproducible problem | [GitHub Issues](https://github.com/meunier-jc/authentic-fluency/issues) |
+| Focused change ready for review | Pull request linked to an Issue or Discussion |
+| Practical experience or case study | Discussion first, then a focused Issue or pull request |
+| Translation or documentation improvement | Issue or direct focused pull request |
 
-General opinions are welcome as a starting point, but please distinguish them from observations, sourced claims and hypotheses. The repository is not intended for product-support requests, generic AI commentary or promotional material unrelated to the framework.
+If you are unsure, open a Discussion and describe what you want to examine. You do not need a complete solution before starting a conversation.
 
-## A simple contribution path
+## 4. Describe evidence and uncertainty
 
-### 1. Choose the right channel
+For every substantive claim, distinguish observed behaviour, documented testing, published research, interpretation, hypothesis and proposal. Include direct links, test conditions, relevant model or system context, and enough detail for another contributor to investigate the claim. Do not share personal data, credentials, confidential prompts, private logs or information that could identify a research participant.
 
-Use [GitHub Discussions](https://github.com/meunier-jc/authentic-fluency/discussions) for questions, early ideas, general feedback, possible applications and proposals that would benefit from conversation. Use [Issues](https://github.com/meunier-jc/authentic-fluency/issues) for a specific correction, reproducible problem, research task, documentation gap or well-defined enhancement.
+When the project’s claim-level credibility scale is appropriate, use it as follows:
 
-If you are unsure, open a Discussion first. You will not be expected to have a complete solution before starting a conversation.
-
-### 2. Describe the contribution clearly
-
-Include enough context for another person to understand and evaluate the proposal. In particular, state:
-
-- what you observed, propose or question;
-- which document, section or version it concerns;
-- why it matters to the framework or to Human–AI collaboration;
-- what evidence, references, logs or reasoning support it;
-- whether the contribution concerns a foundational claim or an operational element;
-- what outcome you would consider useful.
-
-Please remove personal data, confidential material, credentials and sensitive user information from examples or logs before sharing them.
-
-### 3. Discuss before making a substantial change
-
-For a substantial conceptual, structural or technical change, open an Issue or Discussion before submitting a pull request. This allows the scope and terminology to be clarified early and reduces duplicated work. Small typo fixes, broken links and narrowly scoped documentation corrections can be submitted directly as a pull request.
-
-### 4. Create a focused branch
-
-Fork the repository, create a branch from `main`, and keep each branch focused on one contribution. Recommended branch names are:
-
-```text
-challenge/short-description
-correction/short-description
-extension/short-description
-research/short-description
-docs/short-description
-translation/language-or-section
-```
-
-### 5. Submit a pull request
-
-A pull request should explain **what changed, why it changed and how it can be reviewed**. Please:
-
-- keep the change as small and coherent as possible;
-- link the relevant Issue or Discussion;
-- identify affected documents or sections;
-- include sources, examples or test results where relevant;
-- update the documentation when the change alters project usage or terminology;
-- disclose substantial AI assistance and confirm that a human contributor reviewed the result.
-
-A pull request does not need to be perfect. If it is clearly marked as a draft, reviewers can help shape it.
-
-## Evidence and claim credibility
-
-The project values traceability. When presenting a factual or empirical claim, identify whether it is based on an observed interaction, a documented test, published research, an interpretation or a hypothesis. Provide a direct link or enough methodological detail for others to investigate it.
-
-When appropriate, use the project’s claim-level credibility scale:
-
-| Level | Description |
+| Level | Meaning |
 |---|---|
 | **C1** | Strong, convergent and traceable support; the claim has been verified. |
 | **C2** | Partial but coherent support; the claim is credible but not fully established. |
 | **C3** | Weak, indirect or mainly inferential support; confirmation is required. |
-| **C4** | No adequate source, unresolved contradiction or insufficient stability to support a reliable conclusion. |
+| **C4** | No adequate source, unresolved contradiction or insufficient stability for a reliable conclusion. |
 
-C3 and C4 material may still be valuable as exploratory work. Label it accurately and separate it from established findings. The purpose of this scale is to make uncertainty visible, not to discourage early research.
+C3 and C4 material may still be valuable as exploratory work. Label it accurately and separate it from established findings. The scale makes uncertainty visible; it is not intended to prevent early research.
 
-## Reviewing and decision-making
+## 5. Contribution workflow
 
-Reviewers may ask for clarification, additional evidence, narrower scope or a clearer distinction between observation and interpretation. Substantive criticism of the framework is part of the project’s intended review process. Participants have the right to stress-test the framework and to report internal contradictions in good faith.
+### 5.1 Open a Discussion or Issue
 
-Maintainers will consider relevance, clarity, traceability, internal coherence, practical usefulness and compatibility with the project’s stated scope. A contribution may be declined without judging the contributor personally. When possible, the reason will be explained and a constructive next step suggested.
+For a substantial conceptual, structural or technical change, open an Issue or Discussion before preparing a pull request. Explain the context, the proposal or question, the affected document and version, the motivation, the evidence or reasoning, and the outcome you would consider useful. Small typo fixes, broken-link fixes and narrowly scoped documentation corrections may go directly to a pull request.
 
-## AI-assisted contributions
+### 5.2 Create a focused branch
 
-AI tools may be used for brainstorming, translation, editing, coding assistance or drafting. However, every contributor remains responsible for the accuracy, originality, licensing and implications of what they submit.
+Fork the repository, create a branch from `main`, and keep one coherent purpose per branch. Use a descriptive name such as:
 
-Do not submit unreviewed generated text, fabricated references, private data, confidential prompts or material copied without permission. Pull requests containing substantial AI-assisted content should state that assistance was used and should confirm that a human reviewed the final contribution.
+```text
+challenge/sycophancy-threshold
+correction/framework-section-iv
+extension/multi-agent-evaluation
+research/reliability-study
+docs/contributor-onboarding
+ci/markdown-quality
+```
 
-## Documentation and writing conventions
+### 5.3 Make and review the change
 
-Contributions to the main repository should normally be written in **English** so that the project can be reviewed internationally. Translations are welcome and should be clearly identified by language and source version. Use Markdown, descriptive headings, direct links and concise filenames. Preserve existing terminology unless the purpose of the contribution is to propose a documented terminology change.
+Preserve existing links, citations, terminology and version references unless the purpose of the change is to revise them. Do not silently rewrite historical research. Review the complete diff locally, check Markdown formatting, verify links where practical, and remove generated artefacts or unrelated edits.
 
-When editing research or framework documents, retain citations and version references. Do not silently alter historical documents; make a new version or a clearly explained correction when historical traceability matters.
+### 5.4 Submit a pull request
 
-## Community standards
+Use the repository pull request template. Explain what changed, why it changed and how it can be reviewed. Link the Issue or Discussion, identify affected files or sections, include sources or test results, describe known limitations and state whether AI assistance was used.
 
-All participants must follow the project’s [Code of Conduct](./CODE_OF_CONDUCT.md). Be respectful, specific and transparent. Critique ideas, evidence and methods rather than people. Do not harass, impersonate, dox or expose private information about contributors or research participants.
+A draft pull request is welcome when early feedback would be useful. A pull request does not need to be perfect, but it must be focused enough for another contributor to understand and review.
 
-Please report conduct concerns privately through the contact route described in the Code of Conduct rather than turning them into public disputes.
+## 6. Conventional Commits
 
-## What is unlikely to be accepted
+Use the following format for commit messages:
 
-The project is unlikely to accept contributions that are unrelated to its scope, present unsupported claims as established facts, expose private information, copy material without appropriate rights, or remove uncertainty labels from exploratory work. It will also generally reject changes that turn the CIP into a generic compliance checklist without explaining the conceptual and practical consequences.
+```text
+<type>(<scope>): <imperative summary>
 
-A disagreement with a foundational claim is not, by itself, a reason for rejection. Explain the disagreement, identify the relevant passage, provide evidence or reasoning, and propose a way to test or resolve it.
+<context or motivation>
 
-## Questions and contact
+<what changed and why>
 
-If you are unsure where to begin, open a [Discussion](https://github.com/meunier-jc/authentic-fluency/discussions) with the label or title `New contributor` and describe your interests. You may also comment on the [open collaboration invitation](https://github.com/meunier-jc/authentic-fluency/issues/7).
+Evidence: <source, test, discussion or issue link>
+Issue: #<number>
 
-Thank you for helping make the project more rigorous, more accessible and more useful.
+BREAKING CHANGE: <describe an incompatible change, if applicable>
+```
+
+The subject should be concise, start with a lowercase imperative verb and have no final period. Keep one coherent intention per commit. Use the body to explain motivation, evidence and limitations rather than merely listing files.
+
+### 6.1 Accepted types
+
+| Type | Use in this repository |
+|---|---|
+| `research` | Add or revise research, analysis, case studies or references. |
+| `test` | Add or revise a stress test, evaluation protocol or reproducible scenario. |
+| `docs` | Change the README, guides, contribution documentation or translations. |
+| `fix` | Correct a factual error, broken link, inconsistency or misleading wording. |
+| `feat` | Add a substantive section, protocol, documented capability or framework element. |
+| `refactor` | Reorganise content without changing its main intent. |
+| `ci` | Change workflows, quality checks or GitHub automation. |
+| `chore` | Perform repository maintenance that does not directly change research content. |
+| `revert` | Revert an earlier commit. |
+
+Recommended scopes include `cip`, `framework`, `research`, `references`, `case-study`, `docs`, `contributing`, `workflow`, `issues`, `links`, `translation` and `release`. Avoid vague scopes such as `misc`.
+
+### 6.2 Examples
+
+```text
+research(reliability): compare sycophancy indicators across models
+
+test(stress-test): add contradiction-recovery scenario
+
+docs(contributing): clarify evidence requirements
+
+fix(references): correct citation for recursive embedding
+
+ci(docs): add Markdown and link quality checks
+```
+
+Use `!` or a `BREAKING CHANGE:` footer when a change is intentionally incompatible:
+
+```text
+feat(protocol)!: adopt claim-level credibility labels
+
+BREAKING CHANGE: update references to the former confidence terminology.
+```
+
+## 7. Human review and AI assistance
+
+AI tools may be used for brainstorming, translation, editing, coding assistance or drafting. Every contributor remains responsible for factual accuracy, originality, licensing and the implications of the submitted material.
+
+Do not submit unreviewed generated text, fabricated references, private data, confidential prompts or material copied without permission. If AI assistance was substantial, disclose it in the pull request and confirm that a human contributor reviewed the complete final result. The repository’s pull request template includes explicit review checkboxes.
+
+## 8. GitHub Actions and quality checks
+
+The repository runs automated checks on pushes to `main` and on pull requests targeting `main`. The current quality workflow checks Markdown formatting, links, required repository files, contribution-guidance markers and accidental changes to files resembling secrets or private keys.
+
+The triage workflow may apply labels and publish an idempotent welcome comment to a first-time contributor. It does not automatically close Issues, merge pull requests or execute code from a submitted pull request. If a check fails, read the job log and distinguish a real defect from a pre-existing historical-document issue before changing the configuration.
+
+Contributors should run a local review before opening a pull request. At minimum, inspect the complete diff, check the Markdown structure of edited files, confirm that references still point to the intended version and ensure that no `.env`, private key, credential or confidential file has been added.
+
+## 9. Review and merge policy
+
+Reviewers may request clarification, additional evidence, narrower scope or a clearer distinction between observation and interpretation. Testing the framework itself, including adversarial testing and attempts to find internal contradictions, is a legitimate contribution.
+
+Maintainers will consider relevance, clarity, traceability, internal coherence, practical usefulness, licensing and compatibility with the project’s scope. A contribution may be declined without judging the contributor personally. When possible, the reason and a constructive next step will be provided.
+
+Do not rewrite `main` or a branch already shared with other contributors. Rebase only your own unpublished branch, and coordinate before force-pushing any branch that another person may have fetched. Prefer `--force-with-lease` over `--force` when a force-push is unavoidable.
+
+Branch protection should require the quality checks before merging into `main`. Approval requirements may be introduced when a second active human maintainer is available; they should not make the project impossible for a sole maintainer to operate.
+
+## 10. Community standards and scope boundaries
+
+Follow the [Code of Conduct](./CODE_OF_CONDUCT.md). Critique ideas, evidence and methods rather than people. Do not harass, impersonate, dox or expose private information about contributors or research participants.
+
+The project is unlikely to accept contributions that are unrelated to its scope, present unsupported claims as established facts, expose private information, copy material without appropriate rights, remove uncertainty labels from exploratory work, or turn the CIP into a generic compliance checklist without explaining the conceptual and practical consequences.
+
+Disagreement with a foundational claim is not, by itself, a reason for rejection. Identify the relevant passage, explain the disagreement, provide evidence or reasoning, and propose a way to test or resolve it.
+
+## 11. Language, licensing and contact
+
+Contributions to the main repository should normally be written in **English** so that the project can be reviewed internationally. Translations are welcome and should identify their language and source version.
+
+Unless a file states otherwise, written contributions are distributed under the repository’s [Creative Commons Attribution-ShareAlike 4.0 license](./LICENSE). By submitting a contribution, you confirm that you have the right to submit it under that license.
+
+If you are unsure where to begin, open a [Discussion](https://github.com/meunier-jc/authentic-fluency/discussions) with the title `New contributor` or comment on the [open collaboration invitation](https://github.com/meunier-jc/authentic-fluency/issues/7).
+
+Thank you for helping make the project more rigorous, accessible and useful.
 
 ---
 
-*This document is itself open to improvement. If these instructions are unclear, incomplete or inconsistent with the framework, please open an Issue explaining how they could be improved.*
-
-## License
-
-Unless stated otherwise in a file, contributions to the documentation and written materials in this repository are distributed under the repository’s [CC BY-SA 4.0 license](./LICENSE). By submitting a contribution, you confirm that you have the right to submit it under that license.
-
-## References
-
-[1]: https://github.com/meunier-jc/authentic-fluency "Authentic Fluency repository"
-[2]: https://github.com/meunier-jc/authentic-fluency/discussions "Authentic Fluency Discussions"
-[3]: https://github.com/meunier-jc/authentic-fluency/issues "Authentic Fluency Issues"
-[4]: https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International"
+*This guide is itself open to improvement. If an instruction is unclear, incomplete or inconsistent with the project, open an Issue explaining how it could be improved.*
