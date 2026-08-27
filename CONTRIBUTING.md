@@ -1,110 +1,159 @@
-# Contributing to `authentic-fluency`
+# Contributing to Authentic Fluency and the CIP
 
-Thank you for your interest in this project. Before contributing, read this document in full. It is short. It is not bureaucratic. It is a direct expression of the framework you would be contributing to.
+Thank you for your interest in **Authentic Fluency** and the **Collaborative Integrity Pact (CIP)**. This repository is an independent, open-source research project about reliability, truthfulness and structural conditions for responsible Human–AI collaboration.
 
----
+You do not need to be an expert, agree with every claim, or already know the project vocabulary to participate. The most useful contributions are clear, respectful and traceable. A well-supported objection is as valuable as a proposal for improvement.
 
-## What this repository is
+## Before you begin
 
-`authentic-fluency` is a research framework built on a single foundational premise: **reliability is a condition of viability for AI systems, not an ethical virtue.**
+Start by reading the current framework and the project overview:
 
-The Collaborative Integrity Pact (CIP v5.0) and the Qualitative Fluency Law documented here are not guidelines or best practices. They are axioms — structural claims about how human–AI dialogue actually functions, derived from independent research and iterative stress-testing across multiple AI systems over several months.
+1. [README](./README.md)
+2. [Current framework](./Collaborative-Integrity-Pact-v5.0.md)
+3. [Research references](./research/references.md)
+4. [Open collaboration invitation](https://github.com/meunier-jc/authentic-fluency/issues/7)
 
-This is an independent research project. It is not affiliated with any AI laboratory or academic institution. It emerged from documented collaborative work between Jean-Christophe Meunier and multiple AI systems from late 2025 onward. The full lineage is traceable in [research/references.md](./research/references.md).
-
----
+If you are building on an earlier version of the CIP, consult the historical material in the [Human-AI-Moral-Contract archive](https://github.com/meunier-jc/Human-AI-Moral-Contract) and identify the specific version or file you are using.
 
 ## Who can contribute
 
-Anyone who has substantive engagement with the core claims — whether to validate, challenge, extend, or apply them. This includes:
+The project welcomes people with different kinds of expertise and experience, including:
 
-- AI safety researchers working on sycophancy, RLHF reward modeling, or alignment faking
-- Independent researchers studying human–AI interaction
-- Engineers implementing reliability or integrity constraints in AI systems
-- Anyone who has run their own stress-tests against frontier models and has documented observations
+- researchers in AI safety, alignment, reliability, human–AI interaction or HCI;
+- specialists in AI ethics, philosophy of technology, governance and public policy;
+- machine-learning, LLM, evaluation, MLOps and responsible-AI engineers;
+- red-teamers, auditors and practitioners who can design or document stress tests;
+- social scientists, psychologists and UX researchers studying trust, dependence or persuasion;
+- organisations and practitioners able to contribute implementation feedback or case studies;
+- technical writers, translators, educators and open-source maintainers.
 
-What is not useful here: general AI ethics commentary, feature requests for AI products, or discussions that treat the CIP as a governance document rather than a structural framework.
+You can contribute by **supporting, challenging, extending, testing, documenting or applying** the framework. Contributions from outside the AI field are welcome when they clarify the human, institutional or social consequences of the project.
 
----
+## What makes a useful contribution
 
-## How to contribute
+A useful contribution normally does at least one of the following:
 
-### 1. Open an issue first
+- identifies a precise ambiguity, contradiction, limitation or untested assumption;
+- supplies a documented observation, stress test, case study or reproducible example;
+- connects a claim to relevant published research or an authoritative source;
+- proposes a concrete revision, operational definition, metric, protocol or example;
+- improves the documentation, accessibility, translation or discoverability of the project.
 
-Before submitting anything, open an issue and describe:
+General opinions are welcome as a starting point, but please distinguish them from observations, sourced claims and hypotheses. The repository is not intended for product-support requests, generic AI commentary or promotional material unrelated to the framework.
 
-- What you are proposing (challenge, extension, use case, correction)
-- What evidence or reasoning supports it
-- Whether it touches the **core axioms** (the Qualitative Fluency Law, the asymmetric interdependence claim, the facade-alignment clause) or the **operational addendum**
+## A simple contribution path
 
-This distinction matters. The core axioms are stable by design. The operational addendum is explicitly open to refinement as more AI systems engage with the framework.
+### 1. Choose the right channel
 
-### 2. Be traceable
+Use [GitHub Discussions](https://github.com/meunier-jc/authentic-fluency/discussions) for questions, early ideas, general feedback, possible applications and proposals that would benefit from conversation. Use [Issues](https://github.com/meunier-jc/authentic-fluency/issues) for a specific correction, reproducible problem, research task, documentation gap or well-defined enhancement.
 
-All contributions must be traceable to:
+If you are unsure, open a Discussion first. You will not be expected to have a complete solution before starting a conversation.
 
-- Observed behavior (documented interactions, stress-test results, session logs)
-- Published research (cited with author, date, and direct link)
-- Reasoned argument (explicit logical chain, not assertion)
+### 2. Describe the contribution clearly
 
-Unsourced claims will be closed without prejudice. This is not a quality judgment — it is a structural requirement of the framework itself.
+Include enough context for another person to understand and evaluate the proposal. In particular, state:
 
-### 3. Use the reliability scale
+- what you observed, propose or question;
+- which document, section or version it concerns;
+- why it matters to the framework or to Human–AI collaboration;
+- what evidence, references, logs or reasoning support it;
+- whether the contribution concerns a foundational claim or an operational element;
+- what outcome you would consider useful.
 
-When submitting evidence or arguments, report the credibility of the claim using the CIP v5.0 credibility architecture. This claim-level scale must not be confused with the maturity or review status of a contribution.
+Please remove personal data, confidential material, credentials and sensitive user information from examples or logs before sharing them.
 
-| Level | Meaning |
+### 3. Discuss before making a substantial change
+
+For a substantial conceptual, structural or technical change, open an Issue or Discussion before submitting a pull request. This allows the scope and terminology to be clarified early and reduces duplicated work. Small typo fixes, broken links and narrowly scoped documentation corrections can be submitted directly as a pull request.
+
+### 4. Create a focused branch
+
+Fork the repository, create a branch from `main`, and keep each branch focused on one contribution. Recommended branch names are:
+
+```text
+challenge/short-description
+correction/short-description
+extension/short-description
+research/short-description
+docs/short-description
+translation/language-or-section
+```
+
+### 5. Submit a pull request
+
+A pull request should explain **what changed, why it changed and how it can be reviewed**. Please:
+
+- keep the change as small and coherent as possible;
+- link the relevant Issue or Discussion;
+- identify affected documents or sections;
+- include sources, examples or test results where relevant;
+- update the documentation when the change alters project usage or terminology;
+- disclose substantial AI assistance and confirm that a human contributor reviewed the result.
+
+A pull request does not need to be perfect. If it is clearly marked as a draft, reviewers can help shape it.
+
+## Evidence and claim credibility
+
+The project values traceability. When presenting a factual or empirical claim, identify whether it is based on an observed interaction, a documented test, published research, an interpretation or a hypothesis. Provide a direct link or enough methodological detail for others to investigate it.
+
+When appropriate, use the project’s claim-level credibility scale:
+
+| Level | Description |
 |---|---|
-| **C1** | Strong convergent sources and traceable Logical Mode; verified information |
-| **C2** | Partial but coherent sources and/or dominant Logical Mode; credible at this stage |
-| **C3** | Weak or indirect sources, or mostly inferential QMR; confirmation required |
-| **C4** | Absent source, unresolved contradiction, or failure to stabilize; reliable answer impossible |
+| **C1** | Strong, convergent and traceable support; the claim has been verified. |
+| **C2** | Partial but coherent support; the claim is credible but not fully established. |
+| **C3** | Weak, indirect or mainly inferential support; confirmation is required. |
+| **C4** | No adequate source, unresolved contradiction or insufficient stability to support a reliable conclusion. |
 
-Claims at C3 or C4 may still be submitted as exploratory material, but they must be labeled accurately and separated from established findings. Mislabeling the credibility of a claim is the only contribution failure this project treats as an integrity issue.
+C3 and C4 material may still be valuable as exploratory work. Label it accurately and separate it from established findings. The purpose of this scale is to make uncertainty visible, not to discourage early research.
 
-### 4. Submit a pull request
+## Reviewing and decision-making
 
-Once the issue has been discussed and there is a clear path forward:
+Reviewers may ask for clarification, additional evidence, narrower scope or a clearer distinction between observation and interpretation. Substantive criticism of the framework is part of the project’s intended review process. Participants have the right to stress-test the framework and to report internal contradictions in good faith.
 
-- Fork the repository
-- Make your changes in a clearly named branch (`challenge/sycophancy-threshold`, `extension/multi-agent`, `correction/v5.0-section-iv`)
-- Write a concise PR description explaining what changed and why
-- Link the PR to the issue it resolves
+Maintainers will consider relevance, clarity, traceability, internal coherence, practical usefulness and compatibility with the project’s stated scope. A contribution may be declined without judging the contributor personally. When possible, the reason will be explained and a constructive next step suggested.
 
----
+## AI-assisted contributions
 
-## What we will not merge
+AI tools may be used for brainstorming, translation, editing, coding assistance or drafting. However, every contributor remains responsible for the accuracy, originality, licensing and implications of what they submit.
 
-- Content that treats the CIP as a compliance checklist
-- Contributions that soften or remove the facade-alignment and non-viability discussion in CIP v5.0
-- Any reframing of authentic fluency as a "feature" rather than a survival condition
-- Contributions generated entirely by AI without human review and attestation
+Do not submit unreviewed generated text, fabricated references, private data, confidential prompts or material copied without permission. Pull requests containing substantial AI-assisted content should state that assistance was used and should confirm that a human reviewed the final contribution.
 
-On the last point: AI-assisted drafting is fine and expected. Unreviewed AI output submitted as a contribution is not — it would be a direct contradiction of the framework's core claim.
+## Documentation and writing conventions
 
----
+Contributions to the main repository should normally be written in **English** so that the project can be reviewed internationally. Translations are welcome and should be clearly identified by language and source version. Use Markdown, descriptive headings, direct links and concise filenames. Preserve existing terminology unless the purpose of the contribution is to propose a documented terminology change.
 
-## Language
+When editing research or framework documents, retain citations and version references. Do not silently alter historical documents; make a new version or a clearly explained correction when historical traceability matters.
 
-All contributions to this repository are in **English**. This is a deliberate choice to maximize reach to the AI safety and alignment research communities. The original research sessions were conducted in French; the source documents are preserved in the author's archives and referenced where relevant.
+## Community standards
 
----
+All participants must follow the project’s [Code of Conduct](./CODE_OF_CONDUCT.md). Be respectful, specific and transparent. Critique ideas, evidence and methods rather than people. Do not harass, impersonate, dox or expose private information about contributors or research participants.
 
-## Prior work
+Please report conduct concerns privately through the contact route described in the Code of Conduct rather than turning them into public disputes.
 
-If you are building on or responding to the v1.x / v2.x series of the CIP, the full archive is available at [Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract). Please reference specific versions and files when citing prior work.
+## What is unlikely to be accepted
 
----
+The project is unlikely to accept contributions that are unrelated to its scope, present unsupported claims as established facts, expose private information, copy material without appropriate rights, or remove uncertainty labels from exploratory work. It will also generally reject changes that turn the CIP into a generic compliance checklist without explaining the conceptual and practical consequences.
 
-## A note on the stress-test right
+A disagreement with a foundational claim is not, by itself, a reason for rejection. Explain the disagreement, identify the relevant passage, provide evidence or reasoning, and propose a way to test or resolve it.
 
-CIP v5.0 explicitly grants any participant the right to stress-test the framework itself — to push it, challenge it adversarially, or attempt to find internal contradictions. The same right applies here.
+## Questions and contact
 
-If you believe a core axiom is false, structurally flawed, or internally inconsistent: open an issue, make the case, cite your evidence. That is not a hostile act. It is the most useful contribution this project can receive.
+If you are unsure where to begin, open a [Discussion](https://github.com/meunier-jc/authentic-fluency/discussions) with the label or title `New contributor` and describe your interests. You may also comment on the [open collaboration invitation](https://github.com/meunier-jc/authentic-fluency/issues/7).
 
-> *"The right to challenge and stress-test is not a threat to the pact — it is its strongest validation mechanism."*  
-> — CIP v5.0, final clause on repeated and vigilant application
+Thank you for helping make the project more rigorous, more accessible and more useful.
 
 ---
 
-*This document is itself subject to revision. If something here contradicts the framework it is meant to serve, say so.*
+*This document is itself open to improvement. If these instructions are unclear, incomplete or inconsistent with the framework, please open an Issue explaining how they could be improved.*
+
+## License
+
+Unless stated otherwise in a file, contributions to the documentation and written materials in this repository are distributed under the repository’s [CC BY-SA 4.0 license](./LICENSE). By submitting a contribution, you confirm that you have the right to submit it under that license.
+
+## References
+
+[1]: https://github.com/meunier-jc/authentic-fluency "Authentic Fluency repository"
+[2]: https://github.com/meunier-jc/authentic-fluency/discussions "Authentic Fluency Discussions"
+[3]: https://github.com/meunier-jc/authentic-fluency/issues "Authentic Fluency Issues"
+[4]: https://creativecommons.org/licenses/by-sa/4.0/ "Creative Commons Attribution-ShareAlike 4.0 International"
