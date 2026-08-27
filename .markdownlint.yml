@@ -1,0 +1,11 @@
+# Conservative Markdown rules for the research and documentation repository.
+# Existing documents may be improved incrementally; new contributions should follow these rules.
+
+MD013: false
+MD024:
+  siblings_only: true
+MD033: false
+MD041: false
+MD046:
+  style: fenced
+MD060: false

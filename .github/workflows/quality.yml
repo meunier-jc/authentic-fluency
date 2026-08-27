@@ -1,0 +1,100 @@
+name: Documentation quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: documentation-quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  markdown:
+    name: Markdown lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: '**/*.md'
+
+  links:
+    name: Link check
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          failIfUntested: false
+          fail: true
+          args: --verbose --no-progress './**/*.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  structure:
+    name: Repository structure
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check required files and templates
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            README.md
+            CONTRIBUTING.md
+            CODE_OF_CONDUCT.md
+            LICENSE
+            .github/pull_request_template.md
+            .github/triage.yml
+          )
+          for file in "${required[@]}"; do
+            test -f "$file" || { echo "Missing required file: $file"; exit 1; }
+          done
+
+      - name: Check contribution guidance markers
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -qi 'pull request' CONTRIBUTING.md
+          grep -qi 'Code of Conduct' CONTRIBUTING.md
+          grep -qi 'human' CONTRIBUTING.md
+          grep -qi 'evidence' CONTRIBUTING.md
+
+  changed-files:
+    name: Changed-file safety check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Reject accidental sensitive files
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          head="${{ github.event.pull_request.head.sha || github.sha }}"
+          changed=$(git diff --name-only "$base" "$head")
+          if echo "$changed" | grep -Eiq '(^|/)(\.env|id_rsa|.*\.pem|.*\.key)$'; then
+            echo "Potential secret or private key detected in changed files."
+            exit 1
+          fi
