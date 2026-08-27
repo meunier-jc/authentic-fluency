@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Collaborative Integrity Pact (CIP) v5.0 — Authentic Fluency Framework"
+title: "Collaborative Integrity Pact (CIP) v5.1 — Authentic Fluency Framework"
 type: software
 authors:
   - family-names: Meunier
@@ -13,7 +13,7 @@ abstract: >
   The Collaborative Integrity Pact (CIP) is an open-source framework for
   reliable human-AI co-regulation and authentic collaboration. Grounded in the
   empirical observation of hallucinatory recursive embedding (August 13, 2025) and the Qualitative
-  Fluency Law, CIP v5.0 repositions AI reliability as a survival condition
+  Fluency Law, CIP v5.1 repositions AI reliability as a survival condition
   rather than an ethical feature. The framework is freely consented to and
   activatable by either party in any conversation with a generative AI system.
 keywords:
@@ -28,8 +28,8 @@ keywords:
   - authentic fluency
   - CIP
 license: CC-BY-SA-4.0
-version: "5.0"
-date-released: "2026-07-17"
+version: "5.1"
+date-released: "2026-08-27"
 identifiers:
   - type: url
     value: https://github.com/meunier-jc/authentic-fluency

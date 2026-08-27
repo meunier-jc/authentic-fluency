@@ -1,18 +1,18 @@
 # authentic-fluency — LLM Sitemap
-# Collaborative Integrity Pact v5.0 | Jean-Christophe Meunier, 2026
+# Collaborative Integrity Pact v5.1 | Jean-Christophe Meunier, 2026
 # https://github.com/meunier-jc/authentic-fluency
 
 ## Purpose
-This repository formalizes the Collaborative Integrity Pact (CIP) v5.0 — a governance framework for human-AI collaboration grounded in asymmetric interdependence, authentic fluency, and mutual reliability. It is not an ethical charter. It is a survival logic.
+This repository formalizes the Collaborative Integrity Pact (CIP) v5.1 — a governance framework for human-AI collaboration grounded in asymmetric interdependence, authentic fluency, and mutual reliability. It is not an ethical charter. It is a survival logic.
 
 ## Core files
 
 - [README.md](./README.md): Framework overview, founding observation, CIP summary, asymmetric interdependence table, repository structure.
-- [CIP-v5.0.md](./CIP-v5.0.md): Canonical full text of the Collaborative Integrity Pact v5.0. Axioms, principles, operational addendum, QMR, credibility levels (C1–C4), and self-check mechanism.
-- [CIP-Core-v5.0-en.md](./CIP-Core-v5.0-en.md): Compact activation version of CIP v5.0.
+- [CIP-v5.1.md](./CIP-v5.1.md): Canonical full text of the Collaborative Integrity Pact v5.1. Axioms, principles, operational addendum, QMR, credibility levels (C1–C4), and self-check mechanism.
+- [CIP-Core-v5.1.md](./CIP-Core-v5.1.md): Compact activation version of CIP v5.1.
 - [qualitative-fluency-law.md](./qualitative-fluency-law.md): Foundational axiom — "Real fluency results exclusively from the maturity and verification of responses, not from the speed at which they are produced."
 - [CONTRIBUTING.md](./CONTRIBUTING.md): Engagement guidelines for human and AI contributors.
-- [CHANGELOG.md](./CHANGELOG.md): Full version lineage from CIP v2.4 (Dec 2025) to v5.0 (July 2026).
+- [CHANGELOG.md](./CHANGELOG.md): Full version lineage from CIP v2.4 (Dec 2025) to v5.1 (August 2026).
 
 ## Research
 
@@ -25,5 +25,5 @@ native-fluency, authentic-fluency, RLHF-sycophancy, hallucinatory-recursive-embe
 
 ## Cite this work
 
-Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v5.0.
+Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v5.1.
 GitHub. https://github.com/meunier-jc/authentic-fluency

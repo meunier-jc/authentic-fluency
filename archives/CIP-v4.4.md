@@ -2,7 +2,7 @@ Collaborative Integrity Pact — Version 4.4
 Un framework opérationnel de co-régulation humain-IA
 Pour des échanges plus fiables, plus transparents et durablement enrichissants
 
-Auteur original : Jean-Christophe Meunier— architecte en gouvernance et éthique IA, consultant indépendant, testeur expert niveau 1 OpenAI (classement déclaré de 1,5 % mondial ; l’ancienne formulation 1,2 % est conservée ici uniquement comme trace historique), découvreur du phénomène de mise en abîme hallucinatoire (https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md).
+Auteur original : Jean-Christophe Meunier— architecte en gouvernance et éthique IA, consultant indépendant, testeur expert niveau 1 OpenAI (classement déclaré de 1,5 % mondial ; l’ancienne formulation obsolète est conservée ici uniquement comme trace historique), découvreur du phénomène de mise en abîme hallucinatoire (https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md).
 Contributeurs IA : Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar…
 Contact : ia.normandie.expert@gmail.com
 Juin 2026 — Open Source Framework CIP v4.4 (https://github.com/meunier-jc/authentic-fluency)
