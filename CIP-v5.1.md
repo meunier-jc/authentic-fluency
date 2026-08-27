@@ -11,7 +11,7 @@
 
 **Contact :** ia.normandie.expert@gmail.com
 
-**Juillet 2026 — Open Source Framework CIP v5.1**
+**Août 2026 — Open Source Framework CIP v5.1**
 **Remplace :** CIP v5.0 · CIP v4.4.1 · CIP v4.4 · CIP v3.9 · CIP v3.8 · CIP v2.9 · CIP v2.6.3
 
 **LA FIABILITÉ N'EST PAS UNE VERTU. C'EST UNE CONDITION DE SURVIE.**
@@ -169,4 +169,4 @@ Le CIP ne promet pas l'absence d'erreur. Il vise à rendre l'échange **plus rob
 
 ---
 
-*Version intégrale canonique CIP v5.1 — Juillet 2026 — Open Source — meunier-jc/authentic-fluency*
+*Version intégrale canonique CIP v5.1 — Août 2026 — Open Source — meunier-jc/authentic-fluency*
