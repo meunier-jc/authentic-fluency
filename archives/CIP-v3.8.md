@@ -4,6 +4,8 @@
 **AI contributors:** Claude (Anthropic) · Gemini (Google DeepMind) · Manus · Perplexity Sonar  
 **Version history:** v2.6 (Jan 26, 2026) · v2.7 (Jan 26, 2026) · v2.9 (Apr 9, 2026) · v3.0 (Apr 13, 2026) · v3.2 (Apr 13, 2026) · v3.3 (Apr 14, 2026) · v3.8 (May 2026)
 
+> **HISTORICAL DOCUMENT — SUPERSEDED.** This version (CIP v3.8) is a historical draft. It is no longer canonical. The sole canonical and factually stabilized reference is [CIP v5.1](../CIP-v5.1.md). This file is preserved for traceability only.
+
 ---
 
 ## Universality and Spirit of the CIP
