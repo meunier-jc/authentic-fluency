@@ -11,7 +11,7 @@ Les corrections documentaires P0 et P1 ont été publiées dans la branche `main
 
 Les références actives ont été harmonisées sur **CIP v5.1**. Les mentions de v5.0 qui subsistent sont historiques, notamment dans les intitulés d’archives, la lignée des versions et les descriptions des évolutions introduites en v5.0.
 
-Les workflows CI/CD ne contiennent pas de référence active obsolète à v5.0. Les exécutions de contrôle associées aux deux derniers commits ont toutefois échoué sur des erreurs Markdown préexistantes ou indépendantes des corrections P0/P1. Ces échecs doivent être traités séparément avant de considérer la chaîne qualité comme verte.
+Les workflows CI/CD ne contiennent pas de référence active obsolète à v5.0. Les premiers contrôles associés aux commits P0 et P1 ont échoué sur des erreurs de formatage Markdown indépendantes des corrections de version ; ces erreurs ont ensuite été corrigées et les workflows associés aux commits `c0ba7f2` et `de3ca1a` sont au vert.
 
 ## 2. Commits réalisés pour CIP v5.1
 
@@ -57,8 +57,10 @@ Les workflows ne ciblent pas explicitement `CIP-v5.0.md` ni `CIP-Core-v5.0-en.md
 
 | Run | Commit | Conclusion | Observation |
 |---:|---|---|---|
-| `33070299681` | `36c4138` | `failure` | Échec du job Markdown lint et erreurs de formatage dans plusieurs fichiers de recherche et de sécurité. |
+| `33070299681` | `36c4138` | `failure` | Échec initial du job Markdown lint sur plusieurs fichiers de recherche et de sécurité. |
 | `33071164380` | `2e34d89` | `failure` | Même famille d’erreurs Markdown ; aucune indication d’un échec causé par une référence active v5.0. |
+| `33072484266` | `c0ba7f2` | `success` | Lint Markdown vert après correction des titres, listes, citations et espaces finaux. |
+| `33072563287` | `de3ca1a` | `success` | Workflow Documentation quality entièrement vert après publication de l’addendum du rapport. |
 
 Les erreurs observées comprennent notamment des titres ou listes sans ligne blanche, des URL nues et une emphase utilisée comme titre. Elles concernent entre autres `research/hallucinatory-inception.md`, `research/references.md`, `research/regulatory-crosswalk-eu-ai-act-oecd.md` et `SECURITY.md`. Ces erreurs constituent un chantier distinct de priorité P2 ou P1 qualité, mais empêchent la CI de passer au vert.
 
@@ -83,18 +85,18 @@ Les liens vers les anciennes versions et le dépôt historique `Human-AI-Moral-C
 | Index LLM aligné sur v5.1 | Conforme | `llms.txt` mis à jour. |
 | Lignée et crosswalk alignés | Conforme | v5.1 actif ; v5.0 historique. |
 | Métadonnées de citation | Conforme | `CITATION.cff` indique v5.1. |
-| Workflow CI/CD vert | Non conforme | Échecs Markdown lint indépendants des corrections de version. |
+| Workflow CI/CD vert | Conforme | Runs `33072484266` et `33072563287` terminés avec succès. |
 | Validation indépendante du percentile | Non démontrée | Une attestation primaire et une méthode restent requises pour C1. |
 
 ## 7. Actions restantes
 
-La prochaine action technique consiste à corriger les erreurs Markdown signalées par le job `Markdown lint`, puis à relancer le workflow. Il faudra ensuite vérifier le job de liens et le contrôle de fichiers requis.
+La correction technique du lint est terminée. Les contrôles locaux et distants sont verts ; maintenir désormais la vérification du lint et des liens à chaque modification documentaire.
 
 La prochaine action documentaire consiste à maintenir la formulation « classement déclaré de 1,5 % mondial » jusqu’à obtention d’une attestation primaire, de la méthode de calcul, de la population de référence, de la date de mesure et d’une corroboration indépendante.
 
 ## Conclusion
 
-Les commits P0 et P1 ont bien été réalisés et publiés. Le dépôt ne contient plus de taux Markdown obsolète de 1,2 %, et ses références opérationnelles pointent vers v5.1. La seule réserve actuelle est l’échec du lint Markdown, qui relève de la qualité de formatage et non d’une incohérence persistante sur la version ou le percentile.
+Les commits P0 et P1 ont bien été réalisés et publiés. Le dépôt ne contient plus de taux Markdown obsolète de 1,2 %, ses références opérationnelles pointent vers v5.1 et les workflows CI/CD sont désormais verts.
 
 ## Addendum — validation finale du lint
 
@@ -102,17 +104,17 @@ Après la première publication du rapport et des notes de présentation, le wor
 
 Les corrections finales ont porté sur les séparations autour des listes, les titres d’emphase, les niveaux de titres, les blocs de citation et les espaces finaux. Elles ont été publiées dans le commit `c0ba7f2` (`docs: clear markdown lint checks`). La nouvelle version du rapport et des notes est incluse dans l’état final du dépôt.
 
-Le run GitHub déclenché par le commit `c0ba7f2` doit encore être consulté après son achèvement pour distinguer le résultat CI distant du résultat local déjà vert.
+Le run GitHub déclenché par `c0ba7f2` est terminé avec succès (`33072484266`). Le run suivant déclenché par `de3ca1a` est également terminé avec succès (`33072563287`).
 
 ## Commits consolidés
 
-La séquence complète de l’état CIP v5.1 est donc : `36c4138` (P0), `2e34d89` (P1), `db7e042` (rapport et notes publiés), puis `c0ba7f2` (correction finale du lint Markdown).
+La séquence complète de l’état CIP v5.1 est donc : `36c4138` (P0), `2e34d89` (P1), `db7e042` (rapport et notes publiés), `c0ba7f2` (correction finale du lint Markdown), puis `de3ca1a` (addendum final et validation CI consolidée).
 
 La compétence réutilisable `repository-documentary-audit` a également été améliorée avec une procédure de reprise idempotente afin d’éviter de refaire les étapes déjà validées.
 
-## Limite de l’attestation CI
+## État CI final
 
-Le contrôle local est vert, mais le dernier run GitHub associé à `c0ba7f2` n’avait pas encore de résultat disponible au moment de la rédaction de cet addendum. La réussite du workflow distant devra être confirmée séparément.
+Le contrôle local est vert et les deux derniers runs GitHub associés à `c0ba7f2` et `de3ca1a` sont terminés avec succès. La chaîne Documentation quality est donc stable sur l’état courant du dépôt.
 
 ## Références
 
