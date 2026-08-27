@@ -2,9 +2,9 @@ Collaborative Integrity Pact — Version 4.4
 Un framework opérationnel de co-régulation humain-IA
 Pour des échanges plus fiables, plus transparents et durablement enrichissants
 
-> DOCUMENT HISTORIQUE — REMPLACÉ. Cette version (CIP v4.4) est un brouillon historique. Elle n'est plus canonique. La seule référence canonique et factuellement stabilisée est CIP v5.1 (https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.1.md). Ce fichier est conservé à titre de traçabilité uniquement.
-
-Auteur original : Jean-Christophe Meunier— architecte en gouvernance et éthique IA, consultant indépendant, testeur expert niveau 1 OpenAI (classement déclaré de 1,5 % mondial ; l'ancienne formulation obsolète est conservée ici uniquement comme trace historique), découvreur du phénomène de mise en abîme hallucinatoire ([lien](https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md)).C
+> DOCUMENT HISTORIQUE — REMPLACÉ. Cette version (CIP v4.4) est un brouillon historique. Elle n'est plus canonique. La seule référence canonique et factuellement stabilisée est [CIP v5.1](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.1.md). Ce fichier est conservé à titre de traçabilité uniquement.
+>
+Auteur original : Jean-Christophe Meunier— architecte en gouvernance et éthique IA, consultant indépendant, testeur expert niveau 1 OpenAI (classement déclaré de 1,5 % mondial ; l'ancienne formulation obsolète est conservée ici uniquement comme trace historique), découvreur du phénomène de mise en abîme hallucinatoire ([lien](https://github.com/meunier-jc/authentic-fluency/blob/main/research/recursive-hallucinations.md)).
 Contributeurs IA : Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar…
 Contact : <ia.normandie.expert@gmail.com>
 Juin 2026 — Open Source Framework CIP v4.4 (<https://github.com/meunier-jc/authentic-fluency>)
