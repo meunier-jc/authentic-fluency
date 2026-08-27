@@ -1,0 +1,77 @@
+name: Triage issues and pull requests
+
+on:
+  issues:
+    types: [opened, edited]
+  pull_request_target:
+    types: [opened, edited, reopened, synchronize]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  triage:
+    name: Label and welcome
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository configuration
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+
+      - name: Apply labels and welcome contributors
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const yaml = require('js-yaml');
+            const config = yaml.load(fs.readFileSync('.github/triage.yml', 'utf8'));
+
+            const isIssue = context.eventName === 'issues';
+            const item = isIssue ? context.payload.issue : context.payload.pull_request;
+            const issueNumber = item.number;
+            const text = `${item.title}\n${item.body || ''}`.toLowerCase();
+
+            const matched = [];
+            for (const [label, keywords] of Object.entries(config.labels || {})) {
+              if (keywords.some(keyword => text.includes(String(keyword).toLowerCase()))) {
+                matched.push(label);
+              }
+            }
+
+            if (matched.length > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                labels: matched
+              });
+            }
+
+            const author = item.user?.login;
+            if (!author || author === context.repo.owner) return;
+
+            const association = item.author_association;
+            const firstContribution = ['NONE', 'FIRST_TIMER', 'FIRST_TIME_CONTRIBUTOR'].includes(association);
+            if (!firstContribution) return;
+
+            const marker = '<!-- open-source-collaboration-onboarding -->';
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              per_page: 100
+            });
+            if (comments.some(comment => comment.body?.includes(marker))) return;
+
+            const message = isIssue ? config.welcome.issue : config.welcome.pull_request;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `${marker}\n\n${message}`
+            });

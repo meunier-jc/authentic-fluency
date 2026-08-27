@@ -1,0 +1,44 @@
+name: Contribution or research proposal
+description: Propose a correction, challenge, extension, research task or documented use case.
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing. For questions or early ideas, consider using Discussions first.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Which document, section, version or observation does this concern?
+      placeholder: Describe the relevant context and link to the affected material.
+    validations:
+      required: true
+
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Contribution or question
+      description: What are you proposing, challenging, correcting or trying to understand?
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and reasoning
+      description: Share sources, reproducible observations, test results or a clear reasoning chain. Label hypotheses as hypotheses.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safeguards
+    attributes:
+      label: Safeguards
+      options:
+        - label: I have removed personal data, credentials and confidential information.
+          required: true
+        - label: I have checked the Code of Conduct and contribution guidance.
+          required: true

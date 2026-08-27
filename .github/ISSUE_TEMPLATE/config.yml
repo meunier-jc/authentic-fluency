@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question or propose an idea
+    url: https://github.com/meunier-jc/authentic-fluency/discussions
+    about: Use Discussions for questions, early proposals and general project feedback.
+  - name: Read the contribution guide
+    url: https://github.com/meunier-jc/authentic-fluency/blob/main/CONTRIBUTING.md
+    about: Learn how to prepare a traceable Issue or pull request.
+  - name: Join the open collaboration
+    url: https://github.com/meunier-jc/authentic-fluency/issues/7
+    about: Read the public invitation and find ways to contribute.
