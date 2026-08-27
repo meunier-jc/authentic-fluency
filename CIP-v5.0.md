@@ -5,6 +5,13 @@
 
 ---
 
+> **HISTORICAL DOCUMENT — SUPERSEDED.**
+> This version (CIP v5.0) is a historical draft. It is no longer canonical.
+> The sole canonical and factually stabilized reference is **[CIP v5.1](./CIP-v5.1.md)**.
+> This file is preserved for traceability only.
+
+---
+
 **Original author:**  
 Jean-Christophe Meunier  
 AI governance and ethics architect, independent consultant, OpenAI Level 1 expert tester (author-declared top 1.5% worldwide), discoverer of the hallucinatory mise en abyme phenomenon ([hallucinatory-inception.md](./research/hallucinatory-inception.md)).
