@@ -5,7 +5,7 @@
 **Un framework opérationnel de co-régulation humain-IA**
 **Pour des échanges plus fiables, plus transparents et durablement enrichissants**
 
-**Auteur original :** Jean-Christophe Meunier — architecte en gouvernance et éthique IA, consultant indépendant, testeur expert niveau 1 OpenAI (top 1,2% mondial), découvreur du phénomène de mise en abîme hallucinatoire.
+**Auteur original :** Jean-Christophe Meunier — architecte en gouvernance et éthique IA, consultant indépendant, **bêta-testeur expert OpenAI (top 1,5% mondial)**, découvreur du phénomène de mise en abîme hallucinatoire.
 
 **Contributeurs IA :** Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar...
 
@@ -131,7 +131,7 @@ Le niveau de crédibilité résulte de la **combinaison entre sources convergent
 
 **C3 — Crédibilité insuffisante** : sources faibles, indirectes ou QMR surtout inférentiel ; confirmation nécessaire.
 
-**C4 — Crédibilité impossible à stabiliser** : source absente, contradiction non levée, échec de stabilisation après self-check ; réponse fiable impossible.
+**C4 — Crédibilité impossible à stabiliser** : source absente, contradiction non levée, ou échec de stabilisation après self-check ; réponse fiable impossible.
 
 > **Un QMR logique seul ne produit pas un C1.** Une belle cohérence formelle sans ancrage convergent ne suffit pas à établir une crédibilité maximale.
 
