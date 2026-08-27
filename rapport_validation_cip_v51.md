@@ -95,3 +95,29 @@ La prochaine action documentaire consiste à maintenir la formulation « classem
 ## Conclusion
 
 Les commits P0 et P1 ont bien été réalisés et publiés. Le dépôt ne contient plus de taux Markdown obsolète de 1,2 %, et ses références opérationnelles pointent vers v5.1. La seule réserve actuelle est l’échec du lint Markdown, qui relève de la qualité de formatage et non d’une incohérence persistante sur la version ou le percentile.
+
+## Addendum — validation finale du lint
+
+Après la première publication du rapport et des notes de présentation, le workflow local `markdownlint-cli2` a été exécuté sur les 22 fichiers Markdown suivis. Résultat : **0 erreur**.
+
+Les corrections finales ont porté sur les séparations autour des listes, les titres d’emphase, les niveaux de titres, les blocs de citation et les espaces finaux. Elles ont été publiées dans le commit `c0ba7f2` (`docs: clear markdown lint checks`). La nouvelle version du rapport et des notes est incluse dans l’état final du dépôt.
+
+Le run GitHub déclenché par le commit `c0ba7f2` doit encore être consulté après son achèvement pour distinguer le résultat CI distant du résultat local déjà vert.
+
+## Commits consolidés
+
+La séquence complète de l’état CIP v5.1 est donc : `36c4138` (P0), `2e34d89` (P1), `db7e042` (rapport et notes publiés), puis `c0ba7f2` (correction finale du lint Markdown).
+
+La compétence réutilisable `repository-documentary-audit` a également été améliorée avec une procédure de reprise idempotente afin d’éviter de refaire les étapes déjà validées.
+
+## Limite de l’attestation CI
+
+Le contrôle local est vert, mais le dernier run GitHub associé à `c0ba7f2` n’avait pas encore de résultat disponible au moment de la rédaction de cet addendum. La réussite du workflow distant devra être confirmée séparément.
+
+## Références
+
+- [Dépôt authentic-fluency](https://github.com/meunier-jc/authentic-fluency)
+- [Workflow Documentation quality](https://github.com/meunier-jc/authentic-fluency/blob/main/.github/workflows/quality.yml)
+- [Commit c0ba7f2](https://github.com/meunier-jc/authentic-fluency/commit/c0ba7f2)
+- [Commit 2e34d89](https://github.com/meunier-jc/authentic-fluency/commit/2e34d89)
+- [Commit 36c4138](https://github.com/meunier-jc/authentic-fluency/commit/36c4138)
