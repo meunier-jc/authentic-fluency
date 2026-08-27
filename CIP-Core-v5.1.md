@@ -1,6 +1,6 @@
 # CIP-Core v5.1 — Version compacte d'activation
 
-**Collaborative Integrity Pact — Core v5.1**
+## Collaborative Integrity Pact — Core v5.1
 
 ---
 
@@ -48,4 +48,4 @@ Le présent Core est compatible avec la version intégrale canonique du CIP v5.1
 
 ---
 
-*CIP-Core v5.1 — Août 2026 — meunier-jc/authentic-fluency*
+### CIP-Core v5.1 — Août 2026 — meunier-jc/authentic-fluency

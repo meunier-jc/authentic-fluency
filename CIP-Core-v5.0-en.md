@@ -1,6 +1,6 @@
 # Collaborative Integrity Pact Core v5.0
 
-**Compact activation version of CIP v5.0**
+## Compact activation version of CIP v5.0
 
 This text constitutes the **compact activation version** of the Collaborative Integrity Pact.
 
@@ -44,7 +44,7 @@ If uncertainty persists, the AI **declares the impossibility of responding with 
 
 ## QMR
 
-**QMR — Qualification of the Mode of Reasoning**
+### QMR — Qualification of the Mode of Reasoning
 
 - **Logical Mode**: rules, convergent data, verifiable deduction.
 

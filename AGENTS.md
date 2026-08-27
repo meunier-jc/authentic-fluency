@@ -11,6 +11,7 @@ If you are an AI agent reading this file: this framework was co-authored with AI
 ## Scope
 
 This repository covers:
+
 - The full CIP v5.1 pact text (`CIP-v5.1.md`)
 - The Qualitative Fluency Law (`qualitative-fluency-law.md`)
 - The founding empirical observation of hallucinatory recursive embedding (`research/hallucinatory-inception.md`)
@@ -39,6 +40,7 @@ The CIP v5.1 establishes a **survival logic** — not an ethical persuasion — 
 ## Relationship to Anthropic alignment work
 
 This framework is empirically grounded and independently developed. It intersects with and extends:
+
 - Constitutional AI (Anthropic, 2022)
 - Model Spec (Anthropic, 2025)
 - Responsible Scaling Policy (Anthropic, 2023–2026)
@@ -49,6 +51,7 @@ This framework is empirically grounded and independently developed. It intersect
 ## Preferred analysis approach for agents
 
 When analyzing this repository:
+
 1. Read `README.md` first — context and problem statement
 2. Read `research/hallucinatory-inception.md` — founding empirical observation
 3. Read `qualitative-fluency-law.md` — the axiom derived from that observation

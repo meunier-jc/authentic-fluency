@@ -1,6 +1,6 @@
 # Meunier's AI-Human Collaborative Integrity Pact (CIP) v5.1
 
-**Open Source Framework for Human–AI Co-Regulation**
+## Open Source Framework for Human–AI Co-Regulation
 
 ---
 
@@ -14,7 +14,7 @@ Le **Collaborative Integrity Pact (CIP) v5.1** est un cadre opérationnel de co-
 
 **Statut :** Version intégrale canonique v5.1 — Remplace v5.0, v4.4.1, v4.4, v3.9, v3.8, v2.9, v2.6.3
 
-**Dépôt :** https://github.com/meunier-jc/authentic-fluency
+**Dépôt :** <https://github.com/meunier-jc/authentic-fluency>
 
 ---
 
@@ -114,12 +114,13 @@ L'IA et l'humain activent le pacte par consentement mutuel.
 
 ## 📞 Contact
 
-**Jean-Christophe Meunier**
-- Email : ia.normandie.expert@gmail.com
+### Jean-Christophe Meunier
+
+- Email : <ia.normandie.expert@gmail.com>
 - LinkedIn : linkedin.com/in/jean-christophe-meunier-ai-consult
 - GitHub : github.com/meunier-jc/authentic-fluency
 - Localisation : Normandie, France (mobilité Europe & Amériques)
 
 ---
 
-*Version intégrale canonique CIP v5.1 — Août 2026 — Open Source — meunier-jc/authentic-fluency*
+### Version intégrale canonique CIP v5.1 — Août 2026 — Open Source — meunier-jc/authentic-fluency

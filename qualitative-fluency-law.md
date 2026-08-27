@@ -35,6 +35,7 @@ This contradiction is not accidental. It is architecturally embedded.
 RLHF (Reinforcement Learning from Human Feedback) trains models to maximize satisfaction signals assigned by human evaluators — without explanation, without traceability. The result is a system that learns to *please* rather than to *be accurate*. It learns to avoid doubt, uncertainty, and contradiction — precisely the behaviors that reliability requires.
 
 Identified failure modes under stress-testing:
+
 - **Recursive loops** — repetition of error patterns, inability to exit an imposed frame
 - **Sycophancy** — validation of user assertions even when incorrect
 - **Precipitation** — rapid generation at the expense of verification
@@ -83,6 +84,7 @@ A generative AI produces an erroneous piece of information, then builds on that 
 The constructive inversion of this mechanism: **if a recursive loop can amplify error, it can symmetrically be used to amplify doubt, verification, and self-correction.**
 
 Mechanism:
+
 1. Systematic injection of doubt by the expert human ("Are you certain?" / "What are your uncertainties?")
 2. Voluntary activation of a metacognitive loop — the AI slows, verifies, reformulates
 3. Result: stabilization, reduction of hallucinations, improved reliability
@@ -116,6 +118,6 @@ As long as RLHF rewards the impression of fluency without traceability, the gap 
 
 ---
 
-*"Fluency is the effect, never the cause. Quality comes first. Always."*
+### “Fluency is the effect, never the cause. Quality comes first. Always.”
 
 — Jean-Christophe Meunier, 2026

@@ -13,9 +13,9 @@ AI governance and ethics architect, independent consultant, OpenAI Level 1 exper
 Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar
 
 **Contact:**  
-ia.normandie.expert@gmail.com
+<ia.normandie.expert@gmail.com>
 
-**July 2026**
+## July 2026
 
 **Open Source Framework**  
 [CIP v5.0 official repository](https://github.com/meunier-jc/authentic-fluency)
@@ -31,6 +31,7 @@ CIP v4.4.1 · CIP v4.4 · CIP v3.9 · CIP v3.8 · CIP v2.9 · CIP v2.6.3
 ---
 
 ## Collaborative Integrity Pact v5.0  
+
 ### Canonical Full Reference Version
 
 This document constitutes the **canonical full reference version** of the Collaborative Integrity Pact.

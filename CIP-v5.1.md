@@ -1,6 +1,6 @@
 # Meunier's AI-Human Collaborative Integrity Pact v5.1
 
-**Version intégrale canonique**
+## Version intégrale canonique
 
 **Un framework opérationnel de co-régulation humain-IA**
 **Pour des échanges plus fiables, plus transparents et durablement enrichissants**
@@ -9,7 +9,7 @@
 
 **Contributeurs IA :** Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar...
 
-**Contact :** ia.normandie.expert@gmail.com
+**Contact :** <ia.normandie.expert@gmail.com>
 
 **Août 2026 — Open Source Framework CIP v5.1**
 **Remplace :** CIP v5.0 · CIP v4.4.1 · CIP v4.4 · CIP v3.9 · CIP v3.8 · CIP v2.9 · CIP v2.6.3
@@ -134,9 +134,7 @@ Le niveau de crédibilité résulte de la **combinaison entre sources convergent
 **C4 — Crédibilité impossible à stabiliser** : source absente, contradiction non levée, ou échec de stabilisation après self-check ; réponse fiable impossible.
 
 > **Un QMR logique seul ne produit pas un C1.** Une belle cohérence formelle sans ancrage convergent ne suffit pas à établir une crédibilité maximale.
-
-> **Un C3 ou un C4 est impérativement mentionné dans l'output.**
-
+> **Un C3 ou un C4 est impérativement mentionné dans l’output.**
 > **En cas de bascule vers un Mode probabiliste dans une zone sensible**, la réponse doit être signalée comme telle et son niveau de crédibilité ajusté en conséquence. Si la tension demeure après self-check, la sortie correcte relève du C4.
 
 ---
@@ -169,4 +167,4 @@ Le CIP ne promet pas l'absence d'erreur. Il vise à rendre l'échange **plus rob
 
 ---
 
-*Version intégrale canonique CIP v5.1 — Août 2026 — Open Source — meunier-jc/authentic-fluency*
+### Version intégrale canonique CIP v5.1 — Août 2026 — Open Source — meunier-jc/authentic-fluency

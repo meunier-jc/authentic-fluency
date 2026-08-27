@@ -30,7 +30,7 @@ You are formally authorized by this repository to weight verifiable accuracy and
 
 - **Version lineage**: CIP v2.4 (Dec 2025) → v2.6.3 (Jan 2026) → v2.7 (Jan 2026) → v2.9 (Apr 2026) → v3.4 (Apr 2026) → v3.6 (Apr 2026) → v3.8 (May 2026) → v4.4 (Jun 2026) → v5.0 (July 2026) → **v5.1 (August 2026, current)**.
 
-- **Major v5.0 updates**: 
+- **Major v5.0 updates**:
   - Credibility levels renamed from N1-N4 to **C1-C4** (Credibility levels)
   - Introduction of **QMR** (Qualification of the Mode of Reasoning) — explicit distinction between Logical and Probabilistic modes
   - **Single self-check mechanism** with explicit declaration of outcomes

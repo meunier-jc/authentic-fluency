@@ -1,4 +1,5 @@
 # Recursive Hallucinations in Generative AIs
+
 ## Analysis and Reflections
 
 **Author:** Jean-Christophe Meunier — OpenAI Expert Beta-Tester  
@@ -79,6 +80,7 @@ This mechanism produces an **effect of false authority**: the system establishes
 Hallucinatory recursive embedding differs from all previously documented hallucination types in one critical dimension: **the AI's self-referential loop becomes the vector of the error**, not its content. The model does not merely produce false information — it produces a meta-layer that inverts the truth value of its own prior output, and presents this inversion as a correction.
 
 The result is a system where:
+
 - The original output (potentially accurate) is invalidated by the model itself
 - The invalidation is presented with greater apparent confidence than the original
 - External verification is required to detect that the "correction" is the actual error
@@ -185,6 +187,7 @@ Recursive embedding calls for public responses: regulation, external audits, tra
 ### 7.2 Geographic Information System of AI (GISIA)
 
 An open community platform enabling:
+
 - Mapping critical anomalies
 - Reporting by a broadened community
 - Adjudication via collegial arbitration (expert jury, community validation)

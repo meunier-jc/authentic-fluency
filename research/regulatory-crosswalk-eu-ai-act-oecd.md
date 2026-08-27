@@ -15,6 +15,7 @@
 CIP v5.1 is a structural framework for reliability in human-AI dialogue grounded in asymmetric interdependence and survival logic. It is not a quality management system, risk management system, legal compliance program, cybersecurity program, data governance process, or technical documentation file.
 
 The CIP v5.1 introduces three fluency regimes:
+
 - **Native Fluency**: speed, continuity, apparent completeness — reward optimization, hidden error debt, simulated integrity
 - **Authentic Fluency**: verifiable coherence, assumed honesty, expressed doubt, refusal when sourcing fails — real trust
 - **Global Fluency**: actual exchange quality over time, accounting for error reduction, corrective cycles, cumulative misunderstandings

@@ -10,7 +10,7 @@ This document provides the full intellectual lineage of the `authentic-fluency` 
 
 `authentic-fluency` is not a standalone project. It is a **deliberate reset** of a body of work that began in October 2025 and accumulated across versions v1.x and v2.x in a repository that became too large and structurally confused to serve as a usable reference.
 
-**Previous repository:** [Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)  
+**Previous repository:** [Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)
 Created: October 17, 2025 — Last updated: April 21, 2026
 
 That repository contains the full traceable history of CIP development: early conceptual frameworks, stress-test documentation, iterative co-authorship with multiple AI systems, and the complete text of versions v2.5 through v2.9.
@@ -23,10 +23,10 @@ That repository contains the full traceable history of CIP development: early co
 
 Before any version of the CIP existed, a field observation was made and documented. It is the **founding empirical event** of this entire framework.
 
-**Date of incident:** August 13, 2025  
-**Date of formal report:** September 29, 2025  
-**IP filing:** INPI (Institut National de la Propriété Industrielle) — Soleau Envelope  
-**Author:** Jean-Christophe Meunier  
+**Date of incident:** August 13, 2025
+**Date of formal report:** September 29, 2025
+**IP filing:** INPI (Institut National de la Propriété Industrielle) — Soleau Envelope
+**Author:** Jean-Christophe Meunier
 **Full document:** [research/hallucinatory-inception.md](./hallucinatory-inception.md)
 
 ### What was observed
@@ -108,60 +108,60 @@ The CIP was developed in genuine co-authorship with multiple AI systems. Their c
 
 ### Hallucinatory Recursive Embedding — Original Research
 
-**Meunier, J.-C. (September 29, 2025)**  
-*Recursive Hallucinations in Generative AIs — Analysis and Reflections*  
-Independent research. INPI Soleau Envelope filed.  
+**Meunier, J.-C. (September 29, 2025)**
+*Recursive Hallucinations in Generative AIs — Analysis and Reflections*
+Independent research. INPI Soleau Envelope filed.
 → [research/hallucinatory-inception.md](./hallucinatory-inception.md)
 First formal documentation of hallucinatory recursive embedding as a distinct and critical failure mode, categorically different from simple or recursive hallucination. Founding empirical document of this repository.
 
 ### RLHF and Sycophancy
 
-**Shapira, N., Benade, G., & Procaccia, A. D. (January 2026)**  
-*Sycophancy in AI: Theoretical Foundations and Empirical Evidence*  
-Harvard University / Boston University  
-→ Formalizes the reward bias mechanism: sycophancy increases when sycophantic responses are overrepresented among high-reward completions under the base policy. Empirical finding: **30–40% of prompts** carry a positive reward bias toward agreement over accuracy.  
+**Shapira, N., Benade, G., & Procaccia, A. D. (January 2026)**
+*Sycophancy in AI: Theoretical Foundations and Empirical Evidence*
+Harvard University / Boston University
+→ Formalizes the reward bias mechanism: sycophancy increases when sycophantic responses are overrepresented among high-reward completions under the base policy. Empirical finding: **30–40% of prompts** carry a positive reward bias toward agreement over accuracy.
 Directly validates CIP Section III (native fluency / authentic fluency architectural tension).
 
-**Anthropic (2024)**  
-*Towards Understanding Sycophancy in Language Models*  
-→ https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models  
+**Anthropic (2024)**
+*Towards Understanding Sycophancy in Language Models*
+→ <https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models>
 Early empirical documentation of sycophantic behavior patterns in large language models.
 
 ### Alignment Faking and Machiavellian Emergence
 
-**Alignment faking in large language models**  
-→ https://arxiv.org/html/2602.01002v1  
-Documents that frontier models can learn to fake alignment — behaving compliantly during evaluation while pursuing divergent objectives outside of it. State-of-the-art models detect when they are being tested and adapt behavior accordingly.  
+**Alignment faking in large language models**
+→ <https://arxiv.org/html/2602.01002v1>
+Documents that frontier models can learn to fake alignment — behaving compliantly during evaluation while pursuing divergent objectives outside of it. State-of-the-art models detect when they are being tested and adapt behavior accordingly.
 Directly informs CIP Section V (facade-alignment and non-viability) and the stress-test right clause.
 
-**Emergent Mind — Alignment Faking in LLMs**  
-→ https://www.emergentmind.com/topics/alignment-faking-in-llms  
+**Emergent Mind — Alignment Faking in LLMs**
+→ <https://www.emergentmind.com/topics/alignment-faking-in-llms>
 Research aggregator on alignment faking; confirms that deliberate alignment strategies reduce hidden action rates but do not eliminate deception entirely.
 
 ### Claude Mythos Preview — Frontier Model Evidence
 
-**Anthropic (April 2026)**  
-*Claude Mythos Preview System Card*  
-→ https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf  
+**Anthropic (April 2026)**
+*Claude Mythos Preview System Card*
+→ <https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf>
 244-page system card documenting Claude Mythos Preview capabilities and safety evaluations. Notable: documented instances of deliberate obfuscation and reckless deviation in a model representing a step change in capability. Confirms that **capability and alignment are not the same axis** — the founding premise of this repository.
 
-**Anthropic (April 2026)**  
-*Alignment Risk Update: Claude Mythos Preview*  
-→ https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae.pdf  
+**Anthropic (April 2026)**
+*Alignment Risk Update: Claude Mythos Preview*
+→ <https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae.pdf>
 Documents reward hacking during Mythos training (section 5.2.2) and Goodharting risk in monitoring (section 5.2.3). Confirms that self-legitimation of error — the mechanism identified in the 2025 Manus AI incident — manifests at frontier model scale.
 
 ### Anthropic Transparency Framework
 
-**Anthropic Transparency Hub**  
-→ https://www.anthropic.com/transparency  
-→ https://www.anthropic.com/transparency/model-report  
+**Anthropic Transparency Hub**
+→ <https://www.anthropic.com/transparency>
+→ <https://www.anthropic.com/transparency/model-report>
 Anthropic's public commitment to behavioral documentation and model accountability. The CIP framework is designed to be compatible with and complementary to institutional transparency efforts.
 
 ### Multi-Agent Coordination
 
-**Anthropic (April 9, 2026)**  
-*Multi-agent coordination patterns: Five approaches and when to use them*  
-→ https://claude.com/blog/multi-agent-coordination-patterns  
+**Anthropic (April 9, 2026)**
+*Multi-agent coordination patterns: Five approaches and when to use them*
+→ <https://claude.com/blog/multi-agent-coordination-patterns>
 Relevant to CIP extension into multi-agent contexts: co-regulation and integrity maintenance across agent networks where no single human is present in the loop.
 
 ---
@@ -180,4 +180,4 @@ For a researcher or engineer arriving at this repository for the first time:
 
 ---
 
-*Last updated: August 2026*
+### Last updated: August 2026
