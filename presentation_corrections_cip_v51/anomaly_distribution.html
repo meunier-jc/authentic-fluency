@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Répartition des anomalies</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #E0E0E0;
+            color: #1E1E1E;
+            font-family: Arial, sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 50px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .kicker {
+            font: 700 16px 'Roboto Mono', monospace;
+            color: #4CAF50;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .title {
+            font: 700 36px 'Roboto Mono', monospace;
+            margin-top: 10px;
+            border-bottom: 1px solid #757575;
+            padding-bottom: 15px;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 40px;
+            padding-top: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .stats-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .stat-card {
+            border: 1px solid #757575;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.3);
+        }
+        .stat-value {
+            font: 700 48px 'Roboto Mono', monospace;
+            color: #1E1E1E;
+        }
+        .stat-label {
+            font: 700 14px 'Roboto Mono', monospace;
+            color: #757575;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+        .stat-text {
+            font-size: 16px;
+            line-height: 1.4;
+            margin-top: 10px;
+            color: #444;
+        }
+        .chart-panel {
+            border: 1px solid #757575;
+            background: #FFF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 480px;
+        }
+        .chart-image {
+            width: 700px;
+            height: 400px;
+            object-fit: contain;
+        }
+        .footer {
+            position: absolute;
+            bottom: 40px;
+            left: 80px;
+            font: 14px 'Roboto Mono', monospace;
+            color: #757575;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="kicker">04 / Analyse quantitative</div>
+            <h1 class="title">Les anomalies se concentrent dans la documentation</h1>
+        </div>
+        
+        <div class="content-grid">
+            <div class="stats-panel">
+                <div class="stat-card">
+                    <div class="stat-value">19</div>
+                    <div class="stat-label">Constats d'audit totaux</div>
+                    <p class="stat-text">Répartition : 5 P0 (critiques), 7 P1 (harmonisation) et 7 P2 (qualification).</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Observation clé</div>
+                    <p class="stat-text">Les fichiers de pilotage (README, llms.txt) et de recherche concentrent les incohérences de version et les affirmations à qualifier.</p>
+                </div>
+            </div>
+            
+            <div class="chart-panel">
+                <img src="/home/ubuntu/authentic-fluency-audit/anomalies_par_fichier_priorite.png" class="chart-image" alt="Graphique de répartition des anomalies">
+            </div>
+        </div>
+        
+        <div class="footer">
+            Source : Audit documentaire du dépôt authentic-fluency, branche main, 27 août 2026.
+        </div>
+    </div>
+</body>
+</html>

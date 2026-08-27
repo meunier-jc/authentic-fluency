@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    .slide-container { width: 1280px; min-height: 720px; background: #f5f7fb; color: #12233f; font-family: Arial, sans-serif; padding: 50px 72px; position: relative; overflow: hidden; }
+    .kicker { font-size: 16px; color: #1c8caa; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    .title { font-size: 44px; font-weight: 800; margin-top: 14px; }
+    .sub { font-size: 21px; color: #5d6d83; margin-top: 12px; }
+    .steps { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; margin-top: 50px; }
+    .step { background: #ffffff; border-top: 6px solid #1c8caa; padding: 24px; min-height: 280px; }
+    .step.final { border-color: #12233f; }
+    .step-num { font-size: 14px; font-weight: 700; color: #1c8caa; text-transform: uppercase; letter-spacing: 1px; }
+    .step-h { font-size: 24px; font-weight: 800; margin-top: 12px; }
+    .step-txt { font-size: 17px; line-height: 1.5; color: #4d6078; margin-top: 14px; }
+    .success-criteria { margin-top: 50px; padding-top: 20px; border-top: 1px solid #b9c6d4; }
+    .success-h { font-size: 20px; font-weight: 700; color: #12233f; }
+    .success-list { display: flex; gap: 40px; margin-top: 12px; font-size: 17px; color: #5d6d83; }
+    .success-item { display: flex; align-items: center; gap: 8px; }
+    .success-item i { color: #1c8caa; }
+</style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="slide-container">
+    <div class="kicker">05 · Stratégie</div>
+    <div class="title">Déploiement progressif et succès</div>
+    <div class="sub">Passer d'une analyse informative à un contrôle qualité bloquant et automatisé.</div>
+    
+    <div class="steps">
+        <div class="step">
+            <div class="step-num">Phase 1 : Informatif</div>
+            <div class="step-h">Observation</div>
+            <div class="step-txt">Exécution en mode "continue-on-error". Collecte des rapports sans bloquer les merges. Sensibilisation des contributeurs.</div>
+        </div>
+        <div class="step">
+            <div class="step-num">Phase 2 : Ajustement</div>
+            <div class="step-h">Calibration</div>
+            <div class="step-txt">Mesure et réduction des faux positifs. Affinement des regex déterministes et du prompt de l'agent d'audit.</div>
+        </div>
+        <div class="step final">
+            <div class="step-num">Phase 3 : Obligatoire</div>
+            <div class="step-h">Gouvernance</div>
+            <div class="step-txt">Blocage strict sur les anomalies P0/P1. Revue humaine obligatoire pour les P2. Intégration complète au workflow.</div>
+        </div>
+    </div>
+
+    <div class="success-criteria">
+        <div class="success-h">Critères de succès :</div>
+        <div class="success-list">
+            <div class="success-item"><i class="fas fa-check-circle"></i> Zéro contradiction P0 publiée</div>
+            <div class="success-item"><i class="fas fa-check-circle"></i> Taux de faux positifs < 5%</div>
+            <div class="success-item"><i class="fas fa-check-circle"></i> Traçabilité C1-C4 systématique</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

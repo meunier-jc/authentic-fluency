@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Décision recommandée</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #1E1E1E; }
+.slide-container {
+    width: 1280px;
+    min-height: 720px;
+    background: #1E1E1E;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+.slide-container:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0, rgba(255,255,255,.025) 1px, transparent 1px, transparent 12px);
+    pointer-events: none;
+}
+.header {
+    padding-top: 60px;
+    padding-left: 80px;
+}
+.kicker {
+    font: 700 18px 'Roboto Mono', monospace;
+    color: #4CAF50;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.title {
+    font: 700 48px 'Roboto Mono', monospace;
+    margin-top: 15px;
+    color: #E0E0E0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.decision-box {
+    border: 1px solid #757575;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    min-height: 180px;
+}
+.decision-box h4 {
+    font: 700 20px 'Roboto Mono', monospace;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+.decision-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #BDBDBD;
+}
+.footer-note {
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    right: 80px;
+    border-top: 1px solid #757575;
+    padding-top: 20px;
+    font: 16px 'Roboto Mono', monospace;
+    color: #757575;
+}
+</style>
+</head>
+<body>
+<div class="slide-container">
+    <div class="header">
+        <div class="kicker">Conclusion & Actions</div>
+        <h1 class="title">Décision recommandée</h1>
+    </div>
+    
+    <div class="grid">
+        <div class="decision-box">
+            <h4>VALEUR DE RÉFÉRENCE</h4>
+            <p>Conserver 1,5 % comme valeur déclarée unique dans toute la documentation active. La valeur 1,2 % est définitivement classée comme historique.</p>
+        </div>
+        <div class="decision-box">
+            <h4>VERSION CANONIQUE</h4>
+            <p>Établir la v5.1 comme unique référence opérationnelle. Mettre à jour les index (llms.txt) et les instructions agents (CLAUDE.md).</p>
+        </div>
+        <div class="decision-box">
+            <h4>GESTION DES ARCHIVES</h4>
+            <p>Maintenir les versions antérieures (v5.0, v4.4) en tant qu'archives datées, avec des annotations claires sur les évolutions de percentiles.</p>
+        </div>
+        <div class="decision-box">
+            <h4>NIVEAU DE PREUVE</h4>
+            <p>Ne pas présenter le classement comme une certification indépendante tant qu'une attestation primaire n'est pas jointe au dossier.</p>
+        </div>
+    </div>
+
+    <div class="footer-note">
+        AUDIT DOCUMENTAIRE CIP V5.1 — 27 AOÛT 2026 — meunier-jc/authentic-fluency
+    </div>
+</div>
+</body>
+</html>

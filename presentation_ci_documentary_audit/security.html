@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #f5f7fb;
+            color: #12233f;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 50px 72px; /* keep top padding to preserve title spacing */
+            position: relative;
+        }
+        .kicker {
+            font-size: 16px;
+            color: #1c8caa;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .title {
+            font-size: 44px;
+            font-weight: 800;
+            margin-top: 14px;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 36px; /* reduced horizontal gap */
+            margin-top: 20px; /* reduced from 40 to save vertical space */
+        }
+        .sec-box {
+            border-top: 5px solid #1c8caa;
+            padding-top: 8px; /* reduced from 18 */
+        }
+        .sec-box h3 {
+            font-size: 26px;
+            font-weight: 800;
+            margin-bottom: 8px; /* reduced from 15 */
+        }
+        .sec-box p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #4d6078;
+            margin-bottom: 6px; /* reduced from 12 */
+        }
+        .sec-box ul {
+            list-style: none;
+            font-size: 18px;
+            line-height: 1.5; /* tightened from 1.8 to reduce height */
+        }
+        .sec-box ul li::before {
+            content: "•";
+            color: #1c8caa;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+        }
+        .visual-container {
+            margin-top: 16px; /* reduced from 30 */
+            text-align: center;
+        }
+        .visual-container img {
+            width: 500px;
+            height: 200px; /* reduced from 250 */
+            object-fit: contain;
+            border: 1px solid #b9c6d4;
+        }
+        .footer-note {
+            margin-top: 16px; /* reduced from 40 */
+            padding-top: 15px;
+            border-top: 1px solid #b9c6d4;
+            font-size: 20px;
+            font-weight: 700;
+            color: #12233f;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="kicker">04 · Gouvernance</div>
+        <div class="title">Sécurité et contrôle du pipeline</div>
+        
+        <div class="content-grid">
+            <div class="sec-box">
+                <h3>Principes de sécurité</h3>
+                <p>L'automatisation respecte le principe du moindre privilège pour protéger le dépôt.</p>
+                <ul>
+                    <li>Permissions GITHUB_TOKEN : <code>contents: read</code></li>
+                    <li>Aucun secret transmis aux Pull Requests externes</li>
+                    <li>Isolation totale de l'agent d'analyse</li>
+                </ul>
+            </div>
+            <div class="sec-box">
+                <h3>Gouvernance humaine</h3>
+                <p>L'IA assiste mais ne décide pas du merge final.</p>
+                <ul>
+                    <li>Blocage automatique uniquement sur P0/P1</li>
+                    <li>Rapport d'audit joint comme artefact de build</li>
+                    <li>Validation manuelle avant toute publication</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="visual-container">
+            <img src="/home/ubuntu/authentic-fluency-audit/anomalies_par_fichier_priorite.png" alt="Répartition des anomalies">
+            <p style="font-size: 14px; color: #6c7b91; margin-top: 8px;">Visualisation des risques pour guider la revue humaine</p>
+        </div>
+
+        <div class="footer-note">
+            L'audit documentaire est un outil d'aide à la décision, pas un automate de modification.
+        </div>
+    </div>
+</body>
+</html>

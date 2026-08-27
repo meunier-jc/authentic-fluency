@@ -13,6 +13,11 @@ This repository formalizes the Collaborative Integrity Pact (CIP) v5.1 — a gov
 - [qualitative-fluency-law.md](./qualitative-fluency-law.md): Foundational axiom — "Real fluency results exclusively from the maturity and verification of responses, not from the speed at which they are produced."
 - [CONTRIBUTING.md](./CONTRIBUTING.md): Engagement guidelines for human and AI contributors.
 - [CHANGELOG.md](./CHANGELOG.md): Full version lineage from CIP v2.4 (Dec 2025) to v5.1 (August 2026).
+- [docs/en/README.md](./docs/en/README.md): English technical documentation index.
+- [docs/en/ci/documentary-audit.md](./docs/en/ci/documentary-audit.md): English CI/CD integration guide.
+- [docs/fr/README.md](./docs/fr/README.md): French source and audit-record index.
+- [docs/STRUCTURE.md](./docs/STRUCTURE.md): Bilingual documentation structure and translation policy.
+- [.github/scripts/run-documentary-audit-adapter.sh](./.github/scripts/run-documentary-audit-adapter.sh): Read-only documentary audit adapter.
 
 ## Research
 

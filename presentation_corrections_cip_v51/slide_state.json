@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "title": "Corrections prioritaires du dépôt authentic-fluency",
+    "created": 1787832424.127,
+    "last_updated": 1787832670.278,
+    "total_slides": 8
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "v5_legacy",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "percentile",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "p0_published",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "anomaly_distribution",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "canonical_chain",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "final_control",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "decision",
+      "state": "edited",
+      "pageNum": 8
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "Corrections prioritaires du dépôt authentic-fluency",
+      "summary": "CIP v5.1 — audit documentaire et harmonisation. Présentation datée du 27 août 2026."
+    },
+    {
+      "id": "v5_legacy",
+      "title": "Un dépôt cohérent sur v5.1, mais encore des héritages v5.0",
+      "summary": "Inventaire du dépôt, références actuelles et objectif d’une source canonique unique."
+    },
+    {
+      "id": "percentile",
+      "title": "La contradiction 1,2 % est circonscrite",
+      "summary": "Deux occurrences historiques identifiées, valeur actuelle 1,5 %, et distinction avec les faux positifs."
+    },
+    {
+      "id": "p0_published",
+      "title": "Les corrections P0 sont maintenant publiées",
+      "summary": "Résumé des quatre fichiers corrigés et du commit public 36c4138."
+    },
+    {
+      "id": "anomaly_distribution",
+      "title": "Les anomalies se concentrent dans la documentation de référence",
+      "summary": "Répartition de 19 constats d’audit : 5 P0, 7 P1 et 7 P2, par fichier et priorité.",
+      "image_plan": "/home/ubuntu/authentic-fluency-audit/anomalies_par_fichier_priorite.png - Slide 4 references 19 audit findings (5 P0, 7 P1, 7 P2) and distribution by file, which directly matches the bar chart in Image #1 showing anomaly distribution per file and priority."
+    },
+    {
+      "id": "canonical_chain",
+      "title": "Les prochaines corrections portent sur la chaîne canonique",
+      "summary": "Actions P1 et P2 : alignement des index, crosswalk, qualifications et liens historiques."
+    },
+    {
+      "id": "final_control",
+      "title": "Contrôle final : prouver la cohérence, pas seulement corriger le texte",
+      "summary": "Contrôles de recherche, liens, workflow qualité et traçabilité C1–C4."
+    },
+    {
+      "id": "decision",
+      "title": "Décision recommandée",
+      "summary": "Conserver 1,5 % comme valeur déclarée et v5.1 comme unique référence active."
+    }
+  ]
+}

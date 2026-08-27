@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Chaîne Canonique - Corrections</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #1E1E1E;
+            color: #E0E0E0;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        .slide-container:before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 10px);
+            pointer-events: none;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .kicker {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 18px;
+            color: #4CAF50;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .title {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 42px;
+            margin-top: 15px;
+            border-bottom: 1px solid #757575;
+            padding-bottom: 20px;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding-top: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .action-card {
+            border: 1px solid #757575;
+            padding-top: 25px;
+            padding-left: 25px;
+            padding-right: 25px;
+            min-height: 200px;
+        }
+        .priority-tag {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 14px;
+            padding: 4px 8px;
+            border: 1px solid #4CAF50;
+            color: #4CAF50;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .action-title {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 22px;
+            margin-bottom: 12px;
+        }
+        .action-list {
+            font-size: 17px;
+            line-height: 1.5;
+            color: #BDBDBD;
+        }
+        .footer-note {
+            position: absolute;
+            bottom: 40px;
+            left: 80px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 14px;
+            color: #757575;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="kicker">Phase 05 / Actions Futures</div>
+            <h1 class="title">Les prochaines corrections portent sur la chaîne canonique</h1>
+        </div>
+        
+        <div class="content-grid">
+            <div class="action-card">
+                <div class="priority-tag">P1 - Harmonisation</div>
+                <h2 class="action-title">Alignement des Index</h2>
+                <p class="action-list">Mise à jour de AGENTS.md, CLAUDE.md et llms.txt vers la version v5.1. Harmonisation des chemins de recherche dans research/references.md.</p>
+            </div>
+            
+            <div class="action-card">
+                <div class="priority-tag">P1 - Gouvernance</div>
+                <h2 class="action-title">Crosswalk Réglementaire</h2>
+                <p class="action-list">Actualisation du document de correspondance (EU AI Act / OCDE) pour refléter les évolutions de la v5.1 ou marquage explicite comme archive v5.0.</p>
+            </div>
+            
+            <div class="action-card">
+                <div class="priority-tag">P2 - Qualification</div>
+                <h2 class="action-title">Rigueur Sémantique</h2>
+                <p class="action-list">Qualification des termes "unique case" et "first formal documentation". Précision des risques systémiques et des protocoles de métriques.</p>
+            </div>
+            
+            <div class="action-card">
+                <div class="priority-tag">P2 - Intégrité</div>
+                <h2 class="action-title">Liens Historiques</h2>
+                <p class="action-list">Vérification et sécurisation des redirections vers l'ancien dépôt Human-AI-Moral-Contract pour garantir la traçabilité de la lignée.</p>
+            </div>
+        </div>
+        
+        <div class="footer-note">
+            Objectif : Éliminer toute ambiguïté de version pour les agents et les lecteurs humains.
+        </div>
+    </div>
+</body>
+</html>

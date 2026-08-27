@@ -1,0 +1,18 @@
+flowchart LR
+    A[Push ou Pull Request] --> B[Checkout en lecture seule]
+    B --> C[Diff + liste des Markdown]
+    C --> D[Contrôles déterministes]
+    D --> D1[Markdown lint]
+    D --> D2[Liens et fichiers requis]
+    D --> D3[Références v5.0 / taux obsolète]
+    D --> E{P0/P1 détectée ?}
+    E -- Oui --> F[Échec du job + artefact JSON]
+    E -- Non --> G[Analyse assistée facultative]
+    G --> H[Adaptateur read-only]
+    H --> I[Agent repository-documentary-audit]
+    I --> J[Rapport structuré P0-P2]
+    J --> K[Artefacts CI : JSON + Markdown]
+    K --> L[Revue humaine]
+    L --> M[Merge manuel après validation]
+    B -. aucun secret / aucun push .-> F
+    B -. aucun secret / aucun push .-> G

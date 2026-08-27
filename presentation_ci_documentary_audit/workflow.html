@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container { width: 1280px; min-height: 720px; background: #f5f7fb; color: #12233f; font-family: Arial, Helvetica, sans-serif; padding: 50px 72px; position: relative; }
+        .kicker { font-size: 16px; color: #1c8caa; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+        .title { font-size: 44px; font-weight: 800; margin-top: 14px; }
+        .sub { font-size: 20px; color: #5d6d83; margin-top: 12px; }
+        .main-content { display: flex; flex-direction: column; gap: 10px; margin-top: 40px; }
+        .steps-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+        .step-box { background: #ffffff; border-top: 4px solid #1c8caa; padding: 20px; min-height: 140px; }
+        .step-num { font-size: 14px; color: #1c8caa; font-weight: 700; margin-bottom: 10px; }
+        .step-h { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+        .step-txt { font-size: 16px; line-height: 1.4; color: #50627a; }
+        .viz-container { width: 100%; height: 280px; background: #fff; border: 1px solid #d1d9e6; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+        .viz-container img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="kicker">03 · Workflow</div>
+        <div class="title">Flux d’un pull request</div>
+        <div class="sub">De la soumission du code à la validation humaine : un pipeline de confiance.</div>
+        
+        <div class="main-content">
+            <div class="steps-grid">
+                <div class="step-box">
+                    <div class="step-num">01 · PRÉPARATION</div>
+                    <div class="step-h">Checkout & Diff</div>
+                    <div class="step-txt">Extraction du diff documentaire et de la liste des fichiers Markdown modifiés.</div>
+                </div>
+                <div class="step-box">
+                    <div class="step-num">02 · QUALITÉ</div>
+                    <div class="step-h">Lint & Liens</div>
+                    <div class="step-txt">Validation du formatage (lint) et vérification de l'intégrité des liens internes.</div>
+                </div>
+                <div class="step-box">
+                    <div class="step-num">03 · ANALYSE</div>
+                    <div class="step-h">Audit P0-P2</div>
+                    <div class="step-txt">Détection des versions obsolètes et qualification des affirmations par l'agent.</div>
+                </div>
+                <div class="step-box">
+                    <div class="step-num">04 · RESTITUTION</div>
+                    <div class="step-h">Artefacts CI</div>
+                    <div class="step-txt">Génération des rapports JSON/Markdown pour la revue humaine finale.</div>
+                </div>
+            </div>
+
+            <div class="viz-container">
+                <img src="/home/ubuntu/authentic-fluency-audit/ci_documentary_audit_architecture.png" alt="Architecture du pipeline d'audit documentaire">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

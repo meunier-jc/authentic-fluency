@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contrôle final et traçabilité</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #1E1E1E;
+            color: #E0E0E0;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        .slide-container:before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 12px);
+            pointer-events: none;
+        }
+        .header {
+            padding-top: 60px; /* must not change: upper padding of title */
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .kicker {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 18px;
+            color: #4CAF50;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .title {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 42px;
+            margin-top: 15px;
+            line-height: 1.2;
+        }
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding-top: 30px; /* reduced from 50 -> saves vertical space */
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .section-box {
+            border: 1px solid #757575;
+            padding-top: 12px; /* reduced from 30 */
+            padding-left: 20px;
+            padding-right: 20px;
+            min-height: 400px;
+        }
+        .section-title {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 20px;
+            color: #4CAF50;
+            margin-bottom: 16px;
+            border-bottom: 1px solid #757575;
+            padding-top: 5px;
+            display: inline-block;
+        }
+        .list-item {
+            margin-top: 16px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .bullet {
+            font-family: 'Roboto Mono', monospace;
+            color: #4CAF50;
+            margin-right: 12px;
+            font-weight: 700;
+        }
+        .item-text {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #BDBDBD;
+        }
+        .level-grid {
+            display: grid;
+            grid-template-columns: 60px 1fr;
+            gap: 12px; /* reduced gap */
+            margin-top: 12px;
+            align-items: start;
+        }
+        .level-id {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 22px;
+            color: #4CAF50;
+            border: 1px solid #4CAF50;
+            text-align: center;
+            padding-top: 3px; /* reduced */
+            height: 34px; /* reduced */
+            line-height: 1.1;
+        }
+        .level-desc {
+            font-size: 16px;
+            line-height: 1.4;
+            color: #E0E0E0;
+            padding-top: 3px;
+        }
+        .footer-note {
+            position: absolute;
+            bottom: 40px;
+            left: 80px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 14px;
+            color: #757575;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <div class="kicker">06 / Assurance Qualité</div>
+            <h1 class="title">Contrôle final : prouver la cohérence,<br>pas seulement corriger le texte</h1>
+        </div>
+
+        <div class="main-grid">
+            <div class="section-box">
+                <div class="section-title">PROTOCOLE DE VÉRIFICATION</div>
+                <div class="list-item">
+                    <span class="bullet">&gt;</span>
+                    <span class="item-text">Recherche exhaustive des chaînes 1.2%, 1,2%, CIP-v5.0 et CIP-Core-v5.0 dans tout le dépôt.</span>
+                </div>
+                <div class="list-item">
+                    <span class="bullet">&gt;</span>
+                    <span class="item-text">Validation de l'intégrité des liens internes et des chemins de fichiers vers la version v5.1.</span>
+                </div>
+                <div class="list-item">
+                    <span class="bullet">&gt;</span>
+                    <span class="item-text">Exécution du workflow qualité automatisé pour détecter les régressions documentaires.</span>
+                </div>
+                <!-- Removed one less-critical list item to save vertical space -->
+            </div>
+
+            <div class="section-box">
+                <div class="section-title">TRAÇABILITÉ DES PREUVES (C1–C4)</div>
+                <div class="level-grid">
+                    <div class="level-id">C1</div>
+                    <div class="level-desc"><strong>Crédibilité forte :</strong> Sources convergentes et logique traçable. Information vérifiée.</div>
+                </div>
+                <div class="level-grid">
+                    <div class="level-id">C2</div>
+                    <div class="level-desc"><strong>C2 :</strong> Crédibilité présumée.</div>
+                </div>
+                <div class="level-grid">
+                    <div class="level-id" style="color:#757575; border-color:#757575;">C3</div>
+                    <div class="level-desc"><strong>C3 :</strong> Crédibilité insuffisante — confirmation requise.</div>
+                </div>
+                <div class="level-grid">
+                    <div class="level-id" style="color:#b42318; border-color:#b42318;">C4</div>
+                    <div class="level-desc"><strong>Impossible à stabiliser :</strong> Source absente ou contradiction non levée. Réponse fiable impossible.</div>
+                </div>
+                <div style="margin-top: 12px; padding-top: 8px; border-top: 1px solid #757575;">
+                    <p class="item-text" style="font-size: 16px;">Chaque affirmation doit désormais déclarer son niveau de preuve pour garantir la transparence totale du framework.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            AUDIT DOCUMENTAIRE / DÉPÔT AUTHENTIC-FLUENCY / 27 AOÛT 2026
+        </div>
+    </div>
+</body>
+</html>

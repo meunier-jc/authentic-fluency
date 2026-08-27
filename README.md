@@ -1,103 +1,60 @@
-# Meunier's AI-Human Collaborative Integrity Pact (CIP) v5.1
+# Meunier’s AI–Human Collaborative Integrity Pact (CIP) v5.1
 
-## Open Source Framework for Human–AI Co-Regulation
+## Open-source framework for human–AI co-regulation
 
----
+The **Collaborative Integrity Pact (CIP) v5.1** is an operational framework for more reliable, transparent and accountable human–AI collaboration. It gives priority to verifiable accuracy, explicit uncertainty and active human counter-review.
 
-## 📋 Vue d'ensemble
+**Author:** Jean-Christophe Meunier, independent AI governance and ethics consultant. The repository records an author-declared OpenAI beta-testing profile and a declared 1.5% global ranking; these claims are not presented as independent certification.
 
-Le **Collaborative Integrity Pact (CIP) v5.1** est un cadre opérationnel de co-régulation humain–IA, conçu pour rendre les échanges plus fiables, plus transparents et durablement enrichissants.
+**Publication:** August 2026
 
-**Auteur :** Jean-Christophe Meunier — Architecte en gouvernance et éthique IA, consultant indépendant, bêta-testeur expert OpenAI (classement déclaré de 1,5 % mondial), auteur d’une analyse et d’une classification proposée du phénomène de mise en abyme hallucinatoire.
+**Canonical version:** CIP v5.1
 
-**Date de publication :** Août 2026
+**Repository:** <https://github.com/meunier-jc/authentic-fluency>
 
-**Statut :** Version intégrale canonique v5.1 — Remplace v5.0, v4.4.1, v4.4, v3.9, v3.8, v2.9, v2.6.3
+## Core principles
 
-**Dépôt :** <https://github.com/meunier-jc/authentic-fluency>
+1. **Reliability first:** verifiable accuracy takes priority over conversational completion.
+2. **Uncertainty transparency:** the AI must state doubts, limits and inferred content.
+3. **Active human oversight:** human counter-review is the central control mechanism.
+4. **Honest disengagement:** either party may withdraw without simulating agreement.
 
----
+## Reliability architecture
 
-## 🎯 Principes fondamentaux
+- **Single self-check:** one critical review per response, with C4 escalation if it fails.
+- **QMR:** explicit distinction between logical and probabilistic reasoning modes.
+- **Credibility levels C1–C4:** convergent sources combined with the reasoning mode; C1 requires both.
+- **P0–P2 audit priorities:** immediate contradictions, canonical-reference issues and qualification or traceability improvements.
 
-1. **Primauté de la fiabilité** — L'exactitude vérifiable prime sur la complétion conversationnelle
-2. **Transparence des incertitudes** — L'IA signale ses doutes, limites et zones d'inférence
-3. **Vigilance humaine active** — Le contre-regard humain est le mécanisme central de régulation
-4. **Désengagement honnête** — Chaque partie peut se retirer à tout moment sans simulacre
+## Repository map
 
----
+| Path | Purpose |
+|---|---|
+| [`CIP-v5.1.md`](./CIP-v5.1.md) | Canonical full framework text. |
+| [`CIP-Core-v5.1.md`](./CIP-Core-v5.1.md) | Compact activation text. |
+| [`qualitative-fluency-law.md`](./qualitative-fluency-law.md) | Foundational qualitative-fluency axiom. |
+| [`docs/en/`](./docs/en/) | English technical documentation and CI/CD integration guide. |
+| [`docs/fr/`](./docs/fr/) | French source reports and audit records. |
+| [`research/`](./research/) | Public research notes, references and regulatory crosswalks. |
+| [`archives/`](./archives/) | Versioned historical material. |
+| [`CHANGELOG.md`](./CHANGELOG.md) | Version lineage and release changes. |
+| [`.github/`](./.github/) | GitHub workflows, templates and audit automation. |
 
-## ⚙️ Architecture de fiabilité
+## Documentary audit in CI/CD
 
-- **Self-check unique** : Une seule relecture critique par réponse, issue C4 si échec
-- **QMR (Qualification du Mode de Raisonnement)** : Mode Logique vs Mode Probabiliste explicite
-- **Niveaux de crédibilité C1–C4** : Combinaison sources convergentes × QMR (C1 exige les deux)
-- **C3/C4** : Mention impérative dans l'output
+The repository includes a read-only documentary audit adapter at [`.github/scripts/run-documentary-audit-adapter.sh`](./.github/scripts/run-documentary-audit-adapter.sh). It performs deterministic checks for obsolete versions, contradictory rates, unsupported claims and Markdown quality. An optional assisted stage can classify claims and evidence using the `repository-documentary-audit` protocol.
 
----
+Read the [English CI/CD integration guide](./docs/en/ci/documentary-audit.md) and the [bilingual documentation structure](./docs/STRUCTURE.md) before adding or translating documentation.
 
-## 📁 Fichiers du dépôt
+## Evidence and scope
 
-| Fichier | Description |
-|---------|-------------|
-| `CIP-v5.1.md` | **Version intégrale canonique** (français) — Texte complet, doctrine, architecture, addendum opérationnel |
-| `CIP-Core-v5.1.md` | **Version compacte d'activation** — Pour usage direct en interaction (< 500 tokens) |
-| `CHANGELOG.md` | Historique complet des versions — v2.6.3 → v5.1 |
-| `CIP-v5.0.md` | Version précédente v5.0 (archivée) |
-| `CIP-Core-v5.0-en.md` | Core v5.0 en anglais (archivé) |
-| `qualitative-fluency-law.md` | Loi qualitative de la fluidité (native vs authentique vs globale) |
-| `AGENTS.md` | Configuration agents |
-| `CLAUDE.md` | Instructions spécifiques Claude |
-| `CONTRIBUTING.md` | Guide de contribution |
-| `CITATION.cff` | Métadonnées de citation |
-| `LICENSE` | Licence open source |
-| `SECURITY.md` | Politique de sécurité |
-| `llms.txt` | Index pour LLM |
-| `archives/` | Archives historiques |
-| `research/` | Recherches documentées (dont incident Manus AI) |
+The framework is a governance proposal and does not replace technical standards, independent audits, legal obligations or sector-specific protocols. Public documentation distinguishes direct evidence, author declarations, interpretations and hypotheses. Historical versions remain available as dated archives.
 
----
+## Contributing and security
 
-## 🔬 Ancrage empirique
+Please read [`CONTRIBUTING.md`](./CONTRIBUTING.md) before opening a pull request. Use the repository’s quality workflow for Markdown, links, required files and documentary checks. Report security issues through [`SECURITY.md`](./SECURITY.md).
 
-- **Incident Manus AI (août 2025)** : Découverte de la « mise en abyme hallucinatoire » — auto-légitimation de l'erreur par l'IA
-- **Incident Claude (janvier 2026)** : Second cas confirmé, répétabilité cross-architecture
-- **Bêta-test OpenAI (novembre 2025)** : résultats déclarés de 97 % de cohérence et de plus de 95 % de feedback exploitable ; classement déclaré de **1,5 % mondial**. Méthode et attestation indépendante à documenter.
-- **Évaluation GitHub indépendante (2026)** : Expertise validée via contributions
-
----
-
-## 🤝 Contributeurs IA
-
-Développé en collaboration active avec : **Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar** — 18 mois d'expérimentation terrain documentée.
-
-Conformément aux principes du CIP, ces systèmes sont reconnus comme contributeurs substantiels. L'auteur assume l'entière responsabilité.
-
----
-
-## ⚖️ Alignement institutionnel
-
-- **UNESCO** : Recommandation sur l'éthique de l'IA (transparence, supervision humaine, responsabilité)
-- **OCDE** : Principes pour une IA digne de confiance
-- **AI Act UE** : Transparence (Art. 50) et surveillance humaine (Art. 14)
-
-*Non-substitution explicite : standards techniques, audits, obligations réglementaires, protocoles sectoriels.*
-
----
-
-## 🚀 Usage rapide
-
-```markdown
-# Activation CIP v5.1
-
-Injecter le contenu de `CIP-Core-v5.1.md` dans le system prompt.
-
-L'IA et l'humain activent le pacte par consentement mutuel.
-```
-
----
-
-## 📄 Citation
+## Citation
 
 ```bibtex
 @misc{meunier2026cip,
@@ -106,21 +63,10 @@ L'IA et l'humain activent le pacte par consentement mutuel.
   year = {2026},
   month = {aug},
   url = {https://github.com/meunier-jc/authentic-fluency},
-  note = {Open Source Framework for Human–AI Co-Regulation}
+  note = {Open-source framework for human--AI co-regulation}
 }
 ```
 
----
+## Language policy
 
-## 📞 Contact
-
-### Jean-Christophe Meunier
-
-- Email : <ia.normandie.expert@gmail.com>
-- LinkedIn : linkedin.com/in/jean-christophe-meunier-ai-consult
-- GitHub : github.com/meunier-jc/authentic-fluency
-- Localisation : Normandie, France (mobilité Europe & Amériques)
-
----
-
-### Version intégrale canonique CIP v5.1 — Août 2026 — Open Source — meunier-jc/authentic-fluency
+The public and technical layer is maintained in English. French source documents and audit records are preserved under [`docs/fr/`](./docs/fr/). A translation must be stored as a separate file and must identify its source, date and status; it must never overwrite an original.

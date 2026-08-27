@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: read
+  pull-requests: read
 
 concurrency:
   group: documentation-quality-${{ github.workflow }}-${{ github.ref }}
@@ -98,3 +99,41 @@ jobs:
             echo "Potential secret or private key detected in changed files."
             exit 1
           fi
+
+  documentary-audit:
+    name: Documentary audit adapter
+    needs: [markdown, links, structure, changed-files]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build audit inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p audit-input audit-output
+          base="${{ github.event.pull_request.base.sha || github.event.before }}"
+          head="${{ github.event.pull_request.head.sha || github.sha }}"
+          git diff --no-ext-diff --unified=80 "$base" "$head" -- '*.md' > audit-input/changed-docs.diff
+          git ls-files '*.md' > audit-input/markdown-files.txt
+
+      - name: Run read-only documentary adapter
+        env:
+          AUDIT_INPUT: audit-input
+          AUDIT_OUTPUT: audit-output
+        run: .github/scripts/run-documentary-audit-adapter.sh
+
+      - name: Upload documentary audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: documentary-audit-report
+          path: audit-output/

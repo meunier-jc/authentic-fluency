@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Corrections P0 Publiées</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #1E1E1E;
+            color: #E0E0E0;
+            font-family: 'Arial', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+        .slide-container:before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 12px);
+            pointer-events: none;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .kicker {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 16px;
+            color: #4CAF50;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .title {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 42px;
+            margin-top: 15px;
+            border-bottom: 1px solid #757575;
+            padding-bottom: 20px;
+        }
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding-top: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .file-card {
+            border: 1px solid #757575;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.03);
+        }
+        .file-name {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 18px;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .file-desc {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #BDBDBD;
+        }
+        .commit-bar {
+            position: absolute;
+            bottom: 60px;
+            left: 80px;
+            right: 80px;
+            border: 1px solid #4CAF50;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .commit-label {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            font-size: 14px;
+            color: #4CAF50;
+        }
+        .commit-hash {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 24px;
+            color: #E0E0E0;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <p class="kicker">03 / Publication Git</p>
+            <h1 class="title">Les corrections P0 sont maintenant publiées</h1>
+        </div>
+        
+        <div class="content-grid">
+            <div class="file-card">
+                <p class="file-name">CIP-v5.0.md</p>
+                <p class="file-desc">Percentile aligné sur 1,5 % et explicitement qualifié comme valeur déclarée par l'auteur.</p>
+            </div>
+            <div class="file-card">
+                <p class="file-name">CIP-v5.1.md</p>
+                <p class="file-desc">Statut, classement et contribution scientifique reformulés pour refléter le niveau de preuve actuel.</p>
+            </div>
+            <div class="file-card">
+                <p class="file-name">README.md</p>
+                <p class="file-desc">Métriques et classement présentés comme déclarés ; ajout de la mention de documentation requise.</p>
+            </div>
+            <div class="file-card">
+                <p class="file-name">archives/CIP-v4.4.md</p>
+                <p class="file-desc">Ancienne valeur 1,2 % conservée comme trace historique avec annotation de correction.</p>
+            </div>
+        </div>
+
+        <div class="commit-bar">
+            <span class="commit-label">COMMIT DE RÉFÉRENCE (MAIN)</span>
+            <span class="commit-hash">36c4138</span>
+        </div>
+    </div>
+</body>
+</html>

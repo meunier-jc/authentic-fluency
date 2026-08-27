@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "title": "Audit documentaire continu",
+    "created": 1787835741.157,
+    "last_updated": 1787836033.772,
+    "total_slides": 6
+  },
+  "slides": [
+    {
+      "id": "cover",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "principles",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "adapter",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "workflow",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "security",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "rollout",
+      "state": "edited",
+      "pageNum": 6
+    }
+  ],
+  "outline": [
+    {
+      "id": "cover",
+      "title": "Audit documentaire continu",
+      "summary": "Objectif : détecter les contradictions documentaires à chaque commit tout en conservant une exécution en lecture seule."
+    },
+    {
+      "id": "principles",
+      "title": "Principe d’architecture",
+      "summary": "Séparer les contrôles déterministes obligatoires de l’analyse assistée facultative et de la revue humaine."
+    },
+    {
+      "id": "adapter",
+      "title": "L’adaptateur run-documentary-audit-adapter.sh",
+      "summary": "Entrées, sorties, règles de blocage P0/P1 et mode assisté optionnel."
+    },
+    {
+      "id": "workflow",
+      "title": "Flux d’un pull request",
+      "summary": "Checkout, diff documentaire, lint, liens, détection de versions, audit P0-P2 et artefacts."
+    },
+    {
+      "id": "security",
+      "title": "Sécurité et gouvernance",
+      "summary": "Permissions minimales, absence de secrets sur les forks, aucun push automatique et validation humaine.",
+      "image_plan": "/home/ubuntu/authentic-fluency-audit/anomalies_par_fichier_priorite.png - Slide 4 references 19 audit findings (5 P0, 7 P1, 7 P2) and distribution by file, which directly matches the bar chart in Image #1 showing anomaly distribution per file and priority."
+    },
+    {
+      "id": "rollout",
+      "title": "Déploiement progressif et critères de succès",
+      "summary": "Mode informatif, mesure des faux positifs, seuils de blocage et passage en contrôle obligatoire."
+    }
+  ]
+}
