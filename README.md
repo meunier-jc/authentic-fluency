@@ -8,7 +8,7 @@
 
 Le **Collaborative Integrity Pact (CIP) v5.1** est un cadre opérationnel de co-régulation humain–IA, conçu pour rendre les échanges plus fiables, plus transparents et durablement enrichissants.
 
-**Auteur :** Jean-Christophe Meunier — Architecte en gouvernance et éthique IA, consultant indépendant, bêta-testeur expert OpenAI (top 1,5% mondial), découvreur du phénomène de mise en abyme hallucinatoire.
+**Auteur :** Jean-Christophe Meunier — Architecte en gouvernance et éthique IA, consultant indépendant, bêta-testeur expert OpenAI (classement déclaré de 1,5 % mondial), auteur d’une analyse et d’une classification proposée du phénomène de mise en abyme hallucinatoire.
 
 **Date de publication :** Août 2026
 
@@ -62,7 +62,7 @@ Le **Collaborative Integrity Pact (CIP) v5.1** est un cadre opérationnel de co-
 
 - **Incident Manus AI (août 2025)** : Découverte de la « mise en abyme hallucinatoire » — auto-légitimation de l'erreur par l'IA
 - **Incident Claude (janvier 2026)** : Second cas confirmé, répétabilité cross-architecture
-- **Bêta-test OpenAI (novembre 2025)** : 97% cohérence, >95% feedback exploitable, **Top 1,5% mondial**
+- **Bêta-test OpenAI (novembre 2025)** : résultats déclarés de 97 % de cohérence et de plus de 95 % de feedback exploitable ; classement déclaré de **1,5 % mondial**. Méthode et attestation indépendante à documenter.
 - **Évaluation GitHub indépendante (2026)** : Expertise validée via contributions
 
 ---

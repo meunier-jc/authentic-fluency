@@ -7,7 +7,7 @@
 
 **Original author:**  
 Jean-Christophe Meunier  
-AI governance and ethics architect, independent consultant, OpenAI Level 1 expert tester (top 1.2% worldwide), discoverer of the hallucinatory mise en abyme phenomenon ([hallucinatory-inception.md](./research/hallucinatory-inception.md)).
+AI governance and ethics architect, independent consultant, OpenAI Level 1 expert tester (author-declared top 1.5% worldwide), discoverer of the hallucinatory mise en abyme phenomenon ([hallucinatory-inception.md](./research/hallucinatory-inception.md)).
 
 **AI contributors:**  
 Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar
