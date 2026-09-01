@@ -28,8 +28,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const yaml = require('js-yaml');
-            const config = yaml.load(fs.readFileSync('.github/triage.yml', 'utf8'));
+            const config = JSON.parse(fs.readFileSync('.github/triage.json', 'utf8'));
 
             const isIssue = context.eventName === 'issues';
             const item = isIssue ? context.payload.issue : context.payload.pull_request;
