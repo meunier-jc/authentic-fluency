@@ -1,6 +1,7 @@
 # Experience feedback — When an artificial intelligence truly learns the CIP
-> *Translation notice: this is an English translation of [`retour-experience-integration-cip.md`](retour-experience-integration-cip.md), the original French source document. Source version: commit `f56c1b6` (4 days before this translation). In case of discrepancy, the French original remains authoritative.*
 
+> *Translation notice: this is an English translation of [`retour-experience-integration-cip.md`](retour-experience-integration-cip.md), the original French source document. Source version: commit `f56c1b6` (4 days before this translation). In case of discrepancy, the French original remains authoritative.*
+>
 > This text is not part of the CIP's normative corpus. It is a field journal, kept by the Pact's author, for anyone attempting to activate the Collaborative Integrity Pact with a conversational AI and running into — as is almost always the case at first — a yes too quick to be genuine.
 
 ## What to expect
