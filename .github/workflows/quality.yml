@@ -63,7 +63,7 @@ jobs:
             CODE_OF_CONDUCT.md
             LICENSE
             .github/pull_request_template.md
-            .github/triage.yml
+            .github/triage.json
           )
           for file in "${required[@]}"; do
             test -f "$file" || { echo "Missing required file: $file"; exit 1; }
