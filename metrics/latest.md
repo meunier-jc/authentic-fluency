@@ -1,22 +1,22 @@
 # Weekly contribution metrics
 
 **Repository:** `meunier-jc/authentic-fluency`  
-**Period:** `2026-08-24T15:58:18Z` → `2026-08-31T15:58:18Z`
+**Period:** `2026-08-31T14:04:46Z` → `2026-09-07T14:04:46Z`
 
 This report contains aggregate project-level indicators. It is intended to improve onboarding and maintainer capacity, not to rank individual contributors.
 
 | Area | Metric | Value |
 |---|---|---:|
 | Issues | Opened | 1 |
-| Issues | Closed | 0 |
+| Issues | Closed | 1 |
 | Pull requests | Opened | 0 |
 | Pull requests | Merged | 0 |
-| Discussions | Opened | 2 |
-| Discussions | Categories represented | Q&A |
+| Discussions | Opened | 1 |
+| Discussions | Categories represented | General |
 | Contribution | Unique non-bot authors | 1 |
 | Contribution | First-time items | 0 |
-| Responsiveness | Items with a first response | 1 |
-| Responsiveness | Average first-response time | 0.79 h |
+| Responsiveness | Items with a first response | 0 |
+| Responsiveness | Average first-response time | n/a |
 
 ## Interpretation
 
