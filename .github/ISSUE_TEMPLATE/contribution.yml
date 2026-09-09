@@ -1,7 +1,6 @@
 name: Contribution or research proposal
 description: Propose a correction, challenge, extension, research task or documented use case.
-title: ""
-labels: []
+title: "[Contribution] "
 body:
   - type: markdown
     attributes:
