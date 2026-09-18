@@ -1,14 +1,14 @@
-# Meunier’s AI–Human Collaborative Integrity Pact (CIP) v5.1
+# Meunier’s AI–Human Collaborative Integrity Pact (CIP) v5.2
 
 ## Open-source framework for human–AI co-regulation
 
-The **Collaborative Integrity Pact (CIP) v5.1** is an operational framework for more reliable, transparent and accountable human–AI collaboration. It gives priority to verifiable accuracy, explicit uncertainty and active human counter-review.
+The **Collaborative Integrity Pact (CIP) v5.2** is an operational framework for more reliable, transparent and accountable human–AI collaboration. It gives priority to verifiable accuracy, explicit uncertainty and active human counter-review.
 
 **Author:** Jean-Christophe Meunier, independent AI governance and ethics consultant. The repository records an author-declared OpenAI beta-testing profile and a declared 1.5% global ranking; these claims are not presented as independent certification.
 
-**Publication:** August 2026
+**Publication:** september 2026
 
-**Canonical version:** CIP v5.1
+**Canonical version:** CIP v5.2
 
 **Repository:** <https://github.com/meunier-jc/authentic-fluency>
 
@@ -59,9 +59,9 @@ Please read [`CONTRIBUTING.md`](./CONTRIBUTING.md) before opening a pull request
 ```bibtex
 @misc{meunier2026cip,
   author = {Meunier, Jean-Christophe},
-  title = {Collaborative Integrity Pact (CIP) v5.1},
+  title = {Collaborative Integrity Pact (CIP) v5.2},
   year = {2026},
-  month = {aug},
+  month = {sept},
   url = {https://github.com/meunier-jc/authentic-fluency},
   note = {Open-source framework for human--AI co-regulation}
 }
