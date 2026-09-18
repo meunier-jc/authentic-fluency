@@ -6,7 +6,7 @@ The **Collaborative Integrity Pact (CIP) v5.2** is an operational framework for 
 
 **Author:** Jean-Christophe Meunier, independent AI governance and ethics consultant. The repository records an author-declared OpenAI beta-testing profile and a declared 1.5% global ranking; these claims are not presented as independent certification.
 
-**Publication:** september 2026
+**Publication:** September 2026
 
 **Canonical version:** CIP v5.2
 
@@ -30,8 +30,10 @@ The **Collaborative Integrity Pact (CIP) v5.2** is an operational framework for 
 
 | Path | Purpose |
 |---|---|
-| [`CIP-v5.1.md`](./CIP-v5.1.md) | Canonical full framework text. |
-| [`CIP-Core-v5.1.md`](./CIP-Core-v5.1.md) | Compact activation text. |
+| [`CIP-v5.2-integral-en.md`](./CIP-v5.2-integral-en.md) | Canonical full framework text (English). |
+| [`CIP-Core-v5.2-en.md`](./CIP-Core-v5.2-en.md) | Compact activation text (English). |
+| [`CIP-v5.2-integrale-fr.md`](./CIP-v5.2-integrale-fr.md) | Version intégrale canonique (Français). |
+| [`CIP-Core-v5.2-fr.md`](./CIP-Core-v5.2-fr.md) | Version compacte d'activation (Français). |
 | [`qualitative-fluency-law.md`](./qualitative-fluency-law.md) | Foundational qualitative-fluency axiom. |
 | [`docs/en/`](./docs/en/) | English technical documentation and CI/CD integration guide. |
 | [`docs/fr/`](./docs/fr/) | French source reports and audit records. |
@@ -61,7 +63,7 @@ Please read [`CONTRIBUTING.md`](./CONTRIBUTING.md) before opening a pull request
   author = {Meunier, Jean-Christophe},
   title = {Collaborative Integrity Pact (CIP) v5.2},
   year = {2026},
-  month = {sept},
+  month = {sep},
   url = {https://github.com/meunier-jc/authentic-fluency},
   note = {Open-source framework for human--AI co-regulation}
 }
