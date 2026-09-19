@@ -4,8 +4,8 @@ This section contains the English technical documentation for the `authentic-flu
 
 ## Canonical framework
 
-- [Collaborative Integrity Pact v5.1](../../CIP-v5.1.md) — canonical full text.
-- [CIP Core v5.1](../../CIP-Core-v5.1.md) — compact activation text.
+- [Collaborative Integrity Pact v5.2](../../CIP-v5.2-integral-en.md) — canonical full text.
+- [CIP Core v5.2](../../CIP-Core-v5.2-en.md) — compact activation text.
 - [Qualitative Fluency Law](../../qualitative-fluency-law.md) — foundational principle.
 - [Version history](../../CHANGELOG.md) — release lineage and change record.
 

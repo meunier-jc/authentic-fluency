@@ -35,5 +35,5 @@ native-fluency, authentic-fluency, RLHF-sycophancy, hallucinatory-recursive-embe
 Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v5.2.
 GitHub. https://github.com/meunier-jc/authentic-fluency
 
-Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v5.1.
+Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v5.1 (historical release).
 GitHub. https://github.com/meunier-jc/authentic-fluency

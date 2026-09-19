@@ -9,7 +9,7 @@ You do not need to be an expert, agree with every claim, or already know the pro
 Start with the following resources:
 
 1. [README](./README.md)
-2. [Current framework](./CIP-v5.1.md)
+2. [Current framework](./CIP-v5.2-integral-en.md)
 3. [Research references](./research/references.md)
 4. [Open collaboration invitation](https://github.com/meunier-jc/authentic-fluency/issues/7)
 5. [Code of Conduct](./CODE_OF_CONDUCT.md)

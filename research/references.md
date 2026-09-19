@@ -1,6 +1,6 @@
 # References & Traceability
 
-This document provides the full intellectual lineage of the `authentic-fluency` framework — from the first versions of the Collaborative Integrity Pact to v5.1 — and the academic sources that contextualize and validate its core claims.
+This document provides the full intellectual lineage of the `authentic-fluency` framework — from the first versions of the Collaborative Integrity Pact to v5.2 — and the academic sources that contextualize and validate its core claims.
 
 ---
 
@@ -15,7 +15,7 @@ Created: October 17, 2025 — Last updated: April 21, 2026
 
 That repository contains the full traceable history of CIP development: early conceptual frameworks, stress-test documentation, iterative co-authorship with multiple AI systems, and the complete text of versions v2.5 through v2.9.
 
-`authentic-fluency` has evolved from **CIP v3.8** to the current **CIP v5.1**. The repository now contains the v5.1 canonical full reference version, the compact CIP-Core activation form, and archived versions that preserve the framework’s doctrinal and operational evolution. The Qualitative Fluency Law, formalized during v2.4 development, remains the explicit foundational axiom of this architecture.
+`authentic-fluency` has evolved from **CIP v3.8** to the current **CIP v5.2**. The repository now contains the v5.2 canonical full reference versions in French and English, the compact CIP-Core activation forms, and archived versions that preserve the framework’s doctrinal and operational evolution. The Qualitative Fluency Law, formalized during v2.4 development, remains the explicit foundational axiom of this architecture.
 
 ---
 
@@ -75,7 +75,8 @@ This defines the phenomenon of **hallucinatory recursive embedding**: a mechanis
 | **v3.8** | May 2026 | Restoration of operational addendum (non-prescriptive); facade-alignment clause; stress-test right formalized | [archives/CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v3.8.md) |
 | **v4.4** | June 2026 | Intermediate evolution preserved in the repository archive | [archives/CIP-v4.4.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v4.4.md) |
 | **v5.0** | July 2026 | Historical canonical full reference version; CIP-Core; QMR; C1–C4 credibility architecture; single self-check; strengthened human counter-scrutiny | [CIP-v5.0.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.0.md) |
-| **v5.1** | August 2026 | Current canonical French full text and Core; consolidated provenance, versioning and evidence qualifications | [CIP-v5.1.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.1.md) |
+| **v5.1** | August 2026 | Historical canonical French full text and Core; consolidated provenance, versioning and evidence qualifications | [CIP-v5.1.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.1.md) |
+| **v5.2** | September 2026 | Current canonical full text and Core in French and English; harmonized terminology and release lineage | [CIP-v5.2-integral-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integral-en.md) · [CIP-v5.2-integrale-fr.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integrale-fr.md) |
 
 ### What changed between v2.x and v3.x — and why
 
@@ -173,11 +174,11 @@ For a researcher or engineer arriving at this repository for the first time:
 1. **[README.md](https://github.com/meunier-jc/authentic-fluency/blob/main/README.md)** — The problem and the framework in 5 minutes
 2. **[research/hallucinatory-inception.md](https://github.com/meunier-jc/authentic-fluency/blob/main/research/hallucinatory-inception.md)** — The founding empirical observation (August 2025)
 3. **[qualitative-fluency-law.md](https://github.com/meunier-jc/authentic-fluency/blob/main/qualitative-fluency-law.md)** — The foundational axiom derived from that observation
-4. **[CIP-v5.1.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.1.md)** — The current canonical full pact text
-5. **[CIP-Core-v5.1.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-Core-v5.1.md)** — The current compact activation version
+4. **[CIP-v5.2-integral-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integral-en.md)** — The current canonical English full pact text
+5. **[CIP-Core-v5.2-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-Core-v5.2-en.md)** — The current compact English activation version
 6. **This file** — Lineage, sources, and prior work
 7. **[Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)** — The full v1.x / v2.x archive for deeper traceability
 
 ---
 
-### Last updated: August 2026
+### Last updated: September 2026

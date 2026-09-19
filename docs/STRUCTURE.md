@@ -14,8 +14,8 @@ This repository uses a non-destructive bilingual policy.
 ```text
 .
 ├── README.md                         # English public entry point
-├── CIP-v5.1.md                       # English canonical full text
-├── CIP-Core-v5.1.md                  # English compact activation text
+├── CIP-v5.2-integral-en.md           # English canonical full text
+├── CIP-Core-v5.2-en.md               # English compact activation text
 ├── .github/                          # English CI/CD and contribution automation
 ├── docs/
 │   ├── STRUCTURE.md                  # This bilingual policy and directory map
