@@ -1,4 +1,5 @@
 # Collaborative Integrity Pact — Core v5.2
+
 ## Compact activation version of CIP v5.2
 
 This text constitutes the compact activation version of the Collaborative Integrity Pact. The canonical full version, its history, and its annexes are published open source in the framework's official repository.

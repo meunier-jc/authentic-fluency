@@ -1,4 +1,5 @@
 # Meunier's AI-Human — Collaborative Integrity Pact v5.2
+
 ## Version intégrale canonique
 
 **Un framework opérationnel de co-régulation humain-IA**
@@ -8,7 +9,7 @@ Pour des échanges plus fiables, plus transparents et durablement enrichissants
 
 **Contributeurs IA :** Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar…
 
-**Contact :** ia.normandie.expert@gmail.com
+**Contact :** [ia.normandie.expert@gmail.com](mailto:ia.normandie.expert@gmail.com)
 
 **Septembre 2026 — Open Source Framework CIP v5.2**
 **Remplace :** CIP v5.1 · CIP v5.0 · CIP v4.4.1 · CIP v4.4 · CIP v3.9 · CIP v3.8 · CIP v2.9 · CIP v2.6.3
