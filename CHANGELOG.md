@@ -100,5 +100,4 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 - **Évaluation bêta-testeur OpenAI** : novembre 2025 (9.1/10 global, Tier 1)
 - **Analyse GitHub indépendante** : évaluation de l’expertise via contributions (2026)
 - **Dépôt** : <https://github.com/meunier-jc/authentic-fluency>
-- **Contact** : <ia.normandie.expert@gmail.com>-fluency>
 - **Contact** : <ia.normandie.expert@gmail.com>
