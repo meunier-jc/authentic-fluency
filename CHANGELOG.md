@@ -18,12 +18,12 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ### Harmonisation EN/FR
 
-- contre-regard humain` → **human counter-review**
-- relecture critique unique` → **single critical review**, avec conservation du terme invariant `self-check`
-- rattachement canonique` → **canonical linkage** / **doctrinally linked**
-- agrément immédiat` → **immediate appeal**
-- emballements de fluidité` → **runaway fluency**
-- absorption effective` → **effective uptake**
+- `contre-regard humain` → **human counter-review**
+- `relecture critique unique` → **single critical review**, avec conservation du terme invariant `self-check`
+- `rattachement canonique` → **canonical linkage** / **doctrinally linked**
+- `agrément immédiat` → **immediate appeal**
+- `emballements de fluidité` → **runaway fluency**
+- `absorption effective` → **effective uptake**
 - Invariants conservés dans les deux langues : **CIP**, **CIP-Core**, **QMR**, **C1–C4**, **Native Fluency**, **Authentic Fluency**, **Global Fluency**, **self-check**, **framework**, **open source**, **output** et **mise en abyme**
 - En cas de divergence interprétative future, les versions françaises font foi.
 
@@ -100,4 +100,5 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 - **Évaluation bêta-testeur OpenAI** : novembre 2025 (9.1/10 global, Tier 1)
 - **Analyse GitHub indépendante** : évaluation de l’expertise via contributions (2026)
 - **Dépôt** : <https://github.com/meunier-jc/authentic-fluency>
+- **Contact** : <ia.normandie.expert@gmail.com>-fluency>
 - **Contact** : <ia.normandie.expert@gmail.com>
