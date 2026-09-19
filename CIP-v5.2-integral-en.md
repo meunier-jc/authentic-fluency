@@ -5,7 +5,7 @@
 **An operational framework for human–AI co-regulation**
 For exchanges that are more reliable, more transparent, and sustainably enriching
 
-**Original author:** Jean-Christophe Meunier — architect in AI governance and ethics, independent consultant, OpenAI Level 1 expert tester (top 1.5% worldwide), discoverer of the phenomenon of hallucinatory mise en abyme.
+**Original author:** Jean-Christophe Meunier — architect in AI governance and ethics, independent consultant, with an author-declared OpenAI expert-testing profile including a declared top 1.5% worldwide ranking; author of the documented analysis proposing the phenomenon of hallucinatory mise en abyme. These status and authorship claims are not presented as independent certification.
 
 **AI contributors:** Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar…
 

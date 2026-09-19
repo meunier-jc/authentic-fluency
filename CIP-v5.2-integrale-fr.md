@@ -5,7 +5,7 @@
 **Un framework opérationnel de co-régulation humain-IA**
 Pour des échanges plus fiables, plus transparents et durablement enrichissants
 
-**Auteur original :** Jean-Christophe Meunier — architecte en gouvernance et éthique IA, consultant indépendant, testeur expert niveau 1 OpenAI (top 1,5 % mondial), découvreur du phénomène de mise en abîme hallucinatoire.
+**Auteur original :** Jean-Christophe Meunier — architecte en gouvernance et éthique IA, consultant indépendant, avec un profil de testeur expert OpenAI déclaré par l'auteur, comprenant un classement déclaré dans le top 1,5 % mondial ; auteur de l'analyse documentée proposant le phénomène de mise en abîme hallucinatoire. Ces revendications de statut et de paternité ne sont pas présentées comme une certification indépendante.
 
 **Contributeurs IA :** Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar…
 
