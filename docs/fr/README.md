@@ -9,6 +9,12 @@ Les documents français constituent les sources de référence pour les pièces 
 ## Dossiers
 
 - [`source/`](./source/) — copies conservées des documents français sources, notamment l’ancien README racine.
+  - [`mise-en-abyme-hallucinations-2025-09-29.fr.md`](./source/mise-en-abyme-hallucinations-2025-09-29.fr.md)
+    — « Mise en abyme d’hallucinations des IA génératives », 29 septembre 2025. Document source du
+    rapport d’incident Manus AI du 13 août 2025, antérieur à sa version anglaise publique
+    [`research/hallucinatory-inception.md`](../../research/hallucinatory-inception.md). Le PDF déposé
+    est conservé à côté de la transcription
+    ([`…fr.pdf`](./source/mise-en-abyme-hallucinations-2025-09-29.fr.pdf)).
 - [`audit/`](./audit/) — rapports, matrices et journaux d’audit en français.
 - [`../../archives/`](../../archives/) — versions historiques du corpus, conservées avec leur date et leur version.
 
