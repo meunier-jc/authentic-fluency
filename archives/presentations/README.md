@@ -1,11 +1,11 @@
-# Historical presentations and audit artifacts
+# Historical presentation archive: CIP v5.1 corrections
 
-This directory stores presentation assets and other historical materials that are not part of the active canonical framework.
+This folder retains the historical slide deck and notes associated with the v5.1 correction cycle.
 
-Examples include:
+The current canonical framework remains CIP v5.2 at the repository root.
 
-- legacy correction decks
-- prior audit presentations
-- documentation generated for historical review or narrative tracking
+## Purpose
 
-The current canonical framework remains the v5.2 set at the repository root.
+- trace fidelity of prior documentation changes
+- preserve the historical narrative around the v5.1 correction pass
+- avoid conflating legacy review materials with the active framework reference

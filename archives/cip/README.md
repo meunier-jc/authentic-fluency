@@ -1,17 +1,12 @@
-# Historical CIP versions
+# Historical archive: CIP v5.0
 
-The files in this directory are historical artifacts retained for traceability.
+This folder retains the historical CIP v5.0 documents for traceability.
 
-They are not the active canonical references of the repository. The active framework remains:
+The active canonical version is kept at the repository root as `CIP-v5.2-integral-en.md` and `CIP-Core-v5.2-en.md` (and their French equivalents).
 
-- `CIP-v5.2-integral-en.md`
-- `CIP-v5.2-integrale-fr.md`
-- `CIP-Core-v5.2-en.md`
-- `CIP-Core-v5.2-fr.md`
+## Files
 
-## Present subdirectories
+- `CIP-v5.0.md`
+- `CIP-Core-v5.0-en.md`
 
-- `v5.0/` — historical v5.0 material
-- `v5.1/` — historical v5.1 material
-
-Use these files only for historical comparison, lineage tracking, or explicit archival review. Do not activate or cite them as the operational standard unless the purpose is to document the past lineage.
+These files are preserved as legacy material only. They are not to be used as the active framework reference.
