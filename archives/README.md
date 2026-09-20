@@ -15,10 +15,11 @@ The public, canonical, and operational material remains at the repository root:
 
 ## Historical material
 
-Earlier versions, audits, and slide assets are preserved under `archives/` for traceability and historical continuity. They are retained in their original form and are not intended for active use.
+Earlier versions, audits, slide assets, and generated outputs are preserved under `archives/` for traceability and historical continuity. They are retained in their original form and are not intended for active use.
 
 - `archives/cip/` — historical CIP versions (`v5.0`, `v5.1`, earlier lineage)
 - `archives/presentations/` — historical slide decks and review materials
+- `archives/legacy-outputs/` — generated reports, charts, and diagnostic artefacts
 - `docs/fr/audit/` — French audit records tied to versioned evaluation work
 
 ## Operational rule
