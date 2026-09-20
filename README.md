@@ -122,7 +122,9 @@ The framework is a governance proposal. It does not replace technical standards,
 
 ## Author disclosure
 
-The repository records an author-declared OpenAI beta-testing profile and a self-reported global ranking. That ranking is dated rather than fixed: the author declares a global top 10 standing in August 2025, when the founding incident documented in [`research/hallucinatory-inception.md`](./research/hallucinatory-inception.md) was observed, and a 1.5% global ranking for a later period. The figures describe different dates and are not competing claims. All of them are declarations by the author and are not presented as independent certification.
+The repository records an author-declared OpenAI beta-testing profile and a dated global ranking. The ranking is a progression, not a fixed figure: a global top 10% standing in July 2025, the standing in force when the founding incident documented in [`research/hallucinatory-inception.md`](./research/hallucinatory-inception.md) was observed that August, and a 1.5% global ranking in November 2025. The two figures describe different dates and are not competing claims.
+
+The author declares that the November 2025 ranking was certified by OpenAI. That certification is reported by the author; no supporting artifact is published in this repository, so readers should treat it as an author declaration rather than as independently verified evidence.
 
 ## Contributing and security
 
