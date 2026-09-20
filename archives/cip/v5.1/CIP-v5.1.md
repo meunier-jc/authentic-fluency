@@ -2,10 +2,9 @@
 
 > Historical document — retained for traceability only.
 >
-> This file documents the earlier CIP v5.1 iteration. The current canonical version is the v5.2 line at the repository root.
+> This file is a temporary archive marker during the staged migration. The complete historical CIP v5.1 text remains at the repository root until it can be transferred without alteration. The current canonical version is the v5.2 line at the repository root.
 
 See the active framework at:
-- `../.. /CIP-v5.2-integral-en.md` (root)  
-- `../.. /CIP-Core-v5.2-en.md` (root)
 
-The original v5.1 content remains in the root for historical continuity during the migration; the archive intentionally distinguishes it from the active canonical framework.
+- [CIP v5.2 integral — English](../../../CIP-v5.2-integral-en.md)
+- [CIP Core v5.2 — English](../../../CIP-Core-v5.2-en.md)
