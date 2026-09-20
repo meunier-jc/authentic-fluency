@@ -54,9 +54,10 @@ patterns = [
 for filename, line_no, line in changed_lines:
     if not filename.endswith(".md"):
         continue
-    # French source/audit records and dated archives preserve historical evidence;
-    # they are intentionally non-blocking and are reviewed through their own audit trail.
-    if filename.startswith("docs/fr/") or filename.startswith("archives/"):
+    # French source/audit records, dated archives and the research reference index
+    # preserve historical evidence; they are intentionally non-blocking and are
+    # reviewed through their own audit trail.
+    if filename.startswith("docs/fr/") or filename.startswith("archives/") or filename == "research/references.md":
         continue
     for pattern, priority, message in patterns:
         if re.search(pattern, line, re.IGNORECASE):

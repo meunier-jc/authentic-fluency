@@ -109,11 +109,10 @@ CIP v5.2 is the active canonical version. Earlier versions are retained in [`arc
 | [`research/`](./research/) | Active | Public research notes, references and regulatory crosswalks. |
 | [`archives/`](./archives/) | Historical | Earlier versions, legacy presentations and traceability records. |
 | [`metrics/`](./metrics/) | Generated | Weekly aggregate contribution reports produced by CI. |
-| [`plot_anomalies.py`](./plot_anomalies.py) | Maintainer utility | Generates the audit anomaly chart and CSV from per-file priorities. |
 | [`CHANGELOG.md`](./CHANGELOG.md) | Active | Version lineage and release changes. |
 | [`.github/`](./.github/) | Active | Workflows, templates and audit automation. |
 
-Any legacy files still at the repository root are historical references only and are not active canonical material. See [`archives/README.md`](./archives/README.md) for the archive policy.
+Historical CIP versions (v5.1 and earlier), legacy presentations and prior audit outputs are preserved under [`archives/`](./archives/README.md). They are retained for traceability only and are not the active canonical material of the repository.
 
 ## Documentary audit in CI/CD
 

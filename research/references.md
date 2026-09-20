@@ -74,8 +74,8 @@ This defines the phenomenon of **hallucinatory recursive embedding**: a mechanis
 | **v3.3** | Apr 14, 2026 | "Gentleman agreement" formulation confirmed; each AI free to implement axioms as its architecture allows | — |
 | **v3.8** | May 2026 | Restoration of operational addendum (non-prescriptive); facade-alignment clause; stress-test right formalized | [archives/CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v3.8.md) |
 | **v4.4** | June 2026 | Intermediate evolution preserved in the repository archive | [archives/CIP-v4.4.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v4.4.md) |
-| **v5.0** | July 2026 | Historical canonical full reference version; CIP-Core; QMR; C1–C4 credibility architecture; single self-check; strengthened human counter-scrutiny | [CIP-v5.0.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.0.md) |
-| **v5.1** | August 2026 | Historical canonical French full text and Core; consolidated provenance, versioning and evidence qualifications | [CIP-v5.1.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.1.md) |
+| **v5.0** | July 2026 | Historical canonical full reference version; CIP-Core; QMR; C1–C4 credibility architecture; single self-check; strengthened human counter-scrutiny | [archives/cip/v5.0/CIP-v5.0.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/cip/v5.0/CIP-v5.0.md) |
+| **v5.1** | August 2026 | Historical canonical French full text and Core; consolidated provenance, versioning and evidence qualifications | [archives/cip/v5.1/CIP-v5.1.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/cip/v5.1/CIP-v5.1.md) |
 | **v5.2** | September 2026 | Current canonical full text and Core in French and English; harmonized terminology and release lineage | [CIP-v5.2-integral-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integral-en.md) · [CIP-v5.2-integrale-fr.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integrale-fr.md) |
 
 ### What changed between v2.x and v3.x — and why

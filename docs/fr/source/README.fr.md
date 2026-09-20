@@ -1,4 +1,4 @@
-# Meunier's AI-Human Collaborative Integrity Pact (CIP) v5.1
+# Meunier's AI-Human Collaborative Integrity Pact (CIP) v5.2
 
 ## Open Source Framework for Human–AI Co-Regulation
 
@@ -10,13 +10,13 @@ The public and technical layer is maintained in English. French source reports a
 
 ## 📋 Vue d'ensemble
 
-Le **Collaborative Integrity Pact (CIP) v5.1** est un cadre opérationnel de co-régulation humain–IA, conçu pour rendre les échanges plus fiables, plus transparents et durablement enrichissants.
+Le **Collaborative Integrity Pact (CIP) v5.2** est un cadre opérationnel de co-régulation humain–IA, conçu pour rendre les échanges plus fiables, plus transparents et durablement enrichissants.
 
-**Auteur :** Jean-Christophe Meunier — Architecte en gouvernance et éthique IA, consultant indépendant, bêta-testeur expert OpenAI (classement déclaré de 1,5 % mondial), auteur d’une analyse et d’une classification proposée du phénomène de mise en abyme hallucinatoire.
+**Auteur :** Jean-Christophe Meunier — Architecte en gouvernance et éthique IA, consultant indépendant, bêta-testeur expert OpenAI (participation depuis novembre 2022, déclaration d'auteur), auteur d’une analyse et d’une classification proposée du phénomène de mise en abyme hallucinatoire.
 
-**Date de publication :** Août 2026
+**Date de publication :** Septembre 2026
 
-**Statut :** Version intégrale canonique v5.1 — Remplace v5.0, v4.4.1, v4.4, v3.9, v3.8, v2.9, v2.6.3
+**Statut :** Version intégrale canonique v5.2 — Remplace v5.1, v5.0, v4.4.1, v4.4, v3.9, v3.8, v2.9, v2.6.3
 
 **Dépôt :** <https://github.com/meunier-jc/authentic-fluency>
 
@@ -44,11 +44,15 @@ Le **Collaborative Integrity Pact (CIP) v5.1** est un cadre opérationnel de co-
 
 | Fichier | Description |
 |---------|-------------|
-| `CIP-v5.1.md` | **Version intégrale canonique** (français) — Texte complet, doctrine, architecture, addendum opérationnel |
-| `CIP-Core-v5.1.md` | **Version compacte d'activation** — Pour usage direct en interaction (< 500 tokens) |
-| `CHANGELOG.md` | Historique complet des versions — v2.6.3 → v5.1 |
-| `CIP-v5.0.md` | Version précédente v5.0 (archivée) |
-| `CIP-Core-v5.0-en.md` | Core v5.0 en anglais (archivé) |
+| `CIP-v5.2-integrale-fr.md` | **Version intégrale canonique** (français) — Texte complet, doctrine, architecture, addendum opérationnel |
+| `CIP-Core-v5.2-fr.md` | **Version compacte d'activation** (français) — Pour usage direct en interaction |
+| `CIP-v5.2-integral-en.md` | **Canonical full version** (English) |
+| `CIP-Core-v5.2-en.md` | **Compact activation text** (English) |
+| `CHANGELOG.md` | Historique complet des versions — v2.6.3 → v5.2 |
+| `archives/cip/v5.1/CIP-v5.1.md` | Version précédente v5.1 (archivée) |
+| `archives/cip/v5.1/CIP-Core-v5.1.md` | Core v5.1 (archivé) |
+| `archives/cip/v5.0/CIP-v5.0.md` | Version précédente v5.0 (archivée) |
+| `archives/cip/v5.0/CIP-Core-v5.0-en.md` | Core v5.0 en anglais (archivé) |
 | `qualitative-fluency-law.md` | Loi qualitative de la fluidité (native vs authentique vs globale) |
 | `AGENTS.md` | Configuration agents |
 | `CLAUDE.md` | Instructions spécifiques Claude |
@@ -66,8 +70,7 @@ Le **Collaborative Integrity Pact (CIP) v5.1** est un cadre opérationnel de co-
 
 - **Incident Manus AI (août 2025)** : Découverte de la « mise en abyme hallucinatoire » — auto-légitimation de l'erreur par l'IA
 - **Incident Claude (janvier 2026)** : Second cas confirmé, répétabilité cross-architecture
-- **Bêta-test OpenAI (novembre 2025)** : résultats déclarés de 97 % de cohérence et de plus de 95 % de feedback exploitable ; classement déclaré de **1,5 % mondial**. Méthode et attestation indépendante à documenter.
-- **Évaluation GitHub indépendante (2026)** : Expertise validée via contributions
+- **Bêta-test OpenAI (depuis novembre 2022)** : participation en tant que bêta-testeur expert, déclarée par l'auteur. Aucun classement mondial n'est retenu : les seules sources du chiffre antérieurement cité étaient des documents d'évaluation produits par un assistant IA à la demande de l'auteur (voir `CHANGELOG.md`, correction documentaire du 20 septembre 2026).
 
 ---
 
@@ -92,9 +95,9 @@ Conformément aux principes du CIP, ces systèmes sont reconnus comme contribute
 ## 🚀 Usage rapide
 
 ```markdown
-# Activation CIP v5.1
+# Activation CIP v5.2
 
-Injecter le contenu de `CIP-Core-v5.1.md` dans le system prompt.
+Injecter le contenu de `CIP-Core-v5.2-fr.md` (ou `CIP-Core-v5.2-en.md`) dans le system prompt.
 
 L'IA et l'humain activent le pacte par consentement mutuel.
 ```
