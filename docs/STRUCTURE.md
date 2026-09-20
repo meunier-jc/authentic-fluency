@@ -8,6 +8,7 @@ This repository uses a non-destructive bilingual policy.
 - French source material and audit records remain in French.
 - Translations are separate files and are never presented as originals.
 - Historical documents retain their original date and version.
+- The active canonical framework is CIP v5.2; historical materials remain under `archives/`.
 
 ## Directory layout
 
@@ -28,13 +29,21 @@ This repository uses a non-destructive bilingual policy.
 │       ├── source/                   # Preserved French source documents
 │       └── audit/                    # French audit records and source reports
 ├── research/                         # English public research documentation
-└── archives/                         # Versioned historical material
+├── archives/                         # Historical versions and legacy artifacts
+│   ├── README.md
+│   ├── cip/
+│   │   ├── README.md
+│   │   └── v5.0/                    # Historical version record
+│   │   └── v5.1/                    # Historical version record
+│   └── presentations/
+│       └── README.md
+└── metrics/                          # CI metrics and generated reports
 ```
 
 The root-level files required by GitHub and agent tooling remain at the root. They are kept in English so that the public and technical control layer has one stable language and one stable path.
 
-French source documents are preserved under `docs/fr/source/`, while French audit records are grouped under `docs/fr/audit/`. A translated document must use a distinct filename and explicitly identify its source document, translation status and translation date. The root README is the English public entry point; its former French content is preserved at `docs/fr/source/README.fr.md`.
+French source documents are preserved under `docs/fr/source/`, while French audit records are grouped under `docs/fr/audit/`. A translated document must use a distinct filename and explicitly identify its source and lineage.
 
 ## Change protocol
 
-When adding a public document, write it in English and link it from the English index. When adding or revising a French source document, store it under `docs/fr/` and preserve its original wording. Do not overwrite a French source with an English translation. Run Markdown lint, link checks and a language/path review before merging.
+When adding a public document, write it in English and link it from the English index. When adding or revising a French source document, store it under `docs/fr/` and preserve its original wording and date. Legacy versions remain in `archives/`; they are retained without being treated as the current framework.
