@@ -2,7 +2,7 @@
 
 ## Compact activation version of CIP v5.0
 
-> **HISTORICAL DOCUMENT — SUPERSEDED.** This version (CIP Core v5.0) is a historical draft. It is no longer canonical. The sole canonical compact activation text is [CIP Core v5.1](CIP-Core-v5.1.md). This file is preserved for traceability only.
+> **HISTORICAL DOCUMENT — SUPERSEDED.** This version (CIP Core v5.0) is a historical draft. It is no longer canonical. The sole canonical compact activation text is [CIP Core v5.2 (English)](../../../CIP-Core-v5.2-en.md). This file is preserved for traceability only.
 
 This text constitutes the **compact activation version** of the Collaborative Integrity Pact.
 
