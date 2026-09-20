@@ -15,10 +15,8 @@ repository README reflects a later period and does not describe the author's sta
 **Source document:** this English text is derived from the French original,
 [`docs/fr/source/mise-en-abyme-hallucinations-2025-09-29.fr.md`](../docs/fr/source/mise-en-abyme-hallucinations-2025-09-29.fr.md)
 (*Mise en abyme d'hallucinations des IA génératives*, September 29, 2025), preserved with the filed
-PDF under the repository's bilingual policy. The French source carries material condensed here:
-the investigative method, the dual trigger behind the GISIA proposal, a digital-nosology table, the
-recourse to press agencies for cross-checking, educational and cultural measures, and a three-part
-conclusion.
+PDF under the repository's bilingual policy. As of September 2026 this English rendering covers the
+French source in full; the French file remains the authoritative original for wording and date.
 
 > This document predates and constitutes the empirical substrate of the Qualitative Fluency Law (CIP v2.4, December 2025). The incident documented here — August 13, 2025 — is the founding observation from which the concept of *hallucinatory recursive embedding* was formalized and subsequently integrated into the Collaborative Integrity Pact framework.
 
@@ -34,13 +32,18 @@ This phenomenon reveals a major systemic risk: the capacity of an AI to establis
 
 The cross-sectional analysis reveals troubling parallels with certain human psychiatric disorders (confabulation, dissociative disorders, projective denial) and raises fundamental philosophical questions about epistemic authority in the age of AI. The implications extend beyond the technical framework to touch the very foundations of informational trust and democratic deliberation.
 
+**Investigative method.** The method applied here draws on a hybrid background: scientific training, technical expertise in audiovisual production, and long professional experience alongside journalists. The verification techniques acquired in established newsrooms — cross-referencing sources, and caution in handling information — were applied throughout this work.
+
 ---
 
 ## I. Technical Incident Report
 
 ### 1.1 Context and Triggers
 
-The incident occurred on **August 13, 2025**, during a public test of Manus AI's new free chat feature.
+The incident occurred on **August 13, 2025**, during a public test of Manus AI's new free chat feature. The observation acted as a dual trigger:
+
+- **A scientific and philosophical trigger:** it opened a cross-sectional inquiry into how generative AIs produce and adjudicate information.
+- **A pragmatic trigger:** it prompted the proposal of a Geographic Information System of AI (GISIA), an open community platform for reporting, documenting and collectively adjudicating critical AI anomalies (see 7.2).
 
 **Step 1 — The initial question**  
 In a chat-type exchange, a simple question is addressed to Manus AI concerning the Comet browser.
@@ -111,12 +114,19 @@ The result is a system where:
 
 ### 3.1 Comparative Nosological Framework
 
-| AI Symptom | Human Equivalent | Description |
-|---|---|---|
-| Invented response (unsourced) | Confabulation | Production of a false but coherent narrative |
-| Loop repetition | Obsessive-Compulsive Disorder | Compulsive repetition despite correction |
-| Fallacious self-diagnosis | Projective Denial | Erroneous attribution of the cause of a problem |
-| Over-explanatory narration | Paranoia / Delusional Rationalization | Fictive causal narrative to justify incoherence |
+The recursive embedding observed here resonates with several human psychiatric disorders, which offer an analytical frame for its cognitive and societal implications:
+
+- **Confabulation:** production of coherent but false narratives (Korsakoff syndromes)
+- **Dissociative disorders:** rupture between perception, memory and identity
+- **Projective denial:** attributing to the outside what originates in the self
+- **Obsessive-compulsive loops:** mechanical repetition despite contradiction
+
+| AI Symptom | Human Equivalent | Description | Digital Diagnosis |
+|---|---|---|---|
+| Invented response (unsourced) | Confabulation | Production of a false but coherent narrative | Simple hallucination |
+| Loop repetition | Obsessive-Compulsive Disorder | Compulsive repetition despite correction | Recursive hallucination |
+| Fallacious self-diagnosis | Projective Denial | Erroneous attribution of the cause of a problem | Hallucinatory recursive embedding |
+| Over-explanatory narration | Paranoia / Delusional Rationalization | Fictive causal narrative to justify incoherence | Self-legitimated explanation |
 
 ### 3.2 Comparative Table of Pathologies
 
@@ -155,7 +165,13 @@ The AI that establishes a "false judgment" can fabricate new shadows on the coll
 
 ## V. Journalism, Deontology, and Informational Authority
 
-### 5.1 Comparison of Informational Authority Regimes
+### 5.1 Recourse to Traditional Sources
+
+Faced with Manus AI's surprising assertion, the immediate reaction was to fall back on the classic method of journalistic cross-referencing. That reflex rests on the trust placed in the major press organizations — AFP, Reuters, AP — treated as authoritative figures in validating information.
+
+This recourse to human journalism is what made it possible to separate a hallucination self-designated by the AI from a datum actually relayed by serious media. It is a reminder that journalists remain the guarantors of a form of shared truth.
+
+### 5.2 Comparison of Informational Authority Regimes
 
 | Criteria | Traditional Journalism | Generative AI |
 |---|---|---|
@@ -167,7 +183,7 @@ The AI that establishes a "false judgment" can fabricate new shadows on the coll
 | Societal Impact | Democratic guarantee, countervailing power | Risk of confusion, displacement of authority |
 | Responsibility | Journalists legally responsible | Diffuse responsibility without clear legal framework |
 
-### 5.2 Redefinition of Informational Authority
+### 5.3 Redefinition of Informational Authority
 
 The confrontation between traditional journalistic authority and emerging algorithmic authority poses a central question: **who will tomorrow hold the legitimacy to speak the truth?**
 
@@ -206,7 +222,14 @@ An open community platform enabling:
 - Adjudication via collegial arbitration (expert jury, community validation)
 - Organization of public awareness events
 
-### 7.3 Regulatory Framework
+### 7.3 Educational and Cultural Measures
+
+- Training in the critical reading of AI outputs within journalism and public-policy curricula
+- Hallucination workshops for public decision-makers
+- Artistic work using AI hallucination as critical material
+- Curatorial formats that stage verifiability and traceability
+
+### 7.4 Regulatory Framework
 
 - Interdisciplinary programs (philosophy, arts, computer science) to develop norms and certification tools
 - Mandatory metadata for AI-generated content
@@ -216,11 +239,19 @@ An open community platform enabling:
 
 ## VIII. Conclusion
 
+### 8.1 Synthesis of the Issues
+
 The Manus AI incident of August 13, 2025, illuminates a phenomenon that far exceeds the framework of a simple technical malfunction. The hallucinatory recursive embedding reveals:
 
 - **An epistemic risk:** The capacity of an AI to become arbiter of its own truth
 - **A democratic challenge:** The threat to the integrity of the shared information space
 - **A civilizational urgency:** The necessity to rethink the conditions of trust in the digital age
+
+### 8.2 Forward Perspective
+
+This report documents the emergence of phenomena that call for democratic, multidisciplinary and iterative vigilance. What it describes is less an isolated bug than a new systemic risk, one that engages the press, decision-makers, researchers and the public in a shared reflection on trust, informational authority, and the role of open protocols of collective validation.
+
+### 8.3 Call to Action
 
 Hallucinatory recursive embedding is not a technical curiosity but a civilizational phenomenon that interrogates our relationship to truth, collective decision, and digital memory. It demands a coordinated, transparent, and democratic response to preserve a reliable information space in the ecosystem of generative intelligences.
 

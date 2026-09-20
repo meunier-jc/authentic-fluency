@@ -11,9 +11,9 @@
 > d'origine conformément à la politique bilingue non destructive décrite dans
 > [`docs/STRUCTURE.md`](../../STRUCTURE.md). Il est antérieur à la version anglaise publique
 > [`research/hallucinatory-inception.md`](../../../research/hallucinatory-inception.md), qui en est
-> dérivée et condensée sur plusieurs points (méthode d'investigation, double déclencheur, tableau de
-> nosologie numérique, recours aux sources de presse, mesures éducatives, conclusion en trois
-> volets). Transcription Markdown du PDF déposé, réalisée le 20 septembre 2026 :
+> dérivée ; celle-ci en couvre désormais l'intégralité (mise à jour de septembre 2026), ce document
+> restant l'original de référence pour la formulation et la date.
+> Transcription Markdown du PDF déposé, réalisée le 20 septembre 2026 :
 > le texte, les tableaux et l'ordre des sections sont inchangés ; seules les ponctuations perdues à
 > l'extraction (parenthèses de dates, tirets) ont été rétablies.
 
