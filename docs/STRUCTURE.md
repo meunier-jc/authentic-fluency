@@ -8,7 +8,7 @@ This repository uses a non-destructive bilingual policy.
 - French source material and audit records remain in French.
 - Translations are separate files and are never presented as originals.
 - Historical documents retain their original dates and version identifiers.
-- CIP v5.2 is the active canonical framework. Historical material is identified as legacy and is progressively organized under `archives/`.
+- CIP v5.2 is the active canonical framework. Historical material is identified as legacy and organized under `archives/`.
 
 ## Directory layout
 
@@ -44,7 +44,7 @@ This repository uses a non-destructive bilingual policy.
 └── metrics/                           # Current CI metrics and generated reports
 ```
 
-The root-level files required by GitHub and agent tooling remain at the root. The active public and technical control layer is maintained in English so that it has one stable language and one stable path. Legacy root-level files that have not yet been moved are historical references only and must not be treated as the active framework.
+The root-level files required by GitHub and agent tooling remain at the root. The active public and technical control layer is maintained in English so that it has one stable language and one stable path. All historical material has been organized under `archives/` and must not be treated as the active framework.
 
 French source documents are preserved under `docs/fr/source/`, while French audit records are grouped under `docs/fr/audit/`. A translation must use a distinct filename and clearly identify its source, translation status, translation date, and version lineage. It must not replace the original source document.
 
