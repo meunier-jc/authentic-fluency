@@ -4,7 +4,7 @@
 
 This is `meunier-jc/authentic-fluency` — the canonical repository for the **Collaborative Integrity Pact (CIP) v5.2**, authored by Jean-Christophe Meunier.
 
-Author profile: AI ethics researcher, independent consultant, Normandy France. Author-declared OpenAI GPT-4/5 beta-testing profile (reported score 9.1/10 and declared top-ranking result, Nov 2025); the measurement protocol and independent attestation are not included here. AI governance practitioner across tech, live music, webcast studio, and Starlink sectors.
+Author profile: AI ethics researcher, independent consultant, Normandy France. Author-declared OpenAI GPT-4/5 beta-testing profile since November 2022, stated without a ranking or score: figures previously reported here came from AI-generated assessment documents that no primary attestation supports. AI governance practitioner across tech, live music, webcast studio, and Starlink sectors.
 
 ---
 

@@ -7,13 +7,11 @@
 **Classification:** Original Research — Prospective Analysis  
 **IP Filing:** Prepared for INPI (Institut National de la Propriété Industrielle) — Soleau Envelope  
 
-**Author status at the time of writing:** the author declares a priority expert beta-tester standing
-with OpenAI, ranked in the global top 10% as of July 2025. That is the standing in force in August
-2025, when the incident below was observed, and in September 2025, when this report was filed. The
-source document's closing line records it in French as *Top 10 mondial*, meaning the top ten
-percent. The 1.5% global ranking stated in the repository README is a later figure, which the author
-declares OpenAI certified in November 2025; it does not describe the author's standing on the dates
-covered by this report.
+**Author status at the time of writing:** the author declares participation in OpenAI expert
+beta-testing, which is an author declaration and not an independent certification. The French source
+document's closing line adds a percentile to that status. This repository does not present that
+percentile as verified; the [README](../README.md) disclosure records why it was withdrawn. The
+preserved French source keeps its original wording, as the bilingual policy requires.
 
 **Source document:** this English text is derived from the French original,
 [`docs/fr/source/mise-en-abyme-hallucinations-2025-09-29.fr.md`](../docs/fr/source/mise-en-abyme-hallucinations-2025-09-29.fr.md)

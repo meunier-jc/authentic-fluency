@@ -6,6 +6,29 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ---
 
+## [Correction documentaire] — 2026-09-20
+
+### Retiré
+
+- **Classement mondial déclaré de l'auteur**, dans le README, les deux textes canoniques v5.2,
+  `CLAUDE.md` et `research/hallucinatory-inception.md`. Vérification de provenance : les seules
+  sources du chiffre étaient des documents d'évaluation produits par un assistant IA à la demande de
+  l'auteur, ce qu'établissent leurs métadonnées de fichier. Aucune attestation émise par OpenAI ne
+  l'étaye, et ni la méthode de mesure ni la population de référence n'étaient disponibles.
+- **Métriques de bêta-test déclarées** de la section « Ancré empiriquement » de la v5.2, et la
+  référence croisée associée. Ces valeurs provenaient des mêmes documents. Le cadre reste ancré sur
+  les incidents Manus AI (août 2025) et Claude (janvier 2026), qui sont documentés et datés.
+
+### Conservé
+
+- Le statut de participation au bêta-test expert OpenAI depuis novembre 2022, présenté comme
+  déclaration d'auteur.
+- Les versions antérieures et les sources françaises, inchangées : elles gardent leur formulation
+  d'origine conformément à la politique non destructive, et la divulgation du README indique la
+  lecture à retenir.
+
+---
+
 ## [v5.2] — 2026-09-19
 
 ### Publié
@@ -62,7 +85,6 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 - Incident **Manus AI (août 2025)** : découverte de la « mise en abyme hallucinatoire ».
 - Incident **Claude (janvier 2026)** : second cas confirmé, répétabilité cross-architecture.
-- Bêta-test OpenAI (novembre 2025) : 97 % de cohérence, plus de 95 % de feedback exploitable, top 1,5 % mondial.
 
 ---
 
@@ -97,7 +119,6 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 ## Références croisées
 
 - **Rapport incident Manus** : `research/Hallucinatory-Mise-en-Abyme-Analysis-September-2025.md` (dans archives/)
-- **Évaluation bêta-testeur OpenAI** : novembre 2025 (9.1/10 global, Tier 1)
 - **Analyse GitHub indépendante** : évaluation de l’expertise via contributions (2026)
 - **Dépôt** : <https://github.com/meunier-jc/authentic-fluency>
 - **Contact** : <ia.normandie.expert@gmail.com>
