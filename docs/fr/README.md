@@ -8,16 +8,17 @@ Les documents français constituent les sources de référence pour les pièces 
 
 ## Dossiers
 
-- [`source/`](./source/) — copies conservées des documents français sources, notamment l’ancien README racine.
-  - [`mise-en-abyme-hallucinations-2025-09-29.fr.md`](./source/mise-en-abyme-hallucinations-2025-09-29.fr.md)
-    — « Mise en abyme d’hallucinations des IA génératives », 29 septembre 2025. Document source du
-    rapport d’incident Manus AI du 13 août 2025, antérieur à sa version anglaise publique
+- [`recherche/`](./recherche/) — rapports de recherche originaux en français (textes de référence).
+  - [`mise-en-abyme-hallucinations-2025-09-29.fr.md`](./recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md)
+    — « Mise en abyme d’hallucinations des IA génératives », 29 septembre 2025. Rapport de recherche
+    original fondant le concept d’enchâssement récursif, antérieur à sa version anglaise
     [`research/hallucinatory-inception.md`](../../research/hallucinatory-inception.md). Le PDF déposé
-    est conservé à côté de la transcription
+    est conservé avec la retranscription intégrale
     ([`…fr.pdf`](./source/mise-en-abyme-hallucinations-2025-09-29.fr.pdf)).
+- [`source/`](./source/) — copies conservées des documents français sources, notamment l’ancien README racine et les stubs de redirection.
 - [`audit/`](./audit/) — rapports, matrices et journaux d’audit en français.
 - [`../../archives/`](../../archives/) — versions historiques du corpus, conservées avec leur date et leur version.
 
 ## Relation avec la couche publique
 
-La documentation publique et technique en anglais est indexée sous [`docs/en/`](../en/). Les chemins racine `README.md`, `CIP-v5.2-integral-en.md` et `CIP-Core-v5.2-en.md` sont les points d’entrée publics canoniques. Les rapports français ne doivent pas être cités comme traductions anglaises sans identification explicite de leur statut.
+La documentation publique et technique en anglais est indexée sous [`docs/en/`](../en/). Les chemins racine `README.md`, `CIP-v5.1.md` et `CIP-Core-v5.1.md` restent les points d’entrée publics canoniques. Les rapports français ne doivent pas être cités comme traductions anglaises sans identification explicite de leur statut.
