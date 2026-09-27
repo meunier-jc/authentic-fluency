@@ -2,7 +2,7 @@
 
 This report has been renamed to reflect its core concept more precisely: not merely a recursive repetition of error, but a **hallucinatory inception** — a mise en abyme where the AI's self-diagnostic process becomes the source of falsification.
 
-**New location:** [research/hallucinatory-inception.md](./hallucinatory-inception.md)
+**New location:** [research/hallucinatory-inception.md](../../research/hallucinatory-inception.md)
 
 ---
 
