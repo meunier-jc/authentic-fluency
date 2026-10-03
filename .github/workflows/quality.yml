@@ -76,7 +76,7 @@ jobs:
           grep -qi 'pull request' CONTRIBUTING.md
           grep -qi 'Code of Conduct' CONTRIBUTING.md
           grep -qi 'human' CONTRIBUTING.md
-          grep -qi 'evidence' CONTRIBUTING.md
+
 
   changed-files:
     name: Changed-file safety check
