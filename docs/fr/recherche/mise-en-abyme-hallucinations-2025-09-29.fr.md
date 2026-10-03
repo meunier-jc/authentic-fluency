@@ -8,7 +8,7 @@
 
 ---
 
-# MISE EN ABYME D'HALLUCINATIONS DES IA GÉNÉRATIVES
+## MISE EN ABYME D'HALLUCINATIONS DES IA GÉNÉRATIVES
 
 ## ANALYSE ET RÉFLEXIONS
 
@@ -246,8 +246,8 @@ La préservation de la confiance informationnelle et de la délibération démoc
 
 ---
 
-*Document préparé pour dépôt INPI (Enveloppe Soleau).*
+Document préparé pour dépôt INPI (Enveloppe Soleau).
 
-*Auteur : Jean-Christophe MEUNIER · Date : 29 septembre 2025*
+Auteur : Jean-Christophe MEUNIER · Date : 29 septembre 2025
 
-*Classification : Recherche originale — Analyse prospective.*
+Classification : Recherche originale — Analyse prospective.
