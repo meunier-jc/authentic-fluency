@@ -141,10 +141,9 @@ BREAKING CHANGE: update references to the former confidence terminology.
 
 ## 7. Human review and oversight
 
-As an open-source research framework focused on reliability, the ultimate validation of any contribution relies on human judgment. While AI assistance can be used to explore, draft, or translate ideas, all automated suggestions must undergo rigorous human review. 
+As an open-source research framework focused on reliability, the ultimate validation of any contribution relies on human judgment. While AI assistance can be used to explore, draft, or translate ideas, all automated suggestions must undergo rigorous human review.
 
 Contributors are expected to verify that any AI-generated analysis complies with the project's evidence standards (Section 4) before submitting a pull request. A human contributor must always remain the final arbiter of truthfulness, alignment, and ethical coherence in this repository.
-
 
 ## 8. GitHub Actions and quality checks
 
