@@ -139,11 +139,12 @@ feat(protocol)!: adopt claim-level credibility labels
 BREAKING CHANGE: update references to the former confidence terminology.
 ```
 
-## 7. Human review and AI assistance
+## 7. Human review and oversight
 
-AI tools may be used for brainstorming, translation, editing, coding assistance or drafting. Every contributor remains responsible for factual accuracy, originality, licensing and the implications of the submitted material.
+As an open-source research framework focused on reliability, the ultimate validation of any contribution relies on human judgment. While AI assistance can be used to explore, draft, or translate ideas, all automated suggestions must undergo rigorous human review. 
 
-Do not submit unreviewed generated text, fabricated references, private data, confidential prompts or material copied without permission. If AI assistance was substantial, disclose it in the pull request and confirm that a human contributor reviewed the complete final result. The repository’s pull request template includes explicit review checkboxes.
+Contributors are expected to verify that any AI-generated analysis complies with the project's evidence standards (Section 4) before submitting a pull request. A human contributor must always remain the final arbiter of truthfulness, alignment, and ethical coherence in this repository.
+
 
 ## 8. GitHub Actions and quality checks
 
