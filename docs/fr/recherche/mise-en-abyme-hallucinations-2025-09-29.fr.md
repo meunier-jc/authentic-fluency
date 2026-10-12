@@ -1,5 +1,3 @@
-# Mise en abyme d'hallucinations des IA génératives
-
 > **Nature du document :** rapport de recherche original — texte de référence français.
 > **Auteur :** Jean-Christophe Meunier · **Date :** 29 septembre 2025.
 > **Classification :** Recherche originale — Analyse prospective · Document préparé pour dépôt INPI (Enveloppe Soleau).
@@ -215,7 +213,7 @@ L'incident Manus AI du 13 août 2025 met en lumière un phénomène qui dépasse
 
 ### 8.2 Perspective d'avenir
 
-Ce rapport contribue à documenter l'émergence de phénomènes inédits qui appellent une vigilance démocratique, pluridisciplinaire et itérative. Il s'agit moins d'un bug isolé que d'un risque systémique nouveau, engageant la presse, les décideurs, les chercheurs et le public dans une réflexion sur la confiance, l'autorité informationnelle et le rôle des protocoles ouverts de validation collective.
+Ce rapport contribue à documenter l'émergence de phénomènes inédits qui appellent une vigilance démocratique, pluridisciplinaire et itérative. Il s'agit moins d'un bug isolé qu'un risque systémique nouveau, engageant la presse, les décideurs, les chercheurs et le public dans une réflexion sur la confiance, l'autorité informationnelle et le rôle des protocoles ouverts de validation collective.
 
 La mise en abyme hallucinatoire n'est pas une curiosité technique mais un phénomène civilisationnel qui interpelle notre rapport à la vérité, à la décision collective et à la mémoire numérique. Elle exige une réponse coordonnée, transparente et démocratique pour préserver un espace informationnel fiable dans l'écosystème des intelligences artificielles.
 
@@ -248,6 +246,6 @@ La préservation de la confiance informationnelle et de la délibération démoc
 
 *Document préparé pour dépôt INPI (Enveloppe Soleau).*
 
-*Auteur : Jean-Christophe MEUNIER · Date : 29 septembre 2025*
+*Auteur : Jean-Christophe MEUNIER · Date : 29 septembre 2025.*
 
 *Classification : Recherche originale — Analyse prospective.*
