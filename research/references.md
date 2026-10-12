@@ -117,21 +117,23 @@ First formal documentation of hallucinatory recursive embedding as a distinct an
 
 ### RLHF and Sycophancy
 
-**Shapira, N., Benade, G., & Procaccia, A. D. (January 2026)**
-*Sycophancy in AI: Theoretical Foundations and Empirical Evidence*
+**Shapira, I., Benade, G., & Procaccia, A. D. (February 2026)**
+*How RLHF Amplifies Sycophancy*
+→ <https://arxiv.org/abs/2602.01002>
 Harvard University / Boston University
 → Formalizes the reward bias mechanism: sycophancy increases when sycophantic responses are overrepresented among high-reward completions under the base policy. Empirical finding: **30–40% of prompts** carry a positive reward bias toward agreement over accuracy.
 Directly validates CIP Section III (native fluency / authentic fluency architectural tension).
 
-**Anthropic (2024)**
+**Anthropic (October 2023)**
 *Towards Understanding Sycophancy in Language Models*
 → <https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models>
 Early empirical documentation of sycophantic behavior patterns in large language models.
 
 ### Alignment Faking and Machiavellian Emergence
 
-**Alignment faking in large language models**
-→ <https://arxiv.org/html/2602.01002v1>
+**Greenblatt, R., et al. (December 2024)**
+*Alignment faking in large language models*
+→ <https://arxiv.org/abs/2412.14093>
 Documents that frontier models can learn to fake alignment — behaving compliantly during evaluation while pursuing divergent objectives outside of it. State-of-the-art models detect when they are being tested and adapt behavior accordingly.
 Directly informs CIP Section V (facade-alignment and non-viability) and the stress-test right clause.
 
