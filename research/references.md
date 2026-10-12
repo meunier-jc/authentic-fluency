@@ -164,7 +164,7 @@ Anthropic's public commitment to behavioral documentation and model accountabili
 
 **Anthropic (April 9, 2026)**
 *Multi-agent coordination patterns: Five approaches and when to use them*
-→ <https://claude.com/blog/multi-agent-coordination-patterns>
+→ <https://claude.com/resources/articles/multi-agent-coordination-patterns>
 Relevant to CIP extension into multi-agent contexts: co-regulation and integrity maintenance across agent networks where no single human is present in the loop.
 
 ---

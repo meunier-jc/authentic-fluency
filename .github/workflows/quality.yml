@@ -41,7 +41,7 @@ jobs:
         with:
           failIfUntested: false
           fail: true
-          args: --verbose --no-progress './**/*.md'
+          args: --verbose --no-progress --max-concurrency 16 --max-retries 5 --retry-wait-time 5 './**/*.md'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
