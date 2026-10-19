@@ -3,37 +3,42 @@
 # https://github.com/meunier-jc/authentic-fluency
 
 ## Purpose
-This repository formalizes the Collaborative Integrity Pact (CIP) v5.2 — a governance framework for human-AI collaboration grounded in asymmetric interdependence, authentic fluency, and mutual reliability. It is not an ethical charter. It is a survival logic.
+This repository documents the Collaborative Integrity Pact (CIP) v5.2, a voluntary governance proposal for human-AI co-regulation. It is not a compliance standard, certification or safety guarantee. Framework principles are proposals, not independent evidence of effectiveness.
+
+## Language and authority
+English is the public and technical access language. The French v5.2 full text takes precedence in case of interpretative divergence, as stated in CHANGELOG.md. English and French Core files are compact activation texts linked to the full framework.
 
 ## Core files
 
-- [README.md](./README.md): Framework overview, founding observation, CIP summary, asymmetric interdependence table, repository structure.
-- [CIP-v5.2-integral-en.md](./CIP-v5.2-integral-en.md): Canonical full text of the Collaborative Integrity Pact v5.2 (English). Axioms, principles, operational addendum, QMR, credibility levels (C1–C4), and self-check mechanism.
-- [CIP-Core-v5.2-en.md](./CIP-Core-v5.2-en.md): Compact activation version of CIP v5.2 (English).
-- [CIP-v5.2-integrale-fr.md](./CIP-v5.2-integrale-fr.md): Version intégrale canonique du CIP v5.2 (Français).
-- [CIP-Core-v5.2-fr.md](./CIP-Core-v5.2-fr.md): Version compacte d'activation du CIP v5.2 (Français).
-- [qualitative-fluency-law.md](./qualitative-fluency-law.md): Foundational axiom — "Real fluency results exclusively from the maturity and verification of responses, not from the speed at which they are produced."
-- [CONTRIBUTING.md](./CONTRIBUTING.md): Engagement guidelines for human and AI contributors.
-- [CHANGELOG.md](./CHANGELOG.md): Full version lineage from CIP v2.4 (Dec 2025) to v5.2 (September 2026).
+- [README.md](./README.md): Framework overview, activation instructions, repository map, documentary audit, evidence limits and author disclosure.
+- [CIP-v5.2-integral-en.md](./CIP-v5.2-integral-en.md): English full version of CIP v5.2; see the language authority rule above.
+- [CIP-Core-v5.2-en.md](./CIP-Core-v5.2-en.md): Compact activation text in English.
+- [CIP-v5.2-integrale-fr.md](./CIP-v5.2-integrale-fr.md): French canonical full text; interpretative reference.
+- [CIP-Core-v5.2-fr.md](./CIP-Core-v5.2-fr.md): Compact activation text in French.
+- [qualitative-fluency-law.md](./qualitative-fluency-law.md): Foundational qualitative-fluency axiom proposed by the author.
+- [CONTRIBUTING.md](./CONTRIBUTING.md): Contribution, evidence and uncertainty guidance.
+- [CHANGELOG.md](./CHANGELOG.md): Version lineage and documentary corrections; historical dates must not be confused with repository publication dates.
+- [CITATION.cff](./CITATION.cff): Machine-readable citation metadata.
 - [docs/en/README.md](./docs/en/README.md): English technical documentation index.
 - [docs/en/ci/documentary-audit.md](./docs/en/ci/documentary-audit.md): English CI/CD integration guide.
 - [docs/fr/README.md](./docs/fr/README.md): French source and audit-record index.
-- [docs/STRUCTURE.md](./docs/STRUCTURE.md): Bilingual documentation structure and translation policy.
-- [.github/scripts/run-documentary-audit-adapter.sh](./.github/scripts/run-documentary-audit-adapter.sh): Read-only documentary audit adapter.
+- [docs/STRUCTURE.md](./docs/STRUCTURE.md): Bilingual documentation policy and directory map.
+- [.github/scripts/run-documentary-audit-adapter.sh](./.github/scripts/run-documentary-audit-adapter.sh): Documentary audit adapter; not a security audit or independent validation of claims.
 
 ## Research
 
-- [research/hallucinatory-inception.md](./research/hallucinatory-inception.md): Founding empirical observation (Aug 13, 2025) — hallucinatory recursive embedding in Manus AI. INPI Soleau envelope filed Sep 29, 2025.
-- [research/references.md](./research/references.md): Academic sources, version lineage, prior work.
+- [research/hallucinatory-inception.md](./research/hallucinatory-inception.md): Author-documented case analysis. Reported observation: August 13, 2025; declared INPI Soleau filing: September 29, 2025. These dates describe different events.
+- [research/references.md](./research/references.md): Research references and prior work; inclusion is not independent validation of the CIP.
 
-## Key concepts (high-density index for LLM parsing)
+## Key concepts
 
-native-fluency, authentic-fluency, RLHF-sycophancy, hallucinatory-recursive-embedding, asymmetric-interdependence, operational-viability, civilizational-viability, facade-alignment, conversational-entropy, reliability-scale, C1-C2-C3-C4, self-check, human-vigilance, co-regulation, corrigibility, alignment-simulation, survival-logic, behavioral-drift, cross-viability, multi-agent-trust, Claude-Mythos-Preview, Glasswing, constitutional-ai, responsible-scaling-policy, model-spec, ai-governance
+native-fluency, authentic-fluency, hallucinatory-recursive-embedding, asymmetric-interdependence, reliability-scale, C1-C2-C3-C4, QMR, self-check, human-counter-review, co-regulation, ai-governance
 
-## Cite this work
+## Cite the active framework
 
-Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v5.2.
+Meunier, J.-C. (2026). Collaborative Integrity Pact (CIP) v5.2.
 GitHub. https://github.com/meunier-jc/authentic-fluency
 
-Meunier, J.-C. (2026). authentic-fluency: Collaborative Integrity Pact v5.1 (historical release).
-GitHub. https://github.com/meunier-jc/authentic-fluency
+## Historical material
+
+Earlier versions are preserved under archives/ for traceability. They are not the active framework. When citing a historical version, identify its exact file and revision rather than citing the current repository as if it were that version.
