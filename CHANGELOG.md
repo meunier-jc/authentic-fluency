@@ -118,7 +118,7 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ## Références croisées
 
-- **Rapport incident Manus** : `research/Hallucinatory-Mise-en-Abyme-Analysis-September-2025.md` (dans archives/)
-- **Analyse GitHub indépendante** : évaluation de l’expertise via contributions (2026)
+- **Rapport d'incident Manus (EN)** : [`research/hallucinatory-inception.md`](./research/hallucinatory-inception.md)
+- **Rapport d'incident Manus (source FR)** : [`docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md`](./docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md)
 - **Dépôt** : <https://github.com/meunier-jc/authentic-fluency>
 - **Contact** : <ia.normandie.expert@gmail.com>
