@@ -6,6 +6,28 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ---
 
+## [Correction documentaire] — 2026-10-20
+
+### Corrigé
+
+- **Références croisées de ce CHANGELOG** : le rapport d'incident Manus est désormais référencé par ses chemins réels — `research/hallucinatory-inception.md` (EN) et `docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md` (source FR) ; la ligne « Analyse GitHub indépendante » a été retirée faute de source, en cohérence avec la correction documentaire du 2026-09-20.
+- **Traduction anglaise du rapport de recherche du 29 septembre 2025** (`research/hallucinatory-inception.md`) : texte intégral publié (fourni par l'auteur le 2026-10-20, statut de traduction documenté dans l'en-tête). En-tête corrigé : le classement mondial résiduel (« top 10 mondial », « top 1,5 % ») — que la correction du 2026-09-20 était censée avoir retiré de ce fichier — a été supprimé ; l'acronyme SIGIA est rendu par son équivalent anglais AIGIS ; la citation Habermas distingue désormais l'édition allemande originale (1962, Hermann Luchterhand Verlag) de la traduction anglaise (1989, MIT Press, trad. Thomas Burger).
+- **Dates de versions alignées sur les métadonnées des fichiers CIP concernés** (règle de l'auteur en cas de doute, établie le 2026-10-20), dans `CHANGELOG.md`, `research/references.md` et `CLAUDE.md` : v2.4 (déc. 2025), v2.6.3 (31 janv. 2026), v2.7 (25 févr. 2026), v2.9 (9 avr. 2026), v3.0–v3.6 (13–21 avr. 2026), v3.8 (mai 2026), v4.4 (juin 2026), v5.0 (juil. 2026). La loi qualitative de la fluidité (`qualitative-fluency-law.md`) est datée de décembre 2025, période de développement de la v2.4.
+- **`llms.txt` et `docs/STRUCTURE.md`** : l'autorité linguistique est clarifiée — l'anglais est la langue d'accès publique et technique, les versions françaises font foi en cas de divergence interprétative, et le présent CHANGELOG en français est documenté comme exception explicite. Dans `llms.txt` : description du README et lignée de versions mises en conformité avec le contenu réel, mots-clés non documentés retirés (dont `Claude-Mythos-Preview` et `Glasswing`), `CITATION.cff` ajouté à l'index, dates de l'observation (13 août 2025) et du dépôt Soleau (29 septembre 2025) distinguées. Dans `STRUCTURE.md` : chemins hérités (`archives/CIP-v3.8.md`, `archives/CIP-v4.4.md`) et `docs/fr/recherche/` documentés ; règle de discipline des dates ajoutée.
+
+### Ajouté
+
+- **Erratum daté dans `archives/CIP-v3.8.md`** : son lignage interne date la v2.7 du « Jan 26, 2026 », en contradiction avec la métadonnée de publication du fichier v2.7 lui-même (25 février 2026), qui prévaut. Libellé d'origine conservé inchangé.
+- **Erratum bibliographique daté dans l'en-tête du rapport français source** (`docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md`) : la revue de publication correcte pour « Ji, Z., et al. (2023) » est *ACM Computing Surveys* (vol. 55, n° 12, DOI 10.1145/3571730), et non « ACL Computing Surveys » ; la référence « Habermas, J. (1962). *Strukturwandel der Öffentlichkeit*. MIT Press. » associe l'édition allemande originale (Hermann Luchterhand Verlag, 1962) à l'éditeur de la traduction anglaise (MIT Press, 1989, trad. Thomas Burger). Libellé d'origine conservé inchangé ; la traduction anglaise porte les mentions correctes.
+- **Paragraphe « Reference accuracy » dans le README** (section « Evidence and scope »), résumant la correction de la citation Habermas avec liens vers le rapport anglais et le rapport français source.
+
+### Conservé
+
+- Les documents historiques, les archives et les sources françaises gardent leur libellé d'origine conformément à la politique non destructive : les corrections y sont portées par errata datés, jamais par réécriture.
+- Pour les versions sans fichier dans les dépôts (v3.7, v3.9, v4.0, v4.4.1), le mois indiqué par l'auteur est retenu.
+
+---
+
 ## [Correction documentaire] — 2026-09-20
 
 ### Retiré
