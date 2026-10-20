@@ -1,6 +1,8 @@
 # Regulatory Crosswalk: CIP v5.2, EU AI Act, and OECD AI Principles
 
-**Status:** N3 research crosswalk. Requires independent legal and policy review.
+**Status:** C3 research crosswalk. Requires independent legal and policy review.
+
+> **Erratum 2026-10-20:** the document header and the Research Notes previously used the retired pre-v5.0 reliability scale (N1–N4) to self-qualify ("Status: N3 research crosswalk", "N1/N2/N3 candidate"). These four mentions have been aligned with the C1–C4 credibility scale introduced in v5.0 and documented in the "Key Changes from v3.8 → v5.2" table of this document. No other content was altered.
 
 **Purpose:** Identify where CIP v5.2 research claims appear adjacent to public AI governance frameworks, and where they do not. This is not a compliance checklist, legal opinion, conformity assessment, certification method, or audit tool.
 
@@ -53,9 +55,9 @@ The EU AI Act uses a risk-based legal structure. The table below focuses on high
 
 ## Research Notes
 
-- N1 candidate: CIP v5.2 strongly overlaps with transparency concepts when it requires explicit QMR qualification, credibility level declaration (C1–C4), and refusal under C4 (credibility impossible to stabilize).
-- N2 candidate: CIP's human counter-scrutiny as central regulatory mechanism and single self-check (one per response) are adjacent to human oversight, but a deployment still needs concrete authority, escalation, and intervention procedures.
-- N3 candidate: CIP v5.2 may inform incident taxonomies for hallucinatory recursive embedding (founding observation, INPI Soleau envelope filed) and facade-alignment, but that would require empirical validation across systems.
+- C1 candidate: CIP v5.2 strongly overlaps with transparency concepts when it requires explicit QMR qualification, credibility level declaration (C1–C4), and refusal under C4 (credibility impossible to stabilize).
+- C2 candidate: CIP's human counter-scrutiny as central regulatory mechanism and single self-check (one per response) are adjacent to human oversight, but a deployment still needs concrete authority, escalation, and intervention procedures.
+- C3 candidate: CIP v5.2 may inform incident taxonomies for hallucinatory recursive embedding (founding observation, INPI Soleau envelope filed) and facade-alignment, but that would require empirical validation across systems.
 - Gap: CIP v5.2 should not be represented as satisfying data governance, cybersecurity, quality management, post-market monitoring, or conformity assessment obligations.
 - New in v5.0: The QMR (Qualification of the Mode of Reasoning) — Logical Mode vs Probabilistic Mode — and the four-level credibility architecture (C1–C4) where C1 requires both strong convergent sources AND traceable Logical Mode provide a more granular pressure-test surface than v3.8's N1–N4 reliability scale.
 
