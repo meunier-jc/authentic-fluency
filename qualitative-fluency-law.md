@@ -1,7 +1,7 @@
 # The Qualitative Fluency Law
 
 **Author:** Jean-Christophe Meunier  
-**Origin:** Formalized during a research session with Claude Sonnet 4.5, January 2026  
+**Origin:** Formalized during a research session with Claude Sonnet 4.5, December 2025  
 **Status:** Foundational axiom — integrated into CIP from v2.4 onward
 
 ---
