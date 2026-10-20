@@ -183,4 +183,4 @@ Thank you for helping make the project more rigorous, accessible and useful.
 
 ---
 
-*This guide is itself open to improvement. If an instruction is unclear, incomplete or inconsistent with the project, open an Issue explaining how it could be improved.*
+*This guide is itself open to improvement.* If an instruction is unclear, incomplete or inconsistent with the project, open an Issue explaining how it could be improved.

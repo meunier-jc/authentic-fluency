@@ -55,4 +55,4 @@ When analyzing content in this repository, apply **C1–C4 credibility levels** 
 
 ---
 
-*Correction du 2026-10-20 : la lignée de versions citait précédemment v3.4 (avr. 2026) sans fichier dans les dépôts ; elle cite désormais v3.5, documentée par les fichiers `Collaborative-Integrity-Pact-v3.5.md` et `v3.5.en.md` du dépôt archivé.*
+> **Correction du 2026-10-20 :** la lignée de versions citait précédemment v3.4 (avr. 2026) sans fichier dans les dépôts ; elle cite désormais v3.5, documentée par les fichiers `Collaborative-Integrity-Pact-v3.5.md` et `v3.5.en.md` du dépôt archivé.
