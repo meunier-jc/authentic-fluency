@@ -1,4 +1,4 @@
-# Meunier's AI-Human — Collaborative Integrity Pact v5.2
+# Collaborative Integrity Pact (CIP) v5.2
 
 ## Canonical Full Version
 
