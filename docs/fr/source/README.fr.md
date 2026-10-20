@@ -109,9 +109,9 @@ L'IA et l'humain activent le pacte par consentement mutuel.
 ```bibtex
 @misc{meunier2026cip,
   author = {Meunier, Jean-Christophe},
-  title = {Collaborative Integrity Pact (CIP) v5.1},
+  title = {Collaborative Integrity Pact (CIP) v5.2},
   year = {2026},
-  month = {aug},
+  month = {sep},
   url = {https://github.com/meunier-jc/authentic-fluency},
   note = {Open Source Framework for Human–AI Co-Regulation}
 }
@@ -130,4 +130,6 @@ L'IA et l'humain activent le pacte par consentement mutuel.
 
 ---
 
-### Version intégrale canonique CIP v5.1 — Août 2026 — Open Source — meunier-jc/authentic-fluency
+> **Erratum du 2026-10-20 :** le bloc BibTeX citait précédemment « CIP v5.1 » (août 2026) et la ligne de clôture mentionnait « Version intégrale canonique CIP v5.1 — Août 2026 » ; ces éléments ont été alignés sur la version v5.2 (septembre 2026) déjà déclarée par le titre et l'en-tête de ce document. Titre et formulation d'origine du document source par ailleurs conservés.
+
+### Version intégrale canonique CIP v5.2 — Septembre 2026 — Open Source — meunier-jc/authentic-fluency
