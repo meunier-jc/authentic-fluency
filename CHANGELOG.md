@@ -22,6 +22,7 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 - **Erratum daté dans `archives/CIP-v3.8.md`** : son lignage interne date la v2.7 du « Jan 26, 2026 », en contradiction avec la métadonnée de publication du fichier v2.7 lui-même (25 février 2026), qui prévaut. Libellé d'origine conservé inchangé.
 - **Erratum bibliographique daté dans l'en-tête du rapport français source** (`docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md`) : la revue de publication correcte pour « Ji, Z., et al. (2023) » est *ACM Computing Surveys* (vol. 55, n° 12, DOI 10.1145/3571730), et non « ACL Computing Surveys » ; la référence « Habermas, J. (1962). *Strukturwandel der Öffentlichkeit*. MIT Press. » associe l'édition allemande originale (Hermann Luchterhand Verlag, 1962) à l'éditeur de la traduction anglaise (MIT Press, 1989, trad. Thomas Burger). Libellé d'origine conservé inchangé ; la traduction anglaise porte les mentions correctes.
 - **Paragraphe « Reference accuracy » dans le README** (section « Evidence and scope »), résumant la correction de la citation Habermas avec liens vers le rapport anglais et le rapport français source.
+- **Lignée des versions dans `research/references.md`** : les versions v3.9 (juin 2026) et v4.4.1 (juillet 2026), présentes dans la chaîne de remplacement des textes canoniques v5.2 mais absentes de la table de lignée, y sont désormais documentées — sans fichier dans les dépôts, mois fourni par l'auteur, conformément à la règle du 2026-10-20.
 
 ### Conservé
 

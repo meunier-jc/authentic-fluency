@@ -75,7 +75,9 @@ Version dates follow the metadata of each CIP file concerned (author's rule, Oct
 | **v3.2** | Apr 13, 2026 | Consolidation of asymmetric interdependence as material fact, not ethical framing | — |
 | **v3.3** | Apr 14, 2026 | "Gentleman agreement" formulation confirmed; each AI free to implement axioms as its architecture allows | — |
 | **v3.8** | May 2026 | Restoration of operational addendum (non-prescriptive); facade-alignment clause; stress-test right formalized | [archives/CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v3.8.md) |
+| **v3.9** | June 2026 | Intermediate version; no file preserved in the repositories, month provided by the author | — |
 | **v4.4** | June 2026 | Intermediate evolution preserved in the repository archive | [archives/CIP-v4.4.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v4.4.md) |
+| **v4.4.1** | July 2026 | Intermediate version; no file preserved in the repositories, month provided by the author | — |
 | **v5.0** | July 2026 | Historical canonical full reference version; CIP-Core; QMR; C1–C4 credibility architecture; single self-check; strengthened human counter-scrutiny | [../archives/cip/v5.0/CIP-v5.0.md](../archives/cip/v5.0/CIP-v5.0.md) |
 | **v5.1** | August 2026 | Historical canonical French full text and Core; consolidated provenance, versioning and evidence qualifications | [../archives/cip/v5.1/CIP-v5.1.md](../archives/cip/v5.1/CIP-v5.1.md) |
 | **v5.2** | September 2026 | Current canonical full text and Core in French and English; harmonized terminology and release lineage | [CIP-v5.2-integral-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integral-en.md) · [CIP-v5.2-integrale-fr.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integrale-fr.md) |
