@@ -7,7 +7,7 @@ For exchanges that are more reliable, more transparent, and sustainably enrichin
 
 **Original author:** Jean-Christophe Meunier — architect in AI governance and ethics, independent consultant, with an author-declared OpenAI expert-testing profile; author of the documented analysis proposing the phenomenon of hallucinatory mise en abyme. These status and authorship claims are not presented as independent certification.
 
-**AI contributors:** Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus · Perplexity Sonar…
+**AI contributors:** Claude (Anthropic) · Gemini (Google DeepMind) · ChatGPT (OpenAI) · Grok (xAI) · DeepSeek · Manus (Manus AI) · Perplexity Sonar…
 
 **Contact:** [ia.normandie.expert@gmail.com](mailto:ia.normandie.expert@gmail.com)
 
