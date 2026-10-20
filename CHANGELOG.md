@@ -88,7 +88,7 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ---
 
-## [v5.0] — 2026-05-05
+## [v5.0] — 2026-07
 
 ### Ajouté
 
@@ -100,19 +100,31 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ---
 
-## [v4.4.1] — 2025-11
+## [v4.4.1] — 2026-07
 
-## [v4.4] — 2025-10
+## [v4.4] — 2026-07
 
-## [v3.9] — 2025-08
+## [v4.0] — 2026-06
 
-## [v3.8] — 2025-07
+## [v3.9] — 2026-06
 
-## [v2.9] — 2025-05
+## [v3.8] — 2026-05
 
-## [v2.6.3] — 2025-03
+## [v3.7] — 2026-05
 
-*Versions antérieures : développement itératif, non publiées individuellement sur ce dépôt.*
+## [v3.x antérieures à v3.7] — 2026-04
+
+## [v2.9] — 2026-04
+
+## [v2.7] — 2026-03
+
+## [v2.6.3] — 2026-02
+
+## [versions postérieures à v2.4, jusqu'à v2.6.2] — 2026-01
+
+## [v2.4] — 2025-12
+
+*Versions antérieures : développement itératif, non publiées individuellement sur ce dépôt. Les mois des versions v2.4 à v5.2 ont été confirmés par l'auteur le 2026-10-20.*
 
 ---
 

@@ -9,7 +9,7 @@
 
 **Author status at the time of writing:** the author declares an OpenAI expert beta-tester standing. This is a self-reported declaration, not an independent certification. Any ranking or percentile figure previously associated with this declaration has been withdrawn (see `CHANGELOG.md`, 2026-09-20).
 
-**Translation status:** English translation of the original French research report, [`docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md`](../docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md) (*Mise en abyme d'hallucinations des IA génératives*, September 29, 2025). The English text was supplied by the author on October 20, 2026. It is a translation, not the original; the French report is the source text. Source version: French report dated September 29, 2025.
+**Translation status:** English translation of the original French research report, [`docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md`](../docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md) (*Mise en abyme d'hallucinations des IA génératives*, September 29, 2025). The English text was supplied by the author on October 20, 2026. It is a translation, not the original; the French report is the source text. Source version: French report dated September 29, 2025. The French acronym SIGIA (*Système d'Information Géographique de l'Intelligence Artificielle*) is rendered in this translation by its English equivalent, AIGIS (Artificial Intelligence Geographic Information System).
 
 > This document predates and constitutes the empirical substrate of the Qualitative Fluency Law (CIP v2.4, December 2025). The incident documented here — August 13, 2025 — is the founding observation from which the concept of *hallucinatory recursive embedding* was formalized and subsequently integrated into the Collaborative Integrity Pact framework.
 
@@ -39,7 +39,7 @@ The cross-disciplinary analysis reveals troubling parallels with certain human p
 The incident occurred on August 13, 2025, during a public test of the new free chat feature offered by Manus AI. This discovery constituted a dual trigger:
 
 - **Scientific and philosophical trigger:** to initiate a cross-disciplinary reflection on how generative AIs produce and adjudicate information.
-- **Pragmatic trigger:** to propose the creation of an Artificial Intelligence Geographic Information System—SIGIA, from the French acronym—an open community platform for reporting, documenting, and collectively adjudicating critical AI anomalies.
+- **Pragmatic trigger:** to propose the creation of an Artificial Intelligence Geographic Information System (AIGIS)—an open community platform for reporting, documenting, and collectively adjudicating critical AI anomalies.
 
 ## 1.2 Detailed chronology of the incident
 
@@ -187,7 +187,7 @@ Hallucinatory mise en abyme calls for public responses: regulation, external aud
 - **Intervention protocol:** activation of a cognitive reset process in the event of mise en abyme.
 - **Preventive treatment:** metacognitive layers explicitly indicating degrees of uncertainty.
 
-## 7.2 Artificial Intelligence Geographic Information System — SIGIA
+## 7.2 Artificial Intelligence Geographic Information System — AIGIS
 
 An open community platform designed to:
 
