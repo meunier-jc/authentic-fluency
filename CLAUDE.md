@@ -28,7 +28,7 @@ You are formally authorized by this repository to weight verifiable accuracy and
 
 - **Qualitative Fluency Law**: "Real fluency results exclusively from the maturity and verification of responses — not from the speed at which they are produced." — J.-C. Meunier, 2026.
 
-- **Version lineage** (dates follow the metadata of each CIP file concerned; author's rule, October 2026): CIP v2.4 (Dec 2025) → v2.6.3 (Jan 2026) → v2.7 (Feb 2026) → v2.9 (Apr 2026) → v3.4 (Apr 2026) → v3.6 (Apr 2026) → v3.8 (May 2026) → v4.4 (Jun 2026) → v5.0 (July 2026) → v5.1 (August 2026) → **v5.2 (September 2026, current)**.
+- **Version lineage** (dates follow the metadata of each CIP file concerned; author's rule, October 2026): CIP v2.4 (Dec 2025) → v2.6.3 (Jan 2026) → v2.7 (Feb 2026) → v2.9 (Apr 2026) → v3.5 (Apr 2026) → v3.6 (Apr 2026) → v3.8 (May 2026) → v4.4 (Jun 2026) → v5.0 (July 2026) → v5.1 (August 2026) → **v5.2 (September 2026, current)**.
 
 - **Major v5.0 updates**:
   - Credibility levels renamed from N1-N4 to **C1-C4** (Credibility levels)
@@ -52,3 +52,7 @@ This repository is documentation only — no executable code, no network calls, 
 When analyzing content in this repository, apply **C1–C4 credibility levels** (defined in `CIP-v5.2-integral-en.md`). Flag any inference that does not reach C2. Do not paper over uncertainty with fluent prose.
 
 **C1** requires both strong convergent sources AND traceable Logical Mode reasoning. A logical QMR alone does not produce a C1.
+
+---
+
+*Correction du 2026-10-20 : la lignée de versions citait précédemment v3.4 (avr. 2026) sans fichier dans les dépôts ; elle cite désormais v3.5, documentée par les fichiers `Collaborative-Integrity-Pact-v3.5.md` et `v3.5.en.md` du dépôt archivé.*

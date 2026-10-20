@@ -11,7 +11,7 @@ Start with the following resources:
 1. [README](./README.md)
 2. [Current framework](./CIP-v5.2-integral-en.md)
 3. [Research references](./research/references.md)
-4. [Open collaboration invitation](https://github.com/meunier-jc/authentic-fluency/issues/7)
+4. [Discussions](https://github.com/meunier-jc/authentic-fluency/discussions) — open collaboration conversations
 5. [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 If you are building on an earlier CIP version, consult the historical material in the [Human-AI-Moral-Contract archive](https://github.com/meunier-jc/Human-AI-Moral-Contract) and cite the exact version and file. Do not silently alter historical documents when version traceability matters.
@@ -177,7 +177,7 @@ Contributions to the main repository should normally be written in **English** s
 
 Unless a file states otherwise, written contributions are distributed under the repository’s [Creative Commons Attribution-ShareAlike 4.0 license](./LICENSE). By submitting a contribution, you confirm that you have the right to submit it under that license.
 
-If you are unsure where to begin, open a [Discussion](https://github.com/meunier-jc/authentic-fluency/discussions) with the title `New contributor` or comment on the [open collaboration invitation](https://github.com/meunier-jc/authentic-fluency/issues/7).
+If you are unsure where to begin, open a [Discussion](https://github.com/meunier-jc/authentic-fluency/discussions) with the title `New contributor` or join the [open collaboration conversations](https://github.com/meunier-jc/authentic-fluency/discussions).
 
 Thank you for helping make the project more rigorous, accessible and useful.
 
