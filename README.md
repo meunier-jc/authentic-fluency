@@ -159,6 +159,8 @@ Claims in this repository do not all have the same evidentiary status. Framework
 
 The framework does not replace technical standards, independent audits, legal obligations or sector-specific protocols. Readers should distinguish direct evidence, documented testing, published research, interpretation, hypothesis and proposal. See the [contribution guidance](./CONTRIBUTING.md#4-describe-evidence-and-uncertainty) for the project’s claim-level credibility scale.
 
+**Reference accuracy.** The Habermas reference attached to the founding research report was corrected on October 20, 2026: the earlier citation mixed the date and title of the 1962 German original (*Strukturwandel der Öffentlichkeit*, Hermann Luchterhand Verlag) with the publisher of the English translation. The [English translation](./research/hallucinatory-inception.md) now cites the 1989 MIT Press edition, translated by Thomas Burger, with the German original noted; the [French source report](./docs/fr/recherche/mise-en-abyme-hallucinations-2025-09-29.fr.md) keeps its original wording, with the discrepancy documented in its dated bibliographic erratum.
+
 ## Author disclosure
 
 The author reports participation in OpenAI expert beta-testing since November 2022. This is an author declaration, not an independent certification or ranking.
