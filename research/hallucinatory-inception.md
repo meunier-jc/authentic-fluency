@@ -238,7 +238,7 @@ Preserving informational trust and democratic deliberation is the central challe
 - Derrida, J. (1967). *Of Grammatology*. Les Éditions de Minuit.
 - Escher, M. C. (1948). *Drawing Hands* [Lithograph].
 - Foucault, M. (1969). *The Archaeology of Knowledge*. Éditions Gallimard.
-- Habermas, J. (1962). *The Structural Transformation of the Public Sphere*. MIT Press.
+- Habermas, J. (1989). *The Structural Transformation of the Public Sphere: An Inquiry into a Category of Bourgeois Society*. Translated by Thomas Burger. MIT Press. (German original: *Strukturwandel der Öffentlichkeit*, Hermann Luchterhand Verlag, 1962.)
 - Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books.
 - Magritte, R. (1929). *The Treachery of Images*. LACMA.
 - Plato. (c. 360 BCE). *The Republic* (Allegory of the Cave, Book VII).
@@ -246,9 +246,9 @@ Preserving informational trust and democratic deliberation is the central challe
 ## Technical sources on AI hallucinations
 
 - Ji, Z., et al. (2023). “Survey of Hallucination in Natural Language Generation.” *ACM Computing Surveys*.
-- Huang, L., et al. (2023). “A Survey on Hallucination in Large Language Models.” arXiv:2311.05232.
-- Rawte, V., et al. (2023). “The Troubling Emergence of Hallucination in Large Language Models.” arXiv preprint.
-- Sahoo, P., et al. (2024). “A Comprehensive Survey of Hallucination in Large Vision-Language Models.” EMNLP.
+- Huang, L., et al. (2023). *A Survey on Hallucination in Large Language Models*. arXiv:2311.05232.
+- Rawte, V., et al. (2023). *The Troubling Emergence of Hallucination in Large Language Models*. arXiv preprint.
+- Sahoo, P., et al. (2024). *A Comprehensive Survey of Hallucination in Large Vision-Language Models*. EMNLP.
 
 ---
 
