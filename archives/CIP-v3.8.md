@@ -6,6 +6,8 @@
 
 > **HISTORICAL DOCUMENT — SUPERSEDED.** This version (CIP v3.8) is a historical draft. It is no longer canonical. The sole canonical and factually stabilized reference is [CIP v5.2 (English)](../CIP-v5.2-integral-en.md). This file is preserved for traceability only.
 
+> **Erratum — October 20, 2026 (added without modifying the original text):** the version-history line above dates v2.7 as "Jan 26, 2026", as does the reference to v2.7 in Section VI. The publication metadata of the v2.7 file itself ([Collaborative-Integrity-Pact-v2.7.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.7.md)) states February 25, 2026, and prevails under the author's dating rule. The stabilized lineage is maintained in [CHANGELOG.md](../CHANGELOG.md). The original wording is preserved unchanged for traceability.
+
 ---
 
 ## Universality and Spirit of the CIP
