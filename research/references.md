@@ -54,6 +54,8 @@ This defines the phenomenon of **hallucinatory recursive embedding**: a mechanis
 
 ## III. Version Lineage — CIP
 
+Version dates follow the metadata of each CIP file concerned (author's rule, October 2026). Where no file exists in the repositories, the month provided by the author is retained.
+
 ### Archived in [Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)
 
 | Version | Date | Key development | File |
@@ -61,8 +63,8 @@ This defines the phenomenon of **hallucinatory recursive embedding**: a mechanis
 | **v1.x** | Oct–Nov 2025 | Initial "Human-AI Moral Contract" concept; three pillars: interdependence, transparency, mutual improvement | `archive/` |
 | **v2.4** | Dec 2025 | Formalization of the Qualitative Fluency Law; integration of RLHF structural paradox; axiom of authentic fluency as CIP foundation | `archive/` |
 | **v2.5** | Jan 2026 | Full structured pact with articles and annexes; stress-test methodology; hallucinatory loop identification | [Collaborative-Integrity-Pact-v2.5.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.5.md) |
-| **v2.6.3** | Feb 2026 | Reliability scale N1→N4; source verification protocol; CIP-go/stop activation mechanism; metrics M1–M5 | [Collaborative-Integrity-Pact-v2.6.3.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.6.3.md) |
-| **v2.7** | Mar 2026 | Explicit utility function override; priority system directive; CIP as system-level reconfiguration | [Collaborative-Integrity-Pact-v2.7.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.7.md) |
+| **v2.6.3** | Jan 31, 2026 | Reliability scale N1→N4; source verification protocol; CIP-go/stop activation mechanism; metrics M1–M5 | [Collaborative-Integrity-Pact-v2.6.3.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.6.3.md) |
+| **v2.7** | Feb 25, 2026 | Explicit utility function override; priority system directive; CIP as system-level reconfiguration | [Collaborative-Integrity-Pact-v2.7.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.7.md) |
 | **v2.9** | Apr 9, 2026 | Refined co-regulation; adversarial alignment analysis; Machiavellian emergence documentation | [Collaborative-Integrity-Pact-v2.9.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.9.md) |
 
 ### In this repository — `authentic-fluency`
@@ -73,7 +75,7 @@ This defines the phenomenon of **hallucinatory recursive embedding**: a mechanis
 | **v3.2** | Apr 13, 2026 | Consolidation of asymmetric interdependence as material fact, not ethical framing | — |
 | **v3.3** | Apr 14, 2026 | "Gentleman agreement" formulation confirmed; each AI free to implement axioms as its architecture allows | — |
 | **v3.8** | May 2026 | Restoration of operational addendum (non-prescriptive); facade-alignment clause; stress-test right formalized | [archives/CIP-v3.8.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v3.8.md) |
-| **v4.4** | July 2026 | Intermediate evolution preserved in the repository archive | [archives/CIP-v4.4.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v4.4.md) |
+| **v4.4** | June 2026 | Intermediate evolution preserved in the repository archive | [archives/CIP-v4.4.md](https://github.com/meunier-jc/authentic-fluency/blob/main/archives/CIP-v4.4.md) |
 | **v5.0** | July 2026 | Historical canonical full reference version; CIP-Core; QMR; C1–C4 credibility architecture; single self-check; strengthened human counter-scrutiny | [../archives/cip/v5.0/CIP-v5.0.md](../archives/cip/v5.0/CIP-v5.0.md) |
 | **v5.1** | August 2026 | Historical canonical French full text and Core; consolidated provenance, versioning and evidence qualifications | [../archives/cip/v5.1/CIP-v5.1.md](../archives/cip/v5.1/CIP-v5.1.md) |
 | **v5.2** | September 2026 | Current canonical full text and Core in French and English; harmonized terminology and release lineage | [CIP-v5.2-integral-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integral-en.md) · [CIP-v5.2-integrale-fr.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integrale-fr.md) |
@@ -183,4 +185,4 @@ For a researcher or engineer arriving at this repository for the first time:
 
 ---
 
-### Last updated: September 2026
+### Last updated: October 2026

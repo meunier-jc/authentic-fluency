@@ -102,7 +102,7 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ## [v4.4.1] — 2026-07
 
-## [v4.4] — 2026-07
+## [v4.4] — 2026-06
 
 ## [v4.0] — 2026-06
 
@@ -114,17 +114,17 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ## [v3.x antérieures à v3.7] — 2026-04
 
-## [v2.9] — 2026-04
+## [v2.9] — 2026-04-09
 
-## [v2.7] — 2026-03
+## [v2.7] — 2026-02-25
 
-## [v2.6.3] — 2026-02
+## [v2.6.3] — 2026-01-31
 
 ## [versions postérieures à v2.4, jusqu'à v2.6.2] — 2026-01
 
 ## [v2.4] — 2025-12
 
-*Versions antérieures : développement itératif, non publiées individuellement sur ce dépôt. Les mois des versions v2.4 à v5.2 ont été confirmés par l'auteur le 2026-10-20.*
+*Versions antérieures : développement itératif, non publiées individuellement sur ce dépôt. Dates établies le 2026-10-20 d'après les métadonnées des fichiers CIP concernés (règle de l'auteur en cas de doute) ; pour les versions sans fichier dans les dépôts (v3.7, v3.9, v4.0, v4.4.1), le mois indiqué par l'auteur est retenu.*
 
 ---
 
