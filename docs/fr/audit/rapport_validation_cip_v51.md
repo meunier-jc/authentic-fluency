@@ -5,6 +5,8 @@
 **Date du contrôle :** 27 août 2026  
 **Périmètre :** commits CIP v5.1, fichiers Markdown, métadonnées de citation, workflows CI/CD et scripts automatisés.
 
+> **Erratum du 2026-10-20 — statut historique :** ce rapport décrit l'état du dépôt au 27 août 2026 et est conservé comme document d'audit d'époque. La recommandation d'y maintenir la formulation « classement déclaré de 1,5 % mondial » a été remplacée le 2026-09-20 par le retrait complet de ce classement, dont les seules sources étaient des documents d'évaluation produits par un assistant IA à la demande de l'auteur (voir `CHANGELOG.md`, correction documentaire du 2026-09-20). La référence canonique active est depuis septembre 2026 la version v5.2. Libellé d'origine conservé inchangé.
+
 ## 1. Résultat exécutif
 
 Les corrections documentaires P0 et P1 ont été publiées dans la branche `main`. La valeur de référence est désormais **1,5 % mondial**, qualifiée comme classement déclaré. La recherche exhaustive des fichiers Markdown ne trouve plus aucune occurrence textuelle de `1,2 %` ou `1.2%`.

@@ -6,6 +6,8 @@ Corrections prioritaires du dépôt authentic-fluency
 CIP v5.1 — audit documentaire et harmonisation
 27 août 2026
 
+> **Erratum du 2026-10-20 — statut historique :** cette présentation décrit l'état du dépôt au 27 août 2026. La recommandation de conserver « 1,5 % mondial » comme valeur déclarée de référence (diapositive 7) a été remplacée le 2026-09-20 par le retrait complet de ce classement, dont les seules sources étaient des documents d'évaluation produits par un assistant IA à la demande de l'auteur (voir `CHANGELOG.md`, correction documentaire du 2026-09-20). La référence canonique active est depuis septembre 2026 la version v5.2. Libellé d'origine conservé inchangé.
+
 ## Slide 1
 
 ### Un dépôt cohérent sur v5.1, mais encore des héritages v5.0
