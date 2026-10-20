@@ -3,6 +3,7 @@
 > **Classification :** Recherche originale — Analyse prospective · Document préparé pour dépôt INPI (Enveloppe Soleau).
 > **Version anglaise :** [`research/hallucinatory-inception.md`](../../../research/hallucinatory-inception.md)
 > **Note de classement (27 septembre 2026) :** ce rapport a été déplacé de `docs/fr/source/` vers `docs/fr/recherche/` afin de refléter son statut de recherche originale et non de simple document source. Le texte est conservé dans son libellé d'origine, conformément à la politique bilingue du dépôt ; un fichier de redirection est maintenu à l'ancien emplacement.
+> **Erratum bibliographique (20 octobre 2026) :** la référence technique « Ji, Z., et al. (2023) » indique « ACL Computing Surveys » ; la revue de publication correcte est *ACM Computing Surveys* (vol. 55, n° 12, DOI 10.1145/3571730). Le libellé d'origine est conservé inchangé conformément à la politique non destructive ; la version anglaise ([`research/hallucinatory-inception.md`](../../../research/hallucinatory-inception.md)) porte déjà la mention correcte.
 
 ---
 
