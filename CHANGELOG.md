@@ -6,6 +6,14 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ---
 
+## [Suppression] — 2026-10-27
+
+### Retiré
+
+- **Fichier `CLAUDE.md`** (instructions de contexte pour les agents Claude). Vérification préalable effectuée : aucune référence entrante dans `README.md`, `llms.txt`, `docs/STRUCTURE.md` ou les workflows CI (le contrôle de structure du workflow « Documentation quality » ne l'exige pas). `AGENTS.md` demeure le fichier de contexte agents du dépôt. L'entrée historique [v5.0] — 2026-07 qui mentionne `CLAUDE.md` parmi les fichiers ajoutés est conservée inchangée, conformément à la politique non destructive.
+
+---
+
 ## [Correction documentaire] — 2026-10-20
 
 ### Corrigé
