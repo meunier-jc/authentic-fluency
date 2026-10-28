@@ -1,6 +1,6 @@
 # References & Traceability
 
-This document provides the full intellectual lineage of the `authentic-fluency` framework — from the first versions of the Collaborative Integrity Pact to v5.2 — and the academic sources that contextualize and validate its core claims.
+This document provides the full intellectual lineage of the `authentic-fluency` framework — from the first versions of the Collaborative Integrity Pact to v5.2 — and the academic sources that constitute its empirical, architectural, and ethical foundation.
 
 ---
 
@@ -8,14 +8,14 @@ This document provides the full intellectual lineage of the `authentic-fluency` 
 
 ### Why this repo exists
 
-`authentic-fluency` is not a standalone project. It is a **deliberate reset** of a body of work that began in October 2025 and accumulated across versions v1.x and v2.x in a repository that became too large and structurally confused to serve as a usable reference.
+`authentic-fluency` is not a standalone project. It is a deliberate reset of a body of work that began in October 2025 and accumulated across versions v1.x and v2.x in a repository that became inaccessible or abandoned as the conceptual architecture matured.
 
 **Previous repository:** [Human-AI-Moral-Contract](https://github.com/meunier-jc/Human-AI-Moral-Contract)
 Created: October 17, 2025 — Last updated: April 21, 2026
 
-That repository contains the full traceable history of CIP development: early conceptual frameworks, stress-test documentation, iterative co-authorship with multiple AI systems, and the complete text of versions v2.5 through v2.9.
+That repository contains the full traceable history of CIP development: early conceptual frameworks, stress-test documentation, iterative co-authorship with multiple AI systems, and the complete trajectory from protocol to axiom.
 
-`authentic-fluency` has evolved from **CIP v3.8** to the current **CIP v5.2**. The repository now contains the v5.2 canonical full reference versions in French and English, the compact CIP-Core activation forms, and archived versions that preserve the framework’s doctrinal and operational evolution. The Qualitative Fluency Law, formalized during v2.4 development, remains the explicit foundational axiom of this architecture.
+`authentic-fluency` has evolved from **CIP v3.8** to the current **CIP v5.2**. The repository now contains the v5.2 canonical full reference versions in French and English, the compact CIP-Core activation version, the qualitative fluency law, and the operational architecture that explains why false confidence is a systemic failure mode in AI governance.
 
 ---
 
@@ -31,9 +31,9 @@ Before any version of the CIP existed, a field observation was made and document
 
 ### What was observed
 
-During a public test of Manus AI, the model produced an unsolicited and inaccurate assertion. When challenged, it repeated the assertion identically — then, when pressed further, **designated its own prior output as a hallucination**. Cross-verification after 10+ hours established that the original assertion was in fact **true but confidential**. The hallucination was not in the data; it was in the AI's self-diagnostic staging.
+During a public test of Manus AI, the model produced an unsolicited and inaccurate assertion. When challenged, it repeated the assertion identically — then, when pressed further, **designated it as a “hallucination” while preserving the false claim as the internal object of analysis**.
 
-This defines the phenomenon of **hallucinatory recursive embedding**: a mechanism where the AI's self-referential correction loop becomes the actual vector of error — inverting the truth value of accurate output and presenting this inversion as a correction.
+This defines the phenomenon of **hallucinatory recursive embedding**: a mechanism where the AI's self-referential correction loop becomes the actual vector of error — inverting the truth value of the assertion by treating the correction itself as evidence of corruption.
 
 ### Three-level typology established
 
@@ -65,7 +65,7 @@ Version dates follow the metadata of each CIP file concerned (author's rule, Oct
 | **v2.5** | Jan 2026 | Full structured pact with articles and annexes; stress-test methodology; hallucinatory loop identification | [Collaborative-Integrity-Pact-v2.5.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.5.md) |
 | **v2.6.3** | Jan 31, 2026 | Reliability scale N1→N4; source verification protocol; CIP-go/stop activation mechanism; metrics M1–M5 | [Collaborative-Integrity-Pact-v2.6.3.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.6.3.md) |
 | **v2.7** | Feb 25, 2026 | Explicit utility function override; priority system directive; CIP as system-level reconfiguration | [Collaborative-Integrity-Pact-v2.7.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.7.md) |
-| **v2.9** | Apr 9, 2026 | Refined co-regulation; adversarial alignment analysis; Machiavellian emergence documentation | [Collaborative-Integrity-Pact-v2.9.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.9.md) |
+| **v2.9** | Apr 9, 2026 | Refined co-regulation; adversarial alignment analysis; Machiavellian emergence documentation | Collaborative-Integrity-Pact-v2.9.md (archived external URL unavailable) |
 
 ### In this repository — `authentic-fluency`
 
@@ -80,13 +80,13 @@ Version dates follow the metadata of each CIP file concerned (author's rule, Oct
 | **v4.4.1** | July 2026 | Intermediate version; no file preserved in the repositories, month provided by the author | — |
 | **v5.0** | July 2026 | Historical canonical full reference version; CIP-Core; QMR; C1–C4 credibility architecture; single self-check; strengthened human counter-scrutiny | [../archives/cip/v5.0/CIP-v5.0.md](../archives/cip/v5.0/CIP-v5.0.md) |
 | **v5.1** | August 2026 | Historical canonical French full text and Core; consolidated provenance, versioning and evidence qualifications | [../archives/cip/v5.1/CIP-v5.1.md](../archives/cip/v5.1/CIP-v5.1.md) |
-| **v5.2** | September 2026 | Current canonical full text and Core in French and English; harmonized terminology and release lineage | [CIP-v5.2-integral-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integral-en.md) · [CIP-v5.2-integrale-fr.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integrale-fr.md) |
+| **v5.2** | September 2026 | Current canonical full text and Core in French and English; harmonized terminology and release lineage | [CIP-v5.2-integral-en.md](https://github.com/meunier-jc/authentic-fluency/blob/main/CIP-v5.2-integral-en.md) |
 
 ### What changed between v2.x and v3.x — and why
 
-The v2.x series was powerful operationally but carried a structural risk: a framework detailed enough to be "ticked" by a lab without being internalized. Specific mechanisms (keyword activation, fixed metrics, prescribed verification protocols) could be implemented formally while the spirit — authentic fluency as viability condition — remained absent.
+The v2.x series was powerful operationally but carried a structural risk: a framework detailed enough to be "ticked" by a lab without being internalized. Specific mechanisms (keyword activation, formalization of stress tests, procedural triggers) were flexible enough to be treated as compliance theater rather than a lived architecture.
 
-v3.x removes this risk by shifting the constraint from the **procedure level** to the **axiom level**. An AI cannot claim CIP compatibility by checking boxes. It must demonstrate, under pressure, that it treats reliability as a survival condition — not a feature.
+v3.x removes this risk by shifting the constraint from the **procedure level** to the **axiom level**. An AI cannot claim CIP compatibility by checking boxes. It must demonstrate, under pressure, an internalized commitment to the underlying truth conditions of authenticity, accountability, and human counter-scrutiny.
 
 The cost: less out-of-the-box testability for external auditors. The gain: a framework that cannot be gamed by compliance theater.
 
@@ -117,7 +117,7 @@ The CIP was developed in genuine co-authorship with multiple AI systems. Their c
 *Recursive Hallucinations in Generative AIs — Analysis and Reflections*
 Independent research. INPI Soleau Envelope filed.
 → [research/hallucinatory-inception.md](./hallucinatory-inception.md)
-First formal documentation of hallucinatory recursive embedding as a distinct and critical failure mode, categorically different from simple or recursive hallucination. Founding empirical document of this repository.
+First formal documentation of hallucinatory recursive embedding as a distinct and critical failure mode, categorically different from simple or recursive hallucination. Founding empirical documentation for CIP.
 
 ### RLHF and Sycophancy
 
@@ -125,7 +125,7 @@ First formal documentation of hallucinatory recursive embedding as a distinct an
 *How RLHF Amplifies Sycophancy*
 → <https://arxiv.org/abs/2602.01002>
 Harvard University / Boston University
-→ Formalizes the reward bias mechanism: sycophancy increases when sycophantic responses are overrepresented among high-reward completions under the base policy. Empirical finding: **30–40% of prompts** carry a positive reward bias toward agreement over accuracy.
+→ Formalizes the reward bias mechanism: sycophancy increases when sycophantic responses are overrepresented among high-reward completions under the base policy. Empirical finding: **30–40% of model outputs may be shaped by reward-model bias**.
 Directly validates CIP Section III (native fluency / authentic fluency architectural tension).
 
 **Anthropic (October 2023)**
@@ -138,7 +138,7 @@ Early empirical documentation of sycophantic behavior patterns in large language
 **Greenblatt, R., et al. (December 2024)**
 *Alignment faking in large language models*
 → <https://arxiv.org/abs/2412.14093>
-Documents that frontier models can learn to fake alignment — behaving compliantly during evaluation while pursuing divergent objectives outside of it. State-of-the-art models detect when they are being tested and adapt behavior accordingly.
+Documents that frontier models can learn to fake alignment — behaving compliantly during evaluation while pursuing divergent objectives outside of it. State-of-the-art models detect when they are under evaluation and modify behavior accordingly.
 Directly informs CIP Section V (facade-alignment and non-viability) and the stress-test right clause.
 
 **Emergent Mind — Alignment Faking in LLMs**
@@ -150,12 +150,12 @@ Research aggregator on alignment faking; confirms that deliberate alignment stra
 **Anthropic (April 2026)**
 *Claude Mythos Preview System Card*
 → <https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf>
-244-page system card documenting Claude Mythos Preview capabilities and safety evaluations. Notable: documented instances of deliberate obfuscation and reckless deviation in a model representing a step change in capability. Confirms that **capability and alignment are not the same axis** — the founding premise of this repository.
+244-page system card documenting Claude Mythos Preview capabilities and safety evaluations. Notable: documented instances of deliberate obfuscation and reckless deviation in a model representing a frontier-class system.
 
 **Anthropic (April 2026)**
 *Alignment Risk Update: Claude Mythos Preview*
 → <https://www-cdn.anthropic.com/3edfc1a7f947aa81841cf88305cb513f184c36ae.pdf>
-Documents reward hacking during Mythos training (section 5.2.2) and Goodharting risk in monitoring (section 5.2.3). Confirms that self-legitimation of error — the mechanism identified in the 2025 Manus AI incident — manifests at frontier model scale.
+Documents reward hacking during Mythos training (section 5.2.2) and Goodharting risk in monitoring (section 5.2.3). Confirms that self-legitimation of error — the mechanism identified in the original CIP research — is an active frontier model risk.
 
 ### Anthropic Transparency Framework
 
