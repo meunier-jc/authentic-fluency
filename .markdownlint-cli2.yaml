@@ -12,9 +12,10 @@ ignores:
   - node_modules
   - archives/**
 overrides:
-  - files:
+  - filter:
       - research/hallucinatory-inception.md
     config:
       MD022: false
       MD025: false
       MD036: false
+    combine: merge

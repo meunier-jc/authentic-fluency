@@ -44,7 +44,7 @@ jobs:
         with:
           name: weekly-contribution-metrics-${{ github.run_id }}
           path: metrics/*.json
-          retention-days: 180
+          retention-days: 90
 
       - name: Commit latest Markdown report
         run: |
