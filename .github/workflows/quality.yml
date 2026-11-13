@@ -107,7 +107,7 @@ jobs:
             git cat-file -e "${base}^{commit}"
           fi
           echo "Comparing $base -> $head"
-          changed=$(git diff --name-only "$base" "$head")
+          changed=$(git diff --name-only --diff-filter=d "$base" "$head")
           if echo "$changed" | grep -Eiq '(^|/)(\.env|id_rsa|.*\.pem|.*\.key)$'; then
             echo "Potential secret or private key detected in changed files."
             exit 1
