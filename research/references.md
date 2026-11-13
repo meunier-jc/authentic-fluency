@@ -187,4 +187,4 @@ For a researcher or engineer arriving at this repository for the first time:
 
 ---
 
-### Last updated: October 2026
+### Last updated: November 2026
