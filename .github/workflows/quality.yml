@@ -1,6 +1,7 @@
 name: Documentation quality
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:
@@ -89,10 +90,23 @@ jobs:
 
       - name: Reject accidental sensitive files
         shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
         run: |
           set -euo pipefail
-          base="${{ github.event.pull_request.base.sha || github.event.before }}"
-          head="${{ github.event.pull_request.head.sha || github.sha }}"
+          base="$BASE_SHA"
+          head="$HEAD_SHA"
+          git cat-file -e "${head}^{commit}"
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            base=$(git rev-parse --verify "${head}^" 2>/dev/null || git hash-object -w -t tree /dev/null)
+          elif [[ -z "$base" || "$base" =~ ^0+$ ]]; then
+            base=$(git hash-object -w -t tree /dev/null)
+          else
+            git cat-file -e "${base}^{commit}"
+          fi
+          echo "Comparing $base -> $head"
           changed=$(git diff --name-only "$base" "$head")
           if echo "$changed" | grep -Eiq '(^|/)(\.env|id_rsa|.*\.pem|.*\.key)$'; then
             echo "Potential secret or private key detected in changed files."
@@ -116,11 +130,24 @@ jobs:
 
       - name: Build audit inputs
         shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
         run: |
           set -euo pipefail
           mkdir -p audit-input audit-output
-          base="${{ github.event.pull_request.base.sha || github.event.before }}"
-          head="${{ github.event.pull_request.head.sha || github.sha }}"
+          base="$BASE_SHA"
+          head="$HEAD_SHA"
+          git cat-file -e "${head}^{commit}"
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            base=$(git rev-parse --verify "${head}^" 2>/dev/null || git hash-object -w -t tree /dev/null)
+          elif [[ -z "$base" || "$base" =~ ^0+$ ]]; then
+            base=$(git hash-object -w -t tree /dev/null)
+          else
+            git cat-file -e "${base}^{commit}"
+          fi
+          echo "Comparing $base -> $head"
           git diff --no-ext-diff --unified=80 "$base" "$head" -- '*.md' > audit-input/changed-docs.diff
           git ls-files '*.md' > audit-input/markdown-files.txt
 
