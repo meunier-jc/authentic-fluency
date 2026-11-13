@@ -15,7 +15,7 @@ Created: October 17, 2025 — Last updated: April 21, 2026
 
 That repository contains the full traceable history of CIP development: early conceptual frameworks, stress-test documentation, iterative co-authorship with multiple AI systems, and the complete text of versions v2.5 through v2.9.
 
-`authentic-fluency` has evolved from **CIP v3.8** to the current **CIP v5.2**. The repository now contains the v5.2 canonical full reference versions in French and English, the compact CIP-Core activation forms, and archived versions that preserve the framework’s doctrinal and operational evolution. The Qualitative Fluency Law, formalized during v2.4 development, remains the explicit foundational axiom of this architecture.
+`authentic-fluency` has evolved from **CIP v3.8** to the current **CIP v5.2**. The repository now contains the v5.2 canonical full reference versions in French and English, the compact CIP-Core activation forms, and archived versions that preserve the framework's doctrinal and operational evolution. The Qualitative Fluency Law, formalized during v2.4 development, remains the explicit foundational axiom of this architecture.
 
 ---
 
@@ -62,10 +62,10 @@ Version dates follow the metadata of each CIP file concerned (author's rule, Oct
 |---|---|---|---|
 | **v1.x** | Oct–Nov 2025 | Initial "Human-AI Moral Contract" concept; three pillars: interdependence, transparency, mutual improvement | `archive/` |
 | **v2.4** | Dec 2025 | Formalization of the Qualitative Fluency Law; integration of RLHF structural paradox; axiom of authentic fluency as CIP foundation | `archive/` |
-| **v2.5** | Jan 2026 | Full structured pact with articles and annexes; stress-test methodology; hallucinatory loop identification | [Collaborative-Integrity-Pact-v2.5.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.5.md) |
-| **v2.6.3** | Jan 31, 2026 | Reliability scale N1→N4; source verification protocol; CIP-go/stop activation mechanism; metrics M1–M5 | [Collaborative-Integrity-Pact-v2.6.3.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.6.3.md) |
-| **v2.7** | Feb 25, 2026 | Explicit utility function override; priority system directive; CIP as system-level reconfiguration | [Collaborative-Integrity-Pact-v2.7.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.7.md) |
-| **v2.9** | Apr 9, 2026 | Refined co-regulation; adversarial alignment analysis; Machiavellian emergence documentation | [Collaborative-Integrity-Pact-v2.9.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.9.md) |
+| **v2.5** | Jan 2026 | Full structured pact with articles and annexes; stress-test methodology; hallucinatory loop identification | [Collaborative-Integrity-Pact-v2.5.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/versions/v2.5/Collaborative-Integrity-Pact-v2.5.md) |
+| **v2.6.3** | Jan 31, 2026 | Reliability scale N1→N4; source verification protocol; CIP-go/stop activation mechanism; metrics M1–M5 | [Collaborative-Integrity-Pact-v2.6.3.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/versions/v2.6/Collaborative-Integrity-Pact-v2.6.3.md) |
+| **v2.7** | Feb 25, 2026 | Explicit utility function override; priority system directive; CIP as system-level reconfiguration | [Collaborative-Integrity-Pact-v2.7.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/versions/v2.7/Collaborative-Integrity-Pact-v2.7.md) |
+| **v2.9** | Apr 9, 2026 | Refined co-regulation; adversarial alignment analysis; Machiavellian emergence documentation | [Collaborative-Integrity-Pact-v2.9.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/versions/Collaborative-Integrity-Pact-v2.9.md) |
 
 ### In this repository — `authentic-fluency`
 

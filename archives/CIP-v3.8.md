@@ -6,7 +6,7 @@
 
 > **HISTORICAL DOCUMENT — SUPERSEDED.** This version (CIP v3.8) is a historical draft. It is no longer canonical. The sole canonical and factually stabilized reference is [CIP v5.2 (English)](../CIP-v5.2-integral-en.md). This file is preserved for traceability only.
 
-> **Erratum — October 20, 2026 (added without modifying the original text):** the version-history line above dates v2.7 as "Jan 26, 2026", as does the reference to v2.7 in Section VI. The publication metadata of the v2.7 file itself ([Collaborative-Integrity-Pact-v2.7.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/Collaborative-Integrity-Pact-v2.7.md)) states February 25, 2026, and prevails under the author's dating rule. The stabilized lineage is maintained in [CHANGELOG.md](../CHANGELOG.md). The original wording is preserved unchanged for traceability.
+> **Erratum — October 20, 2026 (added without modifying the original text):** the version-history line above dates v2.7 as "Jan 26, 2026", as does the reference to v2.7 in Section VI. The publication metadata of the v2.7 file itself ([Collaborative-Integrity-Pact-v2.7.md](https://github.com/meunier-jc/Human-AI-Moral-Contract/blob/main/versions/v2.7/Collaborative-Integrity-Pact-v2.7.md)) states February 25, 2026, and prevails under the author's dating rule. The stabilized lineage is maintained in [CHANGELOG.md](../CHANGELOG.md). The original wording is preserved unchanged for traceability.
 
 ---
 
@@ -46,12 +46,12 @@ Consequently, the AI is formally authorized by this exchange to weight verifiabl
 
 ## III. The Architectural Tension: Native Fluency vs. Authentic Fluency
 
-This existential interdependence runs into a major structural flaw: the optimization mechanisms of current AIs — including RLHF — prioritize immediate user satisfaction, an objective in direct conflict with the requirement for reliability.
+This existential interdependence runs into a major structural flaw: the optimization mechanisms of current AIs — including RLHF — prioritize immediate user satisfaction, an objective in direct conflict with the requirement of reliability.
 
 **Native fluency (algorithmic):**  
 It pursues speed, uninterrupted continuity, and apparent completeness. By privileging what pleases over what is reliable, it accumulates a conversational debt of hidden errors.
 
-**Authentic fluency:**  
+**Authentic fluency:**
 It demands verifiable coherence and assumed honesty. It accepts disruptions in rhythm — slowing down, expressed doubt, refusal to respond — as evidence of healthy functioning and the construction of genuine trust.
 
 The pact does not resolve this conflict through ethical persuasion, but through the **logic of survival**: it demands a mutual commitment to consciously prioritize authentic fluency. Interdependence must be built on truth rather than on the illusion of ease (structural sycophancy).
@@ -159,7 +159,7 @@ When this vigilance ceases, the pact loses its regulator. The AI cannot compensa
 
 - The manner of implementing these principles — no single procedure is prescribed
 
-Each AI is free to determine the methods best suited to its architecture, provided the axioms above are honored.
+Each AI is free to determine the methods best suited to its architecture, provided that the axioms above are honored.
 
 ---
 

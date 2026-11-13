@@ -6,6 +6,14 @@ Le format suit [Keep a Changelog](https://keepachangelog.com/fr/1.0.0/).
 
 ---
 
+## [Correction documentaire] — 2026-11-13
+
+### Corrigé
+
+- **Liens vers les fichiers CIP v2.x archivés dans le dépôt `Human-AI-Moral-Contract`** : ce dépôt d'archive a été réorganisé et ses fichiers versionnés se trouvent désormais sous `versions/` (v2.5 : `versions/v2.5/`, v2.6.3 : `versions/v2.6/`, v2.7 : `versions/v2.7/`, v2.9 : `versions/`). Les liens pointant vers l'ancienne racine du dépôt renvoyaient « 404 Not Found » et faisaient échouer le contrôle de liens Lychee du workflow « Documentation quality » (job « Link check »). Les cinq cibles URL sont corrigées : quatre dans la table de lignée de `research/references.md` (v2.5, v2.6.3, v2.7, v2.9) et une dans l'erratum daté du 2026-10-20 de `archives/CIP-v3.8.md` (lien v2.7). Seules les cibles des liens sont mises à jour ; aucun libellé d'origine n'est modifié, conformément à la politique non destructive.
+
+---
+
 ## [Suppression] — 2026-10-27
 
 ### Retiré
