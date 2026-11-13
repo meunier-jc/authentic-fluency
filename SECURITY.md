@@ -2,9 +2,15 @@
 
 ## Scope
 
-This repository contains a **conceptual framework and documentation** — no executable code, no software binary, no API endpoint.
+This repository primarily contains a **conceptual framework and documentation**, but it also includes executable Python and Bash scripts under `.github/scripts/` and GitHub Actions workflows under `.github/workflows/` for maintenance, documentary audits, contribution triage and metrics collection.
 
-There is no attack surface in the traditional sense. However, this project documents misalignment behaviors in generative AI systems (sycophancy, hallucinatory recursive embedding, facade-alignment), which are themselves a class of security concern.
+The security scope therefore includes these scripts and workflows, their third-party dependencies and actions, token permissions, handling of secrets, network requests and generated artifacts. A documentation-first project is not exempt from risks introduced by executable automation.
+
+The project also documents misalignment behaviors in generative AI systems (sycophancy, hallucinatory recursive embedding, facade-alignment), which are a separate research concern from vulnerabilities in the repository's automation.
+
+## Reporting Automation Vulnerabilities
+
+Report suspected vulnerabilities in scripts or workflows privately to <ia.normandie.expert@gmail.com>. Include the affected file and revision, potential impact and a minimal reproduction where safe. Do not publish credentials, personal data or exploit details in a public Issue or Discussion. If a credential has been exposed, revoke or rotate it promptly; removing it from a file alone does not invalidate it.
 
 ## Responsible Disclosure
 
