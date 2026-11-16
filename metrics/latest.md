@@ -1,7 +1,7 @@
 # Weekly contribution metrics
 
 **Repository:** `meunier-jc/authentic-fluency`  
-**Period:** `2026-11-02T18:30:23Z` → `2026-11-09T18:30:23Z`
+**Period:** `2026-11-09T18:06:10Z` → `2026-11-16T18:06:10Z`
 
 This report contains aggregate project-level indicators. It is intended to improve onboarding and maintainer capacity, not to rank individual contributors.
 
